@@ -8,7 +8,7 @@ This section covers the [label manager](https://recipesage.com/#/labels).
 
 The [label manager](https://recipesage.com/#/labels) displays a list of all of the labels you currently have assigned to various recipes in your collection.
 
-On this page, you can edit labels as well as do bulk operations based on those labels. This isn't the place to [filter by label](./filtering), or to [create or assign labels to recipes](./create).
+On this page, you can edit labels as well as do bulk operations based on those labels. This isn't the place to [filter by label](./filtering.md), or to [create or assign labels to recipes](./create.md).
 
 ## Deleting a Label
 
