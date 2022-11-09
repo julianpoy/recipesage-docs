@@ -58,11 +58,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: '',
         logo: {
           alt: 'RecipeSage Logo',
-          src: 'https://recipesage.com/assets/recipesage-white-trimmed.png',
+          src: 'https://recipesage.com/assets/recipesage-black-trimmed.png',
+          srcDark: 'https://recipesage.com/assets/recipesage-white-trimmed.png',
         },
         items: [
           {
