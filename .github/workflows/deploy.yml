@@ -1,8 +1,5 @@
 name: Deploy to GitHub pages
 
-permissions:
-  contents: write
-
 on:
   push:
     branches:
@@ -13,10 +10,8 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     environment: prod
-    # These permissions are needed to interact with GitHub's OIDC Token endpoint.
     permissions:
-      id-token: write
-      contents: read
+      contents: write
     steps:
     - name: Checkout
       uses: actions/checkout@v3
