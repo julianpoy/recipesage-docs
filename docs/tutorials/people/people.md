@@ -36,7 +36,7 @@ At any point during the friending process, you can click the user's name to open
 
 ## Viewing Other User's Profiles
 
-<img className="screenshot" src="/img/people-friend-requests.png"></img>
+<img className="screenshot" src="/img/people-view-profile.png"></img>
 
 Once you click a user on the [People](https://recipesage.com/#/people) page, you'll see their profile.
 Via their profile, you can access any recipes or labels they've shared.

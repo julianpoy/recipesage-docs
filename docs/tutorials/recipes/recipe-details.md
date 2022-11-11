@@ -116,7 +116,7 @@ Note: The share button depicted to the right of the URL will only show up on som
 
 ### By Embed
 
-<img className="screenshot" src="/img/share-recipe-link.png"></img>
+<img className="screenshot" src="/img/share-recipe-embed.png"></img>
 
 The recipe sharing modal allows you to send a recipe to another RecipeSage user's account, share via link, or share via embed.
 
