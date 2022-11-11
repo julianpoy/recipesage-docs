@@ -23,7 +23,7 @@ jobs:
 
     - name: Configure Git
       run: |
-        git config --global user.email "julian@recipesage.com"
+        git config --global user.email "julian@poyourow.com"
         git config --global user.name "Julian Poyourow"
 
     - name: Deploy
