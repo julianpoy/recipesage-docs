@@ -82,9 +82,9 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'developing/index',
+            docId: 'release-notes',
             position: 'left',
-            label: 'Developer Guide',
+            label: 'Release Notes',
           },
           {
             href: 'https://github.com/julianpoy/recipesage',
