@@ -7,6 +7,11 @@ To check for an update, please use the settings page
 
 ## Version History
 
+**v2.9.5** - November 14th, 2022
+- Move release notes to docs.recipesage.com
+- Move tips, trips & tutorials to docs.recipesage.com
+- Fix display issues when images are disabled
+
 **v2.9.4** - November 11th, 2022
 - Support for German thanks to @chschr on GitHub
 
