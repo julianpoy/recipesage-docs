@@ -7,6 +7,19 @@ To check for an update, please use the settings page
 
 ## Version History
 
+**v2.9.6** - November 25th, 2022
+- Add ability to filter by "unlabeled" recipes
+- Fixed issues with interface default language (English) not loading when offline
+- Update application framework
+- Fixed an issue where print previews were blank
+- Fixed an issue where print did not respect current scale
+- Increased font size in prints by default
+- Fixed an issue where shared recipes required a login
+- Fixed an issue where LCB/FDXZ/Pepperplate imports were not working
+- Improved messaging on auth page when submitting a password reset request
+- Fixed an issue where "match all labels" was always enabled regardless of interface setting
+- Fixed an issue where searching for people would always result in "error"
+
 **v2.9.5** - November 14th, 2022
 - Move release notes to docs.recipesage.com
 - Move tips, trips & tutorials to docs.recipesage.com
