@@ -7,6 +7,17 @@ To check for an update, please use the settings page
 
 ## Version History
 
+**v2.9.9** - December 3rd, 2022
+- Fixed an issue where adding a recipe from a meal plan shows "no ingredients"
+- Fixed an issue where the share button on the My Profile page did not work
+
+**v2.9.8** - November 30th, 2022
+- Fixed an issue where public profiles would not load when logged out
+
+**v2.9.7** - November 29th, 2022
+- Fixed an issue where homescreen icon would be cut off on Android phones with some icon shapes
+- Improved offline behavior when language setting is non-English
+
 **v2.9.6** - November 25th, 2022
 - Add ability to filter by "unlabeled" recipes
 - Fixed issues with interface default language (English) not loading when offline
