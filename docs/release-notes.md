@@ -7,6 +7,9 @@ To check for an update, please use the settings page
 
 ## Version History
 
+**v2.9.10** - December 10th, 2022
+- Fixed an issue where images would be distorted on the "My Recipes" page if they were not square
+
 **v2.9.9** - December 3rd, 2022
 - Fixed an issue where adding a recipe from a meal plan shows "no ingredients"
 - Fixed an issue where the share button on the My Profile page did not work
