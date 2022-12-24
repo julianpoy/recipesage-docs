@@ -93,3 +93,13 @@ Your meal plan should automatically sync to your Google Calendar.
 
 **Note:** Google Calendar (and some others) will only sync updates every 24 hours. There's nothing that RecipeSage can really do about this unfortunately - it's a platform limitation imposed by Google.
 
+## Options
+
+<img className="screenshot" src="/img/meal-plan-options.png"></img>
+
+**Start week on**: Switching this setting will change how the calendar is displayed. "Monday" will show weeks as Monday-Sunday. "Sunday" will show weeks as Sunday-Saturday.
+
+### Actions
+
+These bulk actions are explained in the other meal plan guides. You can use each by selecting a day (or multiple days), then clicking one of these buttons. The action will then be applied to all selected days.
+
