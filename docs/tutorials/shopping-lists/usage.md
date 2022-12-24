@@ -22,6 +22,8 @@ To enable this feature, open the options menu in the top right corner of the sho
 
 When this option is enabled, RecipeSage will combine any items that appear to be the same ingredient under one header, as well as combining the associated measurements into a "total" measurement. You can use the arrow next to the shopping list group to show each of the real items within the group RecipeSage generated for you.
 
+When enabled, you'll see two items such as "1 cup sugar" and "1 tbsp sugar" combined into "1 cup, 1 tablespoon sugar", with an arrow on the right side of the combined item allowing you to view the individual items within if desired.
+
 ### Group Items by Category
 
 To enable this feature, open the options menu in the top right corner of the shopping list and enable the "group items by category" toggle.
@@ -47,4 +49,17 @@ To delete all completed items permanently, click the trashcan icon in line with 
 ### Deleting Items Immediately
 
 If you'd prefer for items to be instantly deleted rather than being moved to the "completed items" category, you can enable that via the options menu on the shopping list page. Simply enable the "delete upon completion" toggle. Items will be immediately (and permanently) removed when you check them off.
+
+## Options
+
+<img className="screenshot" src="/img/shopping-list-options.png"></img>
+
+- **Sort by**: Allows you to change the sort order of the items shown within the shopping list.
+- **Group Items by Category**: Enabling this toggle will enable the [Group Items by Category](#group-items-by-category) feature.
+- **Group Similar Items**: Enabling this toggle will enable the [Group Similar Items](#group-similar-items) feature.
+- **Show ...**: These options will allow you to turn on/off the information displayed for a more compact view.
+- **Delete Upon Completion**: Enabling this toggle will enable [Deleting Items Immediately](#deleting-items-immediately).
+- **Print**: This option is covered in the [Printing](#printing) section.
+- **Remove All Items**: Clicking this button will delete all items on the shopping list.
+- **Delete List**: Clicking this button will delete the shopping list and all associated items.
 
