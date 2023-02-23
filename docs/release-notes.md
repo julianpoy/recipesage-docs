@@ -7,6 +7,18 @@ To check for an update, please use the settings page
 
 ## Version History
 
+**v2.10.0** - February 22nd, 2022
+- Add the ability to rate recipes on a 1-5 star scale, as well as filter by rating on the my recipes page
+- Improve multi-language behavior when offline
+- Add the ability to view all associated recipes for a label via the manage labels page
+- Add the ability to delete a label including any attached recipes via the manage labels page
+- Fixed an issue where you could not remove a meal plan from your meal plans list if you were a collaborator
+- Improve the compatibility of the automatic import by URL feature
+- Fixed some issues with drag/drop of meal plan items
+- Fixed an issue where the split pane mode border was invisible
+- Improve references to documentation
+- Fixed some incorrect links pointing to the old documentation location
+
 **v2.9.10** - December 10th, 2022
 - Fixed an issue where images would be distorted on the "My Recipes" page if they were not square
 
