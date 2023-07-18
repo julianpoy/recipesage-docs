@@ -7,7 +7,19 @@ To check for an update, please use the settings page
 
 ## Version History
 
-**v2.10.0** - February 22nd, 2022
+**v2.11.0** - July 17th, 2023
+- Add a button to the account details page to delete your entire account, along with all associated data.
+- Improvements to the share recipe modal
+- Add ability to include friend's recipes in your My Recipes page. There are 4 possible states for this setting:
+    - Never display friend's recipes in the My Recipes page
+    - Display friend's recipes in the My Recipes page only while searching
+    - Display friend's recipes in the My Recipes page only while browsing (not searching)
+    - Always display friends recipes, both for searching and for browsing
+- Large improvements to the search functionality. It's more accurate, and much faster.
+- Add ability to export recipes as PDF in bulk (all of your recipes at once)
+- Performance improvements
+
+**v2.10.0** - February 22nd, 2023
 - Add the ability to rate recipes on a 1-5 star scale, as well as filter by rating on the my recipes page
 - Improve multi-language behavior when offline
 - Add the ability to view all associated recipes for a label via the manage labels page
