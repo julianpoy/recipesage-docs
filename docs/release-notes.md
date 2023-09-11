@@ -7,6 +7,16 @@ To check for an update, please use the settings page
 
 ## Version History
 
+**v2.12.0** - September 10th, 2023
+- App will now respect browser/system font size selection
+- Users can override the font size for the entire app on the settings page
+
+**v2.11.1 - v2.11.5** - July - September, 2023
+- Adds support for importing Cookmate files
+- Fixes an issue where users could not browse friend's recipes
+- Fixes an issue where search results would not return more than 10 results, and did not filter by label during search properly
+- Fixes an issue with the contribute page
+
 **v2.11.0** - July 17th, 2023
 - Add a button to the account details page to delete your entire account, along with all associated data.
 - Improvements to the share recipe modal
