@@ -50,3 +50,11 @@ You can select multiple recipes by using the "Select Multiple Recipes" option in
 
 You can tap a recipe again to deselect it, or press the X in the top left corner to cancel your selection altogether.
 
+## Printing All Recipes or Exporting All Recipes to PDF
+
+You can print all recipes or export them to PDF format for offline viewing via the settings page.
+
+Open `Side Menu -> Settings -> Export Recipe Data -> Export as PDF`.
+
+You can print the PDF provided via your browser's print dialogue, or save the PDF for later use offline.
+

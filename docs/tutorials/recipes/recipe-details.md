@@ -137,6 +137,8 @@ After you've selected the desired options, copy the provided code and paste it a
 
 <img className="screenshot" src="/img/select-recipe-print-layout.png"></img>
 
+**Note:** If you're looking for how to print all recipes, see [Printing All Recipes or Exporting All Recipes to PDF](./my-recipes.md#printing-all-recipes-or-exporting-all-recipes-to-pdf) instead.
+
 The print recipe modal allows you to print a hardcopy of your recipe.
 
 To begin the process of printing a recipe, press the print button at the bottom of the recipe details page (as described in the recipe actions tutorial). You'll then be presented with the print layout modal shown in the image above.
@@ -147,4 +149,5 @@ After selecting a print layout, you'll be able to press the print button. The pr
 
 In your system print dialogue, you can adjust margins, change color settings and select your printer. Depending on your browser and operating system version, your system print dialogue will look vastly different, therefore no screenshot is shown for this step.
 
-**Note:** If you have trouble using this feature, try using Chrome or Firefox. Other browsers may not perform the same.
+**Note:** If you have trouble using this feature, try using Firefox or Chrome. Other browsers may not perform the same.
+
