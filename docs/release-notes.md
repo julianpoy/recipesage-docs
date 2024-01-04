@@ -3,9 +3,39 @@ title: Release Notes
 ---
 
 Here you'll find a summary of the changes made in each version.
-To check for an update, please use the settings page
+
+This list is kept mostly up-to-date but _may_ be missing the latest few versions. It also does not include beta releases. You can find a complete, more technical list [here](https://github.com/julianpoy/RecipeSage/releases/), though this list is more suited for a read-through and is summarized.
 
 ## Version History
+
+**v2.12.12** - December 30th, 2023
+- Improves compatibility of the JSON-LD importer
+
+**v2.12.11** - December 29th, 2023
+- Fixes a bug where the "unlabeled" filter did not work
+
+**v2.12.8 - v2.12.10** - December, 2023
+- Fixes a bug where the embed code would not show up in the share dialogue for a recipe
+- Fixes a bug where Greek characters would be displayed incorrectly on the print page
+- More fixes for self-hosting the app on a subpath
+
+**v2.12.5 - v2.12.7** - November, 2023
+- Fixes for self-hosting the app on a subpath
+
+**v2.12.4** - November 18th, 2023
+- Fixes an issue where bottom of app would be covered if using the "pin recipe open" feature while the "enable split pane view" option was enabled.
+- Improves visual clarity by only displaying recipe details once recipe data is ready to reduce pop-in
+
+**v2.12.3** - November 16th, 2023
+- Added a welcome video to the landing page so that users can preview what the app looks like
+
+**v2.12.2** - November 12th, 2023
+- Fixes a visual issue with the sharing visibility selector
+
+**v2.12.1** - November 1st, 2023
+- Added Hebrew translation
+- Added support for RTL
+- Fixes an issue where selecting multiple days would not work and/or cause a crash
 
 **v2.12.0** - September 10th, 2023
 - App will now respect browser/system font size selection
