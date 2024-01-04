@@ -28,19 +28,19 @@ You can use the settings icon in the upper right-hand corner to adjust sort orde
 
 Here is a brief description of what each of these settings do:
 
-Show Labels: When enabled, you'll see a list of labels below the title on each recipe. This setting is visual only.
+**Show Labels:** When enabled, you'll see a list of labels below the title on each recipe. This setting is visual only.
 
-Show Label Toggles: When enabled, you'll see buttons for each of your labels at the top of your recipe list. You can then select them to filter your recipes by label.
+**Show Label Toggles:** When enabled, you'll see buttons for each of your labels at the top of your recipe list. You can then select them to filter your recipes by label.
 
-Show Images: When enabled, you'll see recipe images. This setting is visual only - useful if you're on a limited data connection.
+**Show Images:** When enabled, you'll see recipe images. This setting is visual only - useful if you're on a limited data connection.
 
-Show Source: When enabled, you'll see the recipe source below the recipe title on each recipe. This setting is visual only.
+**Show Source:** When enabled, you'll see the recipe source below the recipe title on each recipe. This setting is visual only.
 
-Sort By: Selecting a different sort order will change the order in which recipes appear in the list. This setting is visual only.
+**Sort By:** Selecting a different sort order will change the order in which recipes appear in the list. This setting is visual only.
 
-Filter by Label: Allows you to filter your recipes by assigned labels.
+**Filter by Label:** Allows you to filter your recipes by assigned labels.
 
-Match All Labels: Changes how label filter is applied. Example: When off, filtering by labels "dinner" and "soup" will show recipes that have either of those labels. When on, filtering by labels "dinner" and "soup" will only show recipes that have both of those labels.
+**Match All Labels:** Changes how label filter is applied. Example: When off, filtering by labels "dinner" and "soup" will show recipes that have either of those labels. When on, filtering by labels "dinner" and "soup" will only show recipes that have both of those labels.
 
 ## Bulk Actions
 
