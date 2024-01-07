@@ -63,3 +63,5 @@ Keep in mind that when you share your profile by link like this, people who open
 
 Other users can use this profile link to add you as a friend, so sharing this to your friends and family is an easy way to have them add you within the platform. If they don't have a RecipeSage account, they will be able to create one via this page (though they are not required to in order to view your public profile content).
 
+Incoming friend requests and active friendships, as well as other user's profiles are displayed on the [people page](../people/people.md).
+
