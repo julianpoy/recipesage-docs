@@ -2,7 +2,7 @@
 title: Importing Data
 ---
 
-The options documented here apply to the `Side Menu -> Settings -> Import Recipe Data` page and the subpages withit.
+The options documented here apply to the `Side Menu -> Settings -> Import Recipe Data` page and the subpages within.
 
 # Supported Import Data Sources
 
