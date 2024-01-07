@@ -28,7 +28,7 @@ The language setting allows you to change the app's interface language. By defau
 
 Although I'm unfortunately only fluent in English, I welcome anyone wishing to contribute a language!
 
-Translations can be contributed via the RecipeSage Weblate instance at [https://weblate.recipesage.com](https://weblate.recipesage.com). Simply create an account with your email address or Github account and begin translating in your preferred language. Your changes will be included in the next release. 
+Translations can be contributed via the RecipeSage Weblate instance at [📱 https://weblate.recipesage.com](https://weblate.recipesage.com). Simply create an account with your email address or Github account and begin translating in your preferred language. Your changes will be included in the next release. 
 
 Entirely AI-generated translations are not currently accepted, since they very frequently produce low-quality and inaccurate results. If using AI to assist in your translation efforts, please use DeepL or Google Translate - do not translate using ChatGPT.
 

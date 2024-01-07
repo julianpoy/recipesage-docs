@@ -13,7 +13,7 @@ RecipeSage supports exporting in the following formats:
 - Plain Text
 - PDF
 
-JSON-LD can be re-imported later to RecipeSage via [Importing From a JSON-LD File](./import.md#importing-from-a-json-ld-file).
+JSON-LD can be re-imported later to RecipeSage via [📖 Importing From a JSON-LD File](./import.md#importing-from-a-json-ld-file).
 
 PDF can be used to save your recipes for offline use, or for printing purposes.
 

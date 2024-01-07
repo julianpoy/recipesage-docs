@@ -8,11 +8,11 @@ The options documented here apply to the `Side Menu -> Settings -> Import Recipe
 
 RecipeSage supports importing the following import sources:
 
-- [JSON-LD](#importing-from-a-json-ld-file)
-- [Pepperplate](#importing-from-pepperplate)
-- [Living Cookbook](#importing-from-a-living-cookbook-export)
-- [Paprika](#importing-from-a-paprika-export)
-- [Cookmate](#importing-from-a-cookmate-export)
+- [📖 JSON-LD](#importing-from-a-json-ld-file)
+- [📖 Pepperplate](#importing-from-pepperplate)
+- [📖 Living Cookbook](#importing-from-a-living-cookbook-export)
+- [📖 Paprika](#importing-from-a-paprika-export)
+- [📖 Cookmate](#importing-from-a-cookmate-export)
 
 If you have a file in a format not listed here, you're welcome to contact me and I can likely create an importer to support the format _as long as it's not listed in the unsupported import sources section below_.
 

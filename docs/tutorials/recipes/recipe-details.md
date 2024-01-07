@@ -81,13 +81,13 @@ Lastly, select the meal that you'd like to designate for this recipe by clicking
 
 To share a recipe, open the recipe details page and click the share button in the top right corner options menu.
 
-**Note:** If you're looking for ways to share more than just a single recipe, see the [sharing documentation](../people/sharing.md).
+**Note:** If you're looking for ways to share more than just a single recipe, see the [📖 sharing documentation](../people/sharing.md).
 
 There are three options for sharing a recipe:
 - Directly within the app to a RecipeSage user
 - By creating a shareable link and sharing outside of the RecipeSage app
 - By embedding it into a website
-- Adding the recipe to your RecipeSage profile [covered here](../people/your-profile.md)
+- Adding the recipe to your RecipeSage profile [📖 covered here](../people/your-profile.md)
 
 ### To a RecipeSage User
 
@@ -142,7 +142,7 @@ After you've selected the desired options, copy the provided code and paste it a
 
 <img className="screenshot" src="/img/select-recipe-print-layout.png"></img>
 
-**Note:** If you're looking for how to print all recipes, see [Printing All Recipes or Exporting All Recipes to PDF](./my-recipes.md#printing-all-recipes-or-exporting-all-recipes-to-pdf) instead.
+**Note:** If you're looking for how to print all recipes, see [📖 Printing All Recipes or Exporting All Recipes to PDF](./my-recipes.md#printing-all-recipes-or-exporting-all-recipes-to-pdf) instead.
 
 The print recipe modal allows you to print a hardcopy of your recipe.
 

@@ -2,7 +2,7 @@
 title: Usage and Options
 ---
 
-This page will cover using the shopping list (other than [creating items](./create.md)). This includes checking off items, as well as smart grouping options.
+This page will cover using the shopping list (other than [📖 creating items](./create.md)). This includes checking off items, as well as smart grouping options.
 
 ## Changing Sort Order
 
@@ -55,11 +55,11 @@ If you'd prefer for items to be instantly deleted rather than being moved to the
 <img className="screenshot" src="/img/shopping-list-options.png"></img>
 
 - **Sort by**: Allows you to change the sort order of the items shown within the shopping list.
-- **Group Items by Category**: Enabling this toggle will enable the [Group Items by Category](#group-items-by-category) feature.
-- **Group Similar Items**: Enabling this toggle will enable the [Group Similar Items](#group-similar-items) feature.
+- **Group Items by Category**: Enabling this toggle will enable the [📖 Group Items by Category](#group-items-by-category) feature.
+- **Group Similar Items**: Enabling this toggle will enable the [📖 Group Similar Items](#group-similar-items) feature.
 - **Show ...**: These options will allow you to turn on/off the information displayed for a more compact view.
-- **Delete Upon Completion**: Enabling this toggle will enable [Deleting Items Immediately](#deleting-items-immediately).
-- **Print**: This option is covered in the [Printing](#printing) section.
+- **Delete Upon Completion**: Enabling this toggle will enable [📖 Deleting Items Immediately](#deleting-items-immediately).
+- **Print**: This option is covered in the [📖 Printing](#printing) section.
 - **Remove All Items**: Clicking this button will delete all items on the shopping list.
 - **Delete List**: Clicking this button will delete the shopping list and all associated items.
 

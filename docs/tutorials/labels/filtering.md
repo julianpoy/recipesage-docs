@@ -4,7 +4,7 @@ title: Label Usage & Filtering
 
 You can use labels to filter recipes when browsing or searching.
 
-To view all recipes within a single label, or within a combination of multiple labels, open the [My Recipes](https://recipesage.com/#/list/main) page.
+To view all recipes within a single label, or within a combination of multiple labels, open the [📱 My Recipes](https://recipesage.com/#/list/main) page.
 
 <img className="screenshot" src="/img/home-popover.png"></img>
 

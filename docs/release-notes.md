@@ -4,7 +4,7 @@ title: Release Notes
 
 Here you'll find a summary of the changes made in each version.
 
-This list is kept mostly up-to-date but _may_ be missing the latest few versions. It also does not include beta releases. You can find a complete, more technical list [here](https://github.com/julianpoy/RecipeSage/releases/), though this list is more suited for a read-through and is summarized.
+This list is kept mostly up-to-date but _may_ be missing the latest few versions. It also does not include beta releases. You can find a complete, more technical list [📱 here](https://github.com/julianpoy/RecipeSage/releases/), though this list is more suited for a read-through and is summarized.
 
 ## Version History
 
@@ -166,7 +166,7 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 - Fixed a bug where long instruction headers would wrap in recipe printout
 - Current recipe scale will be passed through to recipe printout
 - Add a JSON-LD option to recipe embed tool
-- Side note: RecipeSage has recently been fully open sourced! [See here](https://github.com/julianpoy/recipesage).
+- Side note: RecipeSage has recently been fully open sourced! [📱 See here](https://github.com/julianpoy/recipesage).
 
 **v2.6.2** - December 27, 2020
 - Update internal version of RecipeClipper for improved site support
@@ -327,12 +327,12 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 
 **v2.2.0** - December 7, 2019
 - Tile layout is now the default layout type - layout switching is available from the dropdown menu on the my recipes page
-- WebExtension automatic field detection - [view tutorial](https://recipesage.com/#/tips-tricks-tutorials)
+- WebExtension automatic field detection - [📱 view tutorial](https://recipesage.com/#/tips-tricks-tutorials)
 - Recipe images can now be expanded by clicking the recipe image on the recipe details page
-- Add support for multiple images - ([contributor bonus](https://recipesage.com/#/contribute))
-- Add support for high res images ([contributor bonus](https://recipesage.com/#/contribute))
+- Add support for multiple images - ([📱 contributor bonus](https://recipesage.com/#/contribute))
+- Add support for high res images ([📱 contributor bonus](https://recipesage.com/#/contribute))
 - Update contribution page
-- Add more to the [about me page](https://recipesage.com/#/about/details)
+- Add more to the [📱 about me page](https://recipesage.com/#/about/details)
 - Add dates to release notes
 - Add social link to Discord channel
 - Add remove button to delete image(s) from recipe on edit recipe page

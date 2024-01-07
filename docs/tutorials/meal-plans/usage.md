@@ -2,7 +2,7 @@
 title: Usage and Options
 ---
 
-This page will cover using the meal plan (other than [creating items](./create.md)).
+This page will cover using the meal plan (other than [📖 creating items](./create.md)).
 
 ## Pinning Items Open
 

@@ -11,8 +11,8 @@ Adding the RecipeSage browser extension allows you to quickly select text from a
 To install the RecipeSage browser extension, you'll need to be using a browser that supports WebExtensions.
 At the time of writing, this includes Firefox and Google Chrome.
 
-If you're using Google Chrome, [click here](https://chrome.google.com/webstore/detail/oepplnnfceidfaaacjpdpobnjkcpgcpo).
-If you're using Firefox, [click here](https://addons.mozilla.org/en-US/firefox/addon/recipesage/).
+If you're using Google Chrome, [📱 click here](https://chrome.google.com/webstore/detail/oepplnnfceidfaaacjpdpobnjkcpgcpo).
+If you're using Firefox, [📱 click here](https://addons.mozilla.org/en-US/firefox/addon/recipesage/).
 
 ## Signing In and Getting Started
 
