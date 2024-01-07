@@ -2,6 +2,10 @@
 title: Your Profile
 ---
 
+A RecipeSage profile allows you to share content within RecipeSage with other users. You can share individual recipes, all recipes within a label, or your entire collection with friends or the public.
+
+A profile is the best way to share your recipe catalogue with other users, such as your family.
+
 ## Creating a Profile
 
 <img className="screenshot" src="/img/people-setup-profile.png"></img>

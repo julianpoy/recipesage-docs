@@ -2,6 +2,8 @@
 title: People
 ---
 
+The RecipeSage people page is home to allows you to share and view content to and from your friends or family. Using the people and profile features, you can share your own recipe collection or view the recipe collections of your friends. To setup your own profile, follow the steps outlined on the [your profile documentation page](./your-profile.md).
+
 ## People &amp; Profile Home
 
 <img className="screenshot" src="/img/people-friend-requests.png"></img>
