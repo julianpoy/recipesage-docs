@@ -49,3 +49,17 @@ Next, the dialogue will ask you whether you want to share this item (or set of i
 Keep in mind, if you share with the public, that means anyone will be able to view this item if they have your RecipeSage @handle.
 As always, only you can modify your recipes.
 
+## Sharing Your Profile
+
+<img className="screenshot" src="/img/people-edit-profile.png"></img>
+
+You can easily share your profile via the "share" button displayed on the [view/edit profile page](https://recipesage.com/#/people/my-profile) as shown above.
+
+<img className="screenshot" src="/img/people-share-profile.png"></img>
+
+When you press the share button, a dialogue similar to the image above will appear. You can share the link displayed with anyone, whether they have a RecipeSage account or not.
+
+Keep in mind that when you share your profile by link like this, people who open the link will only be able to view content that you've marked as publicly visible and not content that you've made visible to friends only.
+
+Other users can use this profile link to add you as a friend, so sharing this to your friends and family is an easy way to have them add you within the platform. If they don't have a RecipeSage account, they will be able to create one via this page (though they are not required to in order to view your public profile content).
+
