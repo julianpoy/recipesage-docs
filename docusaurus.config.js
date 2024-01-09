@@ -58,6 +58,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        appId: '735T0PFQU3',
+        // Public API key
+        apiKey: 'a05180e5060ce16ec87ff2f883a80bce',
+        indexName: 'recipesage',
+      },
       colorMode: {
         respectPrefersColorScheme: true,
       },
