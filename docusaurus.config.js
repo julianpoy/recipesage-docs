@@ -29,6 +29,10 @@ const config = {
 
   trailingSlash: true,
 
+  plugins: [
+    'docusaurus-plugin-matomo',
+  ],
+
   presets: [
     [
       'classic',
@@ -63,6 +67,12 @@ const config = {
         // Public API key
         apiKey: 'a05180e5060ce16ec87ff2f883a80bce',
         indexName: 'recipesage',
+      },
+      matomo: {
+        matomoUrl: 'https://a.recipesage.com/',
+        siteId: '4',
+        phpLoader: 'matomo.php',
+        jsLoader: 'matomo.js',
       },
       colorMode: {
         respectPrefersColorScheme: true,
