@@ -8,6 +8,25 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 
 ## Version History
 
+**v2.13.0** - January 15th, 2023
+- Added the ability to import recipes from a photo, either by uploading a photo of a recipe or by taking a photo with the app on your smartphone
+- Revamped the behavior of the labelling system
+    - Users can now assign labels to categories, and optionally require that certain label categories be filled out during recipe edit
+    - Adding/removing labels now occurs within the recipe edit flow
+    - Categories are shown separately from general "uncategorized" labels
+- Moved the logout button to the settings page to free up more space in the sidemenu
+- Added show/hide password button to logout and register fields
+- Added the ability to specify common "household" shopping list items that should be excluded by default when adding a recipe to a shopping list
+- Added settings sync. Application settings are synced between all devices
+- Updated the behavior when a title conflict arises. Rather than renaming the recipe with an appended "(number)" at the end of the title, the app will now prompt the user
+- Improved the accuracy and stability of the automatic recipe import tool, which should appear to users as better site support
+- Added European Spanish translation
+- Added French translation
+- Added Russian translation
+- Added Hungarian translation
+- Fixed an issue where the rotation of the app was locked to portrait
+- Fixed an issue where animations would appear jumpy/glitchy in Firefox
+
 **v2.12.12** - December 30th, 2023
 - Improves compatibility of the JSON-LD importer
 
