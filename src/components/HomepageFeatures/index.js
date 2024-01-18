@@ -7,9 +7,9 @@ const FeatureList = [
     title: 'Recipes',
     description: (
       <>
-        Keep all of your recipes <a href="/docs/tutorials/labels/create">organized by label</a>.<br />
-        <a href="/docs/tutorials/recipes/my-recipes#search">Filter and search</a> for your recipes.<br />
-        <a href="/docs/tutorials/recipes/recipe-details#share">Share</a> your recipes with friends.
+        <a href="/docs/tutorials/recipes/my-recipes">Managing Your Recipes</a><br />
+        <a href="/docs/tutorials/labels/create">Labelling and Categorization</a><br />
+        <a href="/docs/tutorials/people/sharing">Sharing and People</a>
       </>
     ),
   },
@@ -17,9 +17,8 @@ const FeatureList = [
     title: 'Shopping Lists',
     description: (
       <>
-        <a href="/docs/tutorials/shopping-lists/create">Create</a> shopping lists to keep track of your ingredients.<br />
-        <a href="/docs/tutorials/shopping-lists/create">Share</a> your shopping lists with your family.<br />
-        Smart grouping puts similar ingredients <a href="/docs/tutorials/shopping-lists/usage#group-similar-items">together</a>, and groups items into <a href="/docs/tutorials/shopping-lists/usage#group-items-by-category">categories</a>.
+        <a href="/docs/tutorials/shopping-lists/create">Creating Shopping Lists</a><br />
+        <a href="/docs/tutorials/shopping-lists/usage">Usage and Options</a>
       </>
     ),
   },
@@ -27,9 +26,17 @@ const FeatureList = [
     title: 'Meal Plans',
     description: (
       <>
-        Create meal plans to keep track of what you'll be cooking when.
-        Share your meal plans with your family.
-        Drag and drop items and copy plans between days/weeks.
+        <a href="/docs/tutorials/meal-plans/create">Creating Meal Plans</a><br />
+        <a href="/docs/tutorials/meal-plans/usage">Usage and Options</a>
+      </>
+    ),
+  },
+  {
+    title: 'People and Profile',
+    description: (
+      <>
+        <a href="/docs/tutorials/people/">Other People</a><br />
+        <a href="/docs/tutorials/people/your-profile">Your Profile</a>
       </>
     ),
   },

@@ -1,9 +1,11 @@
 ---
-title: Intro to This Guide
+title: User Guide
 sidebar_position: 1
 ---
 
-This guide contains all you need to know about every feature in the app.
+Welcome to the RecipeSage user guide! I've done my best to cover all of the various features in the app in the user guide within.
 
-In the left sidebar, you'll find categories pertaining to each of the app's functions. You can also use the search bar to jump to things by keyword.
+I highly recommend using the search bar to find your way around, but you can also find things in the table of contents to the left.
+
+This guide is generally organized by the sections you'd find on the app itself.
 
