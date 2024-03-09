@@ -50,6 +50,8 @@ Known limitations:
 
 The edit recipe page can be reached from the [📖 recipe details](./recipe-details.md) page by clicking the edit button at the bottom of the page, or by clicking the edit button in the top right options menu.
 
+The options and interface are the same here as described in the [📖 creating a new recipe](#creating-a-new-recipe) section.
+
 ## Formatting
 
 <img className="screenshot" src="/img/recipe-details-ingredients.png"></img>
