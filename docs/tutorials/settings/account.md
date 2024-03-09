@@ -4,8 +4,6 @@ title: Account Settings
 
 The options documented here apply to the `Side Menu -> Settings -> Account & Credentials` page.
 
-# Account Settings
-
 ## Name / Nickname
 
 This name / nickname is what is displayed to other users when using any of the social or sharing features within the app.

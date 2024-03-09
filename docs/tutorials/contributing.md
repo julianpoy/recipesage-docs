@@ -4,9 +4,11 @@ title: Contributing
 
 The options documented here apply to the `Side Menu -> Contribute` page, available via the side menu.
 
-# Contributing
+## Why Contribute?
 
 RecipeSage is both open source and free to use. My desire is to keep it that way.
+
+I built the platform as a solution to host my family's recipes & shopping lists (specifically, for my mother!), but wanted to share the platform with others who might find it useful. This isn't my job - I'm a software engineer for Mozilla at the moment, but you can read more about me [📱 here](https://recipesage.com/#/about/details).
 
 I do impose a few limitations on the features within RecipeSage _only_ where necessary to make it feasible for me to host financially. It's not my goal to make money off of RecipeSage, but I also can't afford to lose tons of money either! Asking for contributions is the best way for me to keep RecipeSage available for free for all, while covering costs of hosting the platform.
 
