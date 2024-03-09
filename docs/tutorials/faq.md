@@ -45,3 +45,12 @@ Yes! Here are some of the repositories that host the components that power Recip
 - [📱 The ingredient/instruction classifier that improves automatic recipe import results](https://github.com/julianpoy/ingredient-instruction-classifier)
 
 Check out the [📱 Discord](https://recipesage.com/#/about/contact) server for more info!
+
+### RecipeSage isn't working on my older device
+
+It's very likely that your device is running an old browser version.
+
+Unfortunately browser support is determined by the core framework that RecipeSage has been built on top of. There's no way for me to bring support to end-of-life browsers.
+
+I'd recommend trying to install a newer version of Firefox or Chrome, if possible.
+
