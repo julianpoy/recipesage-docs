@@ -38,7 +38,7 @@ The stats displayed here are mainly for entertainment purposes. Here you can che
 
 # Bonus Feature Status
 
-This section displays the status of the contributor-only bonus features. These features are particularly costly for me to host, and I unfortunately must limit them to contributors only. I try my best to keep all aspects of the app free & open to use.
+This section displays the status of the [📖 contributor-only bonus features](../contributing.md). These features are particularly costly for me to host, and I unfortunately must limit them to contributors only. I try my best to keep all aspects of the app free & open to use.
 
 You can check the status and expiration date of the contributor-only features you have access to here.
 

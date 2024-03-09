@@ -12,7 +12,7 @@ The create recipe page can be reached from the [📖 my recipes](./my-recipes.md
 
 Fill in the corresponding fields as you wish - only the title is required. After you're done, click the save button and it will be added to your collection.
 
-To add an image to your recipe, click the image holder at the top. Your browser will prompt you to select a file.
+To add an image to your recipe, click the image holder at the top. Your browser will prompt you to select a file. If the [📖 multiple images per recipe](../contributing.md) feature is enabled, you can add up to 10 images per recipe. Images will be automatically resized to the proper dimensions. The [📖 high resolution images](../contributing.md) feature will keep your recipe in high resolution while doing so.
 
 For special formatting in the ingredients, instructions, or notes fields please see the [📖 formatting](./edit-recipe.md#formatting) section below.
 
