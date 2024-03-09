@@ -17,3 +17,5 @@ JSON-LD can be re-imported later to RecipeSage via [📖 Importing From a JSON-L
 
 PDF can be used to save your recipes for offline use, or for printing purposes.
 
+*Please note* that JSON-LD and XML are very generic filetypes internally, similar to a text document. Just because a different program asks for a .json or .xml file does not mean they'll be able to ingest one of the files exported by RecipeSage. Of course, if the program was designed to import a RecipeSage export in either of these formats, it'll be able to import from these filetypes.
+
