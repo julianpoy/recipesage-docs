@@ -8,7 +8,7 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 
 ## Version History
 
-**v2.13.0** - January 15th, 2023
+**v2.13.0** - January 15th, 2024
 - Added the ability to import recipes from a photo, either by uploading a photo of a recipe or by taking a photo with the app on your smartphone
 - Revamped the behavior of the labelling system
     - Users can now assign labels to categories, and optionally require that certain label categories be filled out during recipe edit
