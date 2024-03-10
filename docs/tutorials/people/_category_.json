@@ -1,6 +1,7 @@
 {
   "label": "People & Profiles",
   "position": 4,
+  "collapsed": false,
   "link": {
     "type": "generated-index",
     "description": "Click a tile below to learn about that area of the app!"
