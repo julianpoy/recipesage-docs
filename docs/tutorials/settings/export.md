@@ -4,7 +4,7 @@ title: Exporting Data
 
 The options documented here apply to the `Side Menu -> Settings -> Export Recipe Data` page and the subpages withit.
 
-# Supported Export Data Formats
+## Supported Export Data Formats
 
 RecipeSage supports exporting in the following formats:
 

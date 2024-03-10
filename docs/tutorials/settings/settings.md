@@ -4,7 +4,7 @@ title: Settings
 
 The options documented here apply to the `Side Menu -> Settings` page, available via the side menu.
 
-# Enable Split Pane View on Large Screens
+## Enable Split Pane View on Large Screens
 
 **Note:** This option will not appear on devices with smaller screens.
 
@@ -16,15 +16,15 @@ to:
 
 <img className="screenshot" src="/img/settings-split-pane.png"></img>
 
-# Theme
+## Theme
 
 The theme setting allows you to change visual appearance in the app to enhance readability. By default, the app will detect your system preference (dark/light) and adjust accordingly. You can override that behavior by changing this preference.
 
-# Language
+## Language
 
 The language setting allows you to change the app's interface language. By default, the app will detect your borwser's language preference and adjust accordingly. You can override the language that RecipeSage uses via this menu.
 
-## Contributing a Language
+### Contributing a Language
 
 Although I'm unfortunately only fluent in English, I welcome anyone wishing to contribute a language!
 
@@ -32,11 +32,11 @@ Translations can be contributed via the RecipeSage Weblate instance at [📱 htt
 
 Entirely AI-generated translations are not currently accepted, since they very frequently produce low-quality and inaccurate results. If using AI to assist in your translation efforts, please use DeepL or Google Translate - do not translate using ChatGPT.
 
-# Font Size
+## Font Size
 
 The font size setting allows you to change the app's global font size. By default, the app will detect your browser's font size preference and adjust accordingly. You can override the font size that RecipeSage uses via this menu.
 
-# Reset All Preferences
+## Reset All Preferences
 
 This button will reset all preferences to their default settings.
 
