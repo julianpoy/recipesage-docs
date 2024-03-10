@@ -1,5 +1,5 @@
 ---
-title: Manage Existing Labels
+title: Manage Labels
 ---
 
 This section covers the [📱 label manager](https://recipesage.com/#/labels).

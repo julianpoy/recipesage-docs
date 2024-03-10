@@ -1,13 +1,16 @@
 ---
-title: Creating & Assigning Labels to Recipes
+title: Labelling Recipes
 ---
 
 Labels are an excellent way of organizing your recipes. Think of labels as folders, but where a single recipe can be in multiple folders!
 
-The process for creating a label is the same process as assigning an existing label to a given recipe. To add a label to a recipe, enter the label name in the field below the labels header as shown above, and press enter to save.
+## Creating Labels and Assigning Labels to Recipes
 
-Suggestions will be shown below the field as you type - they will be filtered as you type your label name. You can click a suggestion to automatically add that label. To remove a label, just click the trash can icon.
+Both creating a label _and_ adding a label to a recipe can be done from the [📖 edit recipe page](../recipes/edit-recipe.md).
+
+To add a label to a recipe, open the [📖 edit recipe page](../recipes/edit-recipe.md) and scroll to the bottom.  Here, you'll see a an area to assign labels to the recipe. To add a label, search for the label name you'd like to add to the recipe (whether it already exists or not!). If you're entering a label that does not exist, you'll see "click to create" as a suggestion. If you're entering a label that already exists, you'll see "click to select" as a suggestion. After you're done adding labels to your recipe, click the "save" button at the bottom of the page.
 
 After assigning labels to your recipes, you can [📖 filter by label](./filtering.md).
 
-**Note:** Labels only exist while they're assigned to a recipe. Once you remove a label from all recipes, the label will cease to exist. This is by design - labels are treated as tags.
+*Note:* You can also [create & manage labels here](./manage-labels.md).
+
