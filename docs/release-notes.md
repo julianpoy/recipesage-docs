@@ -8,6 +8,44 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 
 ## Version History
 
+**v2.14.0** - March 10th, 2024
+- Added the ability to import recipes from a text block, and from a PDF
+- Added the option to sign in with a Google account
+- A more disruptive error message will be displayed when a critical error occurs informing the user that the app may no longer work correctly
+- Added Recipe Keeper as a supported import format
+- Fixed a bug where the "eye" icons on the login fields would move to a separate line
+- Added support for filtering by label when viewing other user's recipe collections via the profile page
+- Added additional description and a warning for label categories
+- Improved matching where users may not be linked to a Stripe payment if they weren't signed in at the time of payment, but did enter a matching email address
+- Updated translations
+
+**v2.13.6** - January 28th, 2024
+- Updated translations
+
+**v2.13.5** - January 23rd, 2024
+- Fixed a bug where app was not working while offline
+
+**v2.13.4** - January 20th, 2024
+- Improved experience when selecting multiple labels throughout the app
+- URL field will now be auto-focused when autofilling recipe from URL
+- Fixed a bug where iCal links were not working
+- Language options are now displayed in their native languages
+- Updated translations
+
+**v2.13.3** - January 16th, 2024
+- Added refund policy
+- Updated translations
+- Added Danish locale
+
+**v2.13.2** - January 18th, 2024
+- Fixed a bug where some bonus feature expiry dates were not being extended properly and retroactively renewed any that had expired in the last 3 days since the v2.13.0 release.
+- Updated translations
+
+**v2.13.1** - January 16th, 2024
+- Fixed a bug where newly created recipes would not show up in search results
+- Fixed a bug where one-time contributions were broken
+- Updated translations
+
 **v2.13.0** - January 15th, 2024
 - Added the ability to import recipes from a photo, either by uploading a photo of a recipe or by taking a photo with the app on your smartphone
 - Revamped the behavior of the labelling system
