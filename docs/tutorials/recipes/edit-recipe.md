@@ -18,31 +18,53 @@ For special formatting in the ingredients, instructions, or notes fields please 
 
 You can add or remove labels from the recipe on this page. The documentation for creating labels is [📖 here](../labels/create.md).
 
-### Import by URL
+### Autofill from URL
 
 Importing by URL makes it easy to import almost any site into your recipe edit flow automatically.
 
-When creating a new recipe (not available while editing an existing recipe), click the "autofill from URL" button and paste in a URL to a recipe.
+To import a recipe from URL, open the [📖 create new recipe page](#creating-a-new-recipe) (not available while editing an existing recipe), and click the "Autofill Recipe From" button. Then, click the "Autofill from URL" option and paste in a URL to a recipe.
 
 Known limitations:
 
-1. The target URL must contain only a single recipe. If it contains more than one, you'll get one of the recipes on the page or a combination of multiple.
+1. The target URL must contain only a single recipe. If it contains more than one, you'll get a random one of the recipes on the page or potentially a combination of multiple.
 2. Most sites will work, but some sites block the importer purposefully. Because of this, some sites will not work. You can get around sites with this limitation using the [📖 browser extension](../browser-extension.md).
 
-### Import by Photo
+### Autofill from Text
+
+Importing from text makes it easy to import from a copied block of text. The text doesn't have to have any particular format, as long as it contains a recipe at some point. The RecipeSage AI will take care of formatting it into the appropriate fields.
+
+To autofill a recipe from a block of text, open the [📖 create new recipe page](#creating-a-new-recipe) (not available while editing an existing recipe), and click the "Autofill Recipe From" button. Then, click the "Autofill from Text" option and paste in a URL to a recipe.
+
+Known limitations:
+
+1. You can only import a single recipe at a time.
+
+### Scan from Photo
 
 You can take a photo of a recipe either in print form, or handwritten. RecipeSage will recognize any text it can see in the photo, and try to fill in the associated fields on your recipe.
 
-To use this, open the new recipe page (not available while editing an existing recipe) and click the "scan from photo" button. On mobile devices, you'll be prompted to choose whether to take a photo, or whether to select an existing one. On desktop, you'll just see a file dialogue where you can select.
+To use this, open the [📖 new recipe page](#creating-a-new-recipe) (not available while editing an existing recipe) and click the "Autofill Recipe From" button, then the "Scan from Photo" option. On mobile devices, you'll be prompted to choose whether to take a photo, or whether to select an existing one. On desktop, you'll just see a file dialogue where you can select an image file.
 
 If taking a photo with your camera, it's recommended to have good lighting, and have the text in the photo be as square as possible. Screenshots also work great.
 
-This feature is particularly useful for importing from other apps on your phone, such as Facebook or Instagram. Take a screenshot of the recipe as seen in the other app, and use this feature to scan the photo.
+This feature is also particularly useful for importing from other apps on your phone, such as Facebook or Instagram. You can take a screenshot of the recipe as seen in the other app, and use this feature to scan the photo into RecipeSage.
 
 Known limitations:
 
 1. Good lighting is really important to get a good quality output
 2. This is intended to speed up the process of entering a recipe, but _will never_ be flawless. Please check the result, since the result can often contain inaccuracies.
+3. You can only scan a single recipe at a time.
+
+### Scan from PDF
+
+Importing from PDF makes it easy to import recipes from almost any arbitrary source. The PDF doesn't have to have any particular format, as long as it contains a recipe within the first 2 pages. The RecipeSage AI will take care of formatting it into the appropriate fields.
+
+To autofill a recipe from a PDF, open the [📖 create new recipe page](#creating-a-new-recipe) (not available while editing an existing recipe), and click the "Autofill Recipe From" button. Then, click the "Scan from PDF" option. You'll be prompted to select a PDF file.
+
+Known limitations:
+
+1. Only the first two pages of the PDF will be scanned for a recipe
+2. You can only scan a single recipe at a time.
 
 ## Editing a recipe
 
