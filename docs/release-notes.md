@@ -8,6 +8,21 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 
 ## Version History
 
+**v2.15.0** - July 17th 2024
+- Introduced a cooking assistant
+- Improved PDF scanning/import capabilities
+- Compact view for recipe list page
+- Added the ability to rename & edit collaborators for shopping lists
+- Added the ability to rename & edit collaborators for meal plans
+- Added Portugese language support (partial)
+- Added Dutch language support (partial)
+- Fixed an issue when looking at shared recipes, where the options menu would not show share/save prompts based on ownership
+
+**v2.14.1 - v2.14.9** - March 2024 to July 2024
+- Fix some issues with browser extensions not functioning correctly
+- Fixed an issue causing meal plan bulk actions not to work correctly
+- Improved MyCookBook/CookMate import compatibility
+
 **v2.14.0** - March 10th, 2024
 - Added the ability to import recipes from a text block, and from a PDF
 - Added the option to sign in with a Google account
