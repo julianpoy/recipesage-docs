@@ -2,6 +2,15 @@
 title: Frequently Asked Questions
 ---
 
+### How do I import recipes from Instagram, Facebook, YouTube, etc.
+
+None of these platforms provide any sort of API that would allow RecipeSage to natively import content (and they block any type of scraper).
+
+However, you _can import_ recipes from Instagram, Facebook, and any other text-based sources most often by either 1. taking a screenshot and importing it
+via the [📖 image import tool](../recipes/edit-recipe.md#autofill-from-image), or 2. copying the text and pasting it into the [📖 text import tool](../recipes/edit-recipe.md#autofill-from-text).
+
+There's really no way for me to write an importer for video-based content, unfortunately.
+
 ### My search results include results that don't match the search
 
 The RecipeSage search tool returns results that are as "close" to your match as possible, but also includes misspellings and similar words.
