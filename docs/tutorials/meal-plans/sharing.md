@@ -4,13 +4,13 @@ title: Sharing Meal Plans
 
 Meal plans can be shared with other RecipeSage users, or shared via iCal link to anyone (even if they don't have an account).
 
-# Sharing to other users
+## Sharing to RecipeSage users
 
 Sharing to other RecipeSage users will give them edit access to the calendar, and allow them to add their own recipes to the calendar.
 
 To share a meal plan with another user, you can either start with an existing meal plan or start with a new meal plan.
 
-## Sharing a new meal plan
+### Sharing a new meal plan
 
 To share a new meal plan, head to the [📱 Meal Plans](https://recipesage.com/#/meal-plans) page.
 
@@ -24,7 +24,7 @@ Enter as many user email addresses into the "collaborators" field. Once added, t
 
 Click save.
 
-## Sharing an existing meal plan
+### Sharing an existing meal plan
 
 To share an existing meal plan, head to the [📱 Meal Plans](https://recipesage.com/#/meal-plans) page.
 
@@ -40,7 +40,7 @@ Enter as many user email addresses into the "collaborators" field. Once added, t
 
 Click save.
 
-# Sharing to non-RecipeSage users
+## Sharing to non-RecipeSage users
 
 Sharing to non-RecipeSage users can be done in iCal form.
 

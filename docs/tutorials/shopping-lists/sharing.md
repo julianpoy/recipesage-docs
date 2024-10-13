@@ -4,13 +4,13 @@ title: Sharing Shopping Lists
 
 Shopping lists can be shared with other RecipeSage users, or be printed to PDF to be shared with non-RecipeSage users.
 
-# Sharing to RecipeSage users
+## Sharing to RecipeSage users
 
 Sharing to other RecipeSage users will give them edit access to the shopping list, and allow them to add their own recipes and items to the shopping list.
 
 To share a shopping list with another user, you can either start with an existing shopping list or start with a new shopping list.
 
-## Sharing a new shopping list
+### Sharing a new shopping list
 
 To share a new shopping list, head to the [📱 Shopping Lists](https://recipesage.com/#/shopping-lists) page.
 
@@ -24,7 +24,7 @@ Enter as many user email addresses into the "collaborators" field. Once added, t
 
 Click save.
 
-## Sharing an existing shopping list
+### Sharing an existing shopping list
 
 To share an existing shopping list, head to the [📱 Shopping Lists](https://recipesage.com/#/shopping-lists) page.
 
@@ -40,7 +40,7 @@ Enter as many user email addresses into the "collaborators" field. Once added, t
 
 Click save.
 
-# Sharing to non-RecipeSage users
+## Sharing to non-RecipeSage users
 
 Sharing to non-RecipeSage users can be done in PDF form.
 
