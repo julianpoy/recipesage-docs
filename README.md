@@ -4,6 +4,15 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 ### Installation
 
+Make sure you install the Yarn package manager `yarn`, NOT the set of Unix command line tools from `cmdtest`. On some systems, this may be installed as `yarnpkg` due to these naming conflicts:
+
+```
+cmdtest: /usr/bin/yarn                    
+yarnpkg: /usr/bin/yarnpkg
+```
+
+Please see: https://classic.yarnpkg.com/lang/en/docs/install/
+
 ```
 $ yarn
 ```
