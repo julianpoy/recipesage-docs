@@ -1,144 +1,149 @@
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
-import { themes } from 'prism-react-renderer';
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
+import { themes } from "prism-react-renderer";
 const lightTheme = themes.github;
 const darkTheme = themes.dracula;
 
 const config: Config = {
-  title: 'RecipeSage Documentation',
-  tagline: 'An open source recipe keeper, shopping list organizer, and meal planner.',
-  url: 'https://docs.recipesage.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'https://recipesage.com/assets/icon/favicon.ico',
+  title: "RecipeSage Documentation",
+  tagline:
+    "An open source recipe keeper, shopping list organizer, and meal planner.",
+  url: "https://docs.recipesage.com",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "https://recipesage.com/assets/icon/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'julianpoy', // Usually your GitHub org/user name.
-  projectName: 'recipesage-docs', // Usually your repo name.
+  organizationName: "julianpoy", // Usually your GitHub org/user name.
+  projectName: "recipesage-docs", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   trailingSlash: true,
 
-  plugins: [
-    'docusaurus-plugin-matomo',
-  ],
+  plugins: ["docusaurus-plugin-matomo"],
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
-      } satisfies Preset.Options
+      } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
     algolia: {
-      appId: '735T0PFQU3',
+      appId: "735T0PFQU3",
       // Public API key
-      apiKey: 'a05180e5060ce16ec87ff2f883a80bce',
-      indexName: 'recipesage',
+      apiKey: "a05180e5060ce16ec87ff2f883a80bce",
+      indexName: "recipesage",
     },
     matomo: {
-      matomoUrl: 'https://a.recipesage.com/',
-      siteId: '4',
-      phpLoader: 'matomo.php',
-      jsLoader: 'matomo.js',
+      matomoUrl: "https://a.recipesage.com/",
+      siteId: "4",
+      phpLoader: "matomo.php",
+      jsLoader: "matomo.js",
     },
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: '',
+      title: "",
       logo: {
-        alt: 'RecipeSage Logo',
-        src: 'https://recipesage.com/assets/recipesage-black-trimmed.png',
-        srcDark: 'https://recipesage.com/assets/recipesage-white-trimmed.png',
+        alt: "RecipeSage Logo",
+        src: "https://recipesage.com/assets/recipesage-black-trimmed.png",
+        srcDark: "https://recipesage.com/assets/recipesage-white-trimmed.png",
       },
       items: [
         {
-          href: 'https://recipesage.com',
-          label: 'Open App',
-          position: 'left',
+          href: "https://recipesage.com",
+          label: "Open App",
+          position: "left",
         },
         {
-          type: 'doc',
-          docId: 'tutorials/index',
-          position: 'left',
-          label: 'User Guide',
+          type: "doc",
+          docId: "tutorials/index",
+          position: "left",
+          label: "User Guide",
         },
         {
-          type: 'doc',
-          docId: 'release-notes',
-          position: 'left',
-          label: 'Release Notes',
+          type: "doc",
+          docId: "release-notes",
+          position: "left",
+          label: "Release Notes",
         },
         {
-          href: 'https://github.com/julianpoy/recipesage',
-          label: 'GitHub',
-          position: 'right',
+          type: "doc",
+          docId: "development/getting-started",
+          position: "left",
+          label: "Development",
+        },
+        {
+          href: "https://github.com/julianpoy/recipesage",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'User Guide',
-              to: '/docs/tutorials/',
+              label: "User Guide",
+              to: "/docs/tutorials/",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Facebook',
-              href: 'https://www.facebook.com/recipesageofficial',
+              label: "Facebook",
+              href: "https://www.facebook.com/recipesageofficial",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: "Discord",
+              href: "https://discordapp.com/invite/docusaurus",
             },
             {
-              label: 'Reddit',
-              href: 'https://reddit.com/r/recipesage',
+              label: "Reddit",
+              href: "https://reddit.com/r/recipesage",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Contact Me',
-              href: 'https://recipesage.com/#/about/contact',
+              label: "Contact Me",
+              href: "https://recipesage.com/#/about/contact",
             },
             {
-              label: 'GitHub (Application)',
-              href: 'https://github.com/julianpoy/recipesage',
+              label: "GitHub (Application)",
+              href: "https://github.com/julianpoy/recipesage",
             },
             {
-              label: 'GitHub (Documentation)',
-              href: 'https://github.com/julianpoy/recipesage-docs',
+              label: "GitHub (Documentation)",
+              href: "https://github.com/julianpoy/recipesage-docs",
             },
           ],
         },
       ],
-      copyright: 'Thanks for the support!',
+      copyright: "Thanks for the support!",
     },
     prism: {
       theme: lightTheme,
@@ -148,4 +153,3 @@ const config: Config = {
 };
 
 export default config;
-
