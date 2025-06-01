@@ -53,7 +53,7 @@ Yes! Here are some of the repositories that host the components that power Recip
 - [📱 The recipe clipper for the automatic recipe clipping function](https://github.com/julianpoy/recipeclipper)
 - [📱 The ingredient/instruction classifier that improves automatic recipe import results](https://github.com/julianpoy/ingredient-instruction-classifier)
 
-Check out the [📱 Discord](https://recipesage.com/#/about/contact) server for more info!
+Check out the [📱 Discord](https://discord.gg/yCfzBft) server for more info!
 
 ### RecipeSage isn't working on my older device
 
@@ -81,4 +81,18 @@ It's very unlikely this is the case. I've received several emails like this over
 2. You mis-typed your email address when registering for your account. If you never received an automated "welcome" email, this is likely the case. Every new account receives a "welcome to recipesage" email after registering. If this is the case, and you've exhausted all of the other items on this list, please reach out to me via email.
 3. You're experiencing a network connectivity issue and chose the "ignore" option on the connectivity error.
 4. There's a bug or service outage for the app. This is fairly rare, but does happen. Please send me an email if you've exhausted all other items here, and are seeing errors!
+
+### I'd love to help!
+
+There are a few ways you can help.
+
+1. Financially -- I always need support with the cost of hosting RecipeSage. If you're able, a [contribution](https://recipesage.com/#/contribute) would be immensly helpful, and goes directly to the cost of running & hosting RecipeSage.
+2. Testing -- The [beta version of the site](https://beta.recipesage.com) has many new features that do not exist in the production version of the site. I always need help validating new functionality. Please feel free to switch to this version of the site if you're willing to deal with small bugs. Please report all bugs in the #bugs channel in [our Discord](https://discord.gg/yCfzBft).
+3. Code -- If you'd like to contribute code, I always welcome pull requests. There are many issues labelled as "open for contributors" on Github. Please read the contributing guidelines in the Gtihub readme if you'd like to add code to RecipeSage.
+
+### I have a business proposal
+
+Thank you, but respectfully I'm not interested. I have a full-time job, and RecipeSage is a free open source personal project and will stay that way.
+
+You're welcome to use RecipeSage under the personal licensing terms, or license RecipeSage for commercial use, but I'm not interested in making RecipeSage into a company.
 
