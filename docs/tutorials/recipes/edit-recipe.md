@@ -91,6 +91,10 @@ To add a header to your instructions or ingredients, put an open and close brack
 1/8 cup sugar
 ```
 
+## Linking recipes
+
+You can link recipes by adding to the notes field. Any URL in the notes field will be clickable, so feel free to add links between relevant recipes.
+
 ## Limits
 
 There are no currently enforced recipe limits, however RecipeSage reserves the right to take action against abuse. There are many users with more than 40,000 recipes in their account, which equates to 109 years of cooking if you cook one recipe a day. In other words, you should not be concerned with any recipe count limit.
