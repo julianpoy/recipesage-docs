@@ -61,5 +61,15 @@ It's very likely that your device is running an old browser version.
 
 Unfortunately browser support is determined by the core framework that RecipeSage has been built on top of. There's no way for me to bring support to end-of-life browsers.
 
-I'd recommend trying to install a newer version of Firefox or Chrome, if possible.
+Due to this, it simply isn't possible for me to support very old version iOS (for example, original iPad devices).
+
+If you're on an Android device, I'd recommend trying to install a newer version of Firefox, if possible. Since Firefox isn't tied to your Android version, you can usually grab the latest version of Firefox even though your Android version is very old.
+
+### Why doesn't RecipeSage support sorting into cookbooks or folders?
+
+Some users have mentioned the desire to categorize by cookbook. I designed RecipeSage based around the concept of labels/tags, rather than the folder/cookbook style.
+
+A system built on labels/tags inherently support all of the features that "folders" or "cookbooks" do, with the exception that they don't allow hierarchy. This is intentional. I find that "folders" and "cookbooks" fall short for a recipe organization system, and result in so many side-effects that users don't usually consider initially but find painful later.
+
+The label system within RecipeSage allows you to create many collections, cookbooks, styles, food groups (really, whatever you can think of!). If you're finding that your labels are growing out of control and want to organize them, I recommend using label categories to group similar types of label. You can also use symbols at the beginning of your label title (such as *) to keep specific labels at the top (labels are always sorted alphabetically). This isn't necessary except for particularly vast collections, though.
 
