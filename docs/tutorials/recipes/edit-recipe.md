@@ -91,3 +91,9 @@ To add a header to your instructions or ingredients, put an open and close brack
 1/8 cup sugar
 ```
 
+## Limits
+
+There are no currently enforced recipe limits, however RecipeSage reserves the right to take action against abuse. There are many users with more than 40,000 recipes in their account, which equates to 109 years of cooking if you cook one recipe a day. In other words, you should not be concerned with any recipe count limit.
+
+Multiple images per recipe are supported, but do require active "contributor rewards". This is due to images being very costly to host, and the app being free. Contributors can add up to 10 images per recipe.
+
