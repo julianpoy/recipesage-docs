@@ -8,6 +8,61 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 
 ## Version History
 
+**v3.0.1 - v3.0.8** - June 2025
+- Greatly improved recipe clipper functionality
+- Fixed compatibility with older browsers such as iOS 15 and Android 12
+- Added MyRecipeBox support to the CSV import
+
+**v3.0.0** - June 2025
+- Browser tab title is now updated when viewing a recipe to assist with keeping track when multiple tabs open at the same time
+- Completely reworked the import/export system.
+  - Larger file sizes are now supported for import
+  - Large recipe collections no longer have issues while exporting, particularly to PDF format
+  - Error handling is much improved
+  - Users can now leave the website while an import/export takes place
+  - Import progress is now displayed on the import/export page
+  - Imports are now categorized under a label so that it's easy to find what was imported when, or delete/clean up an import
+  - New file formats are supported
+    - Added support for importing from a CSV file (PlanToEat & others)
+    - Added support for importing from a Recipe Keeper export
+    - Added support for importing from a zip file filled with images
+    - Added support for importing from a zip file filled with text files
+    - Added support for importing from a zip file filled with PDF files
+    - Added support for importing from an Evernote export
+    - Added support for importing from a list of URLs
+- Offline functionality
+  - All content is now stored in a local database in-browser, and kept up to date every time you edit a recipe
+  - When offline, your recipe catalogue now remains searchable via a local search engine
+  - Both network and server errors will fall back to offline cache, so that in the rare occurrance of server downtime your recipe collection remains available in a read-only state
+- Pinned recipes and recipe completion (marking steps as complete) status will be remembered across app restarts
+  - Recipe completion (marking steps as complete) will be erased after 3 days of inactivity for convenience
+- Improved the tile view on small screens
+- Fixed an issue where saving a recipe on the inbox page did not update the recipe view or the inbox page
+- Improved all collaborator selection UIs within the app to make it easier to select friends
+- Improved assistant message text box input experience
+- Updated social info and contact information
+- Added new languages
+  - Basque
+  - Japanese
+  - Lithuanian
+  - Polish
+- Improved app performance all-around. All network calls take less time
+
+**v2.15.1 - v2.15.12** - July 2024 to June 2025
+- Improvements to URL import
+- Improvements and fixes for cooking assistant
+- Translations updates
+- Fixed an issue where sign-in wouldn't work if user had both an email account and was using Google sign-in
+- Fixed an issue where users would see the edit option on a meal plan even if they weren't the owner (it wouldn't save, just would be displayed)
+- Contributors now get unlimited assistant messages
+- Fixed an issue where the "unlabeled" filter didn't work
+- Fixed an issue where the "my recipes" page scroll position would be lost after editing a recipe
+- Fixed several issues with the webextension
+- Small updates to shopping list categories
+- Improved RTL support
+- Improved OCR (scan from photo) support
+- Fixed an issue with editing meal plan/shopping list collaborators when the user has no message threads
+
 **v2.15.0** - July 17th 2024
 - Introduced a cooking assistant
 - Improved PDF scanning/import capabilities
