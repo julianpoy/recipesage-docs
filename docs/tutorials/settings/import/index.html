@@ -6,7 +6,7 @@
 <title data-rh="true">Importing Data | RecipeSage Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://docs.recipesage.com/docs/tutorials/settings/import/"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Importing Data | RecipeSage Documentation"><meta data-rh="true" name="description" content="The options documented here apply to the Side Menu -&gt; Settings -&gt; Import Recipe Data page and the subpages within."><meta data-rh="true" property="og:description" content="The options documented here apply to the Side Menu -&gt; Settings -&gt; Import Recipe Data page and the subpages within."><link data-rh="true" rel="icon" href="https://recipesage.com/assets/icon/favicon.ico"><link data-rh="true" rel="canonical" href="https://docs.recipesage.com/docs/tutorials/settings/import/"><link data-rh="true" rel="alternate" href="https://docs.recipesage.com/docs/tutorials/settings/import/" hreflang="en"><link data-rh="true" rel="alternate" href="https://docs.recipesage.com/docs/tutorials/settings/import/" hreflang="x-default"><link data-rh="true" rel="preconnect" href="https://735T0PFQU3-dsn.algolia.net" crossorigin="anonymous"><link rel="search" type="application/opensearchdescription+xml" title="RecipeSage Documentation" href="/opensearch.xml">
 <link rel="preconnect" href="https://a.recipesage.com/">
 <script>var _paq=window._paq=window._paq||[];_paq.push(["setRequestMethod","POST"]),_paq.push(["trackPageView"]),_paq.push(["enableLinkTracking"]),_paq.push(["enableHeartBeatTimer"]),function(){var e="https://a.recipesage.com/";_paq.push(["setRequestMethod","POST"]),_paq.push(["setTrackerUrl",e+"matomo.php"]),_paq.push(["setSiteId","4"]);var a=document,t=a.createElement("script"),p=a.getElementsByTagName("script")[0];t.type="text/javascript",t.async=!0,t.src=e+"matomo.js",p.parentNode.insertBefore(t,p)}()</script><link rel="stylesheet" href="/assets/css/styles.c83e8b01.css">
-<script src="/assets/js/runtime~main.e15c6d2e.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.e9064be0.js" defer="defer"></script>
 <script src="/assets/js/main.8bb97b2b.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -19,17 +19,37 @@
 <li><a href="#importing-from-a-living-cookbook-export">📖 Living Cookbook</a></li>
 <li><a href="#importing-from-a-paprika-export">📖 Paprika</a></li>
 <li><a href="#importing-from-a-cookmate-export">📖 Cookmate</a></li>
+<li><a href="#importing-from-a-recipe-keeper-export">📖 Recipe Keeper</a></li>
+<li><a href="#importing-from-a-csv-file">📖 CSV Files</a></li>
+<li><a href="#importing-from-text-files">📖 Text Files</a></li>
+<li><a href="#importing-from-a-list-of-urls">📖 List of URLs</a></li>
+<li><a href="#importing-from-pdfs">📖 PDFs</a></li>
+<li><a href="#importing-from-images">📖 Images</a></li>
+<li><a href="#importing-from-an-evernote-export">📖 Evernote</a></li>
 </ul>
 <p>If you have a file in a format not listed here, you&#x27;re welcome to contact me and I can likely create an importer to support the format <em>as long as it&#x27;s not listed in the unsupported import sources section below</em>.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="unsupported-import-sources">Unsupported Import Sources<a href="#unsupported-import-sources" class="hash-link" aria-label="Direct link to Unsupported Import Sources" title="Direct link to Unsupported Import Sources">​</a></h3>
-<p>RecipeSage does not support the following formats because they don&#x27;t have any structural metadata, which means there&#x27;s no way to tell what parts of the file are ingredients, instructions, yield, total time, title, etc. or do not have a standard format.</p>
+<p>RecipeSage does not support the following formats because they don&#x27;t have a uniform internal structure, which means there&#x27;s no way to predict the internal layout of the file and write an associated importer.</p>
 <ul>
-<li>Plain Text (<code>.txt</code>)</li>
-<li>PDF (<code>.pdf</code>)</li>
-<li>Microsoft Word (<code>.doc</code> or <code>.docx</code>)</li>
-<li>Arbitrary JSON (<code>.json</code>) that did not come from a specific program</li>
-<li>Arbitrary XML (<code>.xml</code>) that did not come from a specific program</li>
+<li>Microsoft Word (<code>.doc</code> or <code>.docx</code>)<!-- -->
+<ul>
+<li>You can export your documents to .txt or .html files and use the associated import format</li>
 </ul>
+</li>
+<li>Arbitrary JSON (<code>.json</code>) or XML (<code>.xml</code>) that did not come from a specific program<!-- -->
+<ul>
+<li>You will need to convert your content to JSON-LD (highly technical, not easy to do)</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="import-tracking-and-management">Import Tracking and Management<a href="#import-tracking-and-management" class="hash-link" aria-label="Direct link to Import Tracking and Management" title="Direct link to Import Tracking and Management">​</a></h2>
+<p>All imports create a background job that allows you to track the progress of your import. You can view the status of your imports on the import page.</p>
+<p>Each import automatically creates a new label in your account (named similarly to &quot;import on 2025-01-15 16:39:13&quot;) that is applied to all recipes from that import. This allows you to easily:</p>
+<ul>
+<li>Identify which recipes came from a particular import</li>
+<li>Undo an import by going to the label management page and deleting the label along with all associated recipes</li>
+</ul>
+<p>Please do not attempt any import more than once, or you&#x27;ll end up with duplicate recipes. If an import does not work or results in an error, please contact me.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="importing-from-a-json-ld-file">Importing From a JSON-LD File<a href="#importing-from-a-json-ld-file" class="hash-link" aria-label="Direct link to Importing From a JSON-LD File" title="Direct link to Importing From a JSON-LD File">​</a></h2>
 <p>JSON-LD files are a specific file format that several different recipe softwares export.</p>
 <p>If your recipe program supports exporting to JSON-LD format, you can import that via this page.</p>
@@ -54,6 +74,112 @@
 <p>Please do not attempt the import more than once, or you&#x27;ll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="importing-from-a-cookmate-export">Importing From a Cookmate Export<a href="#importing-from-a-cookmate-export" class="hash-link" aria-label="Direct link to Importing From a Cookmate Export" title="Direct link to Importing From a Cookmate Export">​</a></h2>
 <p>You can import recipes exported by Cookmate by uploading them via this page.</p>
-<p>Please do not attempt the import more than once, or you&#x27;ll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/tutorials/settings/export/"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Exporting Data</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/tutorials/settings/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Settings</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#supported-import-data-sources" class="table-of-contents__link toc-highlight">Supported Import Data Sources</a><ul><li><a href="#unsupported-import-sources" class="table-of-contents__link toc-highlight">Unsupported Import Sources</a></li></ul></li><li><a href="#importing-from-a-json-ld-file" class="table-of-contents__link toc-highlight">Importing From a JSON-LD File</a></li><li><a href="#importing-from-pepperplate" class="table-of-contents__link toc-highlight">Importing From Pepperplate</a></li><li><a href="#importing-from-a-living-cookbook-export" class="table-of-contents__link toc-highlight">Importing From a Living Cookbook Export</a></li><li><a href="#importing-from-a-paprika-export" class="table-of-contents__link toc-highlight">Importing From a Paprika Export</a></li><li><a href="#importing-from-a-cookmate-export" class="table-of-contents__link toc-highlight">Importing From a Cookmate Export</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/tutorials/">User Guide</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.facebook.com/recipesageofficial" target="_blank" rel="noopener noreferrer" class="footer__link-item">Facebook<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://discordapp.com/invite/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://reddit.com/r/recipesage" target="_blank" rel="noopener noreferrer" class="footer__link-item">Reddit<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://recipesage.com/#/about/contact" target="_blank" rel="noopener noreferrer" class="footer__link-item">Contact Me<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/julianpoy/recipesage" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub (Application)<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/julianpoy/recipesage-docs" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub (Documentation)<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Thanks for the support!</div></div></div></footer></div>
+<p>Please do not attempt the import more than once, or you&#x27;ll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="importing-from-a-recipe-keeper-export">Importing From a Recipe Keeper Export<a href="#importing-from-a-recipe-keeper-export" class="hash-link" aria-label="Direct link to Importing From a Recipe Keeper Export" title="Direct link to Importing From a Recipe Keeper Export">​</a></h2>
+<p>You can import recipes exported by Recipe Keeper by uploading a <code>.zip</code> file exported from the Recipe Keeper app.</p>
+<p><strong>Please note</strong> that not all <code>.zip</code> files are Recipe Keeper exports. Only <code>.zip</code> files that were specifically exported from Recipe Keeper are compatible with this importer.</p>
+<p>Please do not attempt the import more than once, or you&#x27;ll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="importing-from-a-csv-file">Importing From a CSV File<a href="#importing-from-a-csv-file" class="hash-link" aria-label="Direct link to Importing From a CSV File" title="Direct link to Importing From a CSV File">​</a></h2>
+<p>You can import recipes from a CSV (comma-separated values) file. This format is commonly used by recipe management applications like PlanToEat, MyRecipeBox, and others.</p>
+<p><strong>To import from a CSV file:</strong></p>
+<ol>
+<li>Export your recipes from your recipe management application as a CSV file</li>
+<li>Upload the CSV file via this page</li>
+</ol>
+<p>The importer will automatically detect and map the column names from your export.</p>
+<p>Please do not attempt the import more than once, or you&#x27;ll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="creating-your-own-csv-file">Creating Your Own CSV File<a href="#creating-your-own-csv-file" class="hash-link" aria-label="Direct link to Creating Your Own CSV File" title="Direct link to Creating Your Own CSV File">​</a></h3>
+<p>If you want to create your own CSV file from scratch, you can use the following column names. The importer will recognize these columns regardless of capitalization (e.g., &quot;Title&quot;, &quot;TITLE&quot;, &quot;Active Time&quot;, &quot;activeTime&quot;, and &quot;ActiveTime&quot; will all work).</p>
+<p><strong>Recipe Information:</strong></p>
+<ul>
+<li><strong>title</strong> or <strong>name</strong> - The recipe title (required)</li>
+<li><strong>description</strong> - A brief description of the recipe</li>
+<li><strong>yield</strong>, <strong>serves</strong>, <strong>servings</strong>, or <strong>quantity</strong> - How many servings the recipe makes</li>
+<li><strong>active time</strong>, <strong>prep time</strong>, or <strong>preparation time</strong> - Preparation time</li>
+<li><strong>total time</strong> or <strong>time</strong> - Total cooking time</li>
+<li><strong>ingredients</strong> - List of ingredients</li>
+<li><strong>instructions</strong>, <strong>directions</strong>, or <strong>steps</strong> - Cooking instructions</li>
+<li><strong>url</strong> - Source URL for the recipe</li>
+<li><strong>source</strong> - Where the recipe came from</li>
+<li><strong>notes</strong> - Additional notes</li>
+<li><strong>nutrition</strong> - Nutritional information</li>
+<li><strong>video</strong> or <strong>videos</strong> - Video URLs</li>
+<li><strong>rating</strong> - Recipe rating (numeric)</li>
+</ul>
+<p><strong>Images:</strong></p>
+<ul>
+<li><strong>image url</strong>, <strong>image urls</strong>, <strong>image</strong>, <strong>images</strong>, <strong>photos</strong>, <strong>photo url</strong>, <strong>photo urls</strong>, or <strong>original picture</strong> - Image URLs (can include multiple URLs)</li>
+</ul>
+<p><strong>Labels/Tags:</strong></p>
+<ul>
+<li><strong>labels</strong> or <strong>label</strong> - Recipe labels</li>
+<li><strong>tags</strong> or <strong>tag</strong> - Recipe tags</li>
+<li><strong>categories</strong> or <strong>category</strong> - Recipe categories</li>
+<li><strong>course</strong> or <strong>courses</strong> - Course type (appetizer, main, dessert, etc.)</li>
+<li><strong>cuisine</strong> or <strong>cuisines</strong> - Cuisine type</li>
+</ul>
+<p>At minimum, your CSV file must include a column for the recipe title or name. All other fields are optional.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="importing-from-text-files">Importing From Text Files<a href="#importing-from-text-files" class="hash-link" aria-label="Direct link to Importing From Text Files" title="Direct link to Importing From Text Files">​</a></h2>
+<p>You can import recipes from plain text (<code>.txt</code>) files. Each text file should contain one recipe.</p>
+<p><strong>To import text files:</strong></p>
+<ol>
+<li>Add all your text files to a <code>.zip</code> archive</li>
+<li>Upload the <code>.zip</code> file via this page</li>
+</ol>
+<p>The importer will process each text file in the archive as a separate recipe.</p>
+<p>Please do not attempt the import more than once, or you&#x27;ll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="importing-from-a-list-of-urls">Importing From a List of URLs<a href="#importing-from-a-list-of-urls" class="hash-link" aria-label="Direct link to Importing From a List of URLs" title="Direct link to Importing From a List of URLs">​</a></h2>
+<p>You can import recipes by providing a list of recipe URLs. RecipeSage will attempt to fetch and parse each URL using the autoclip functionality.</p>
+<p><strong>To import from URLs:</strong></p>
+<ol>
+<li>Enter each recipe URL on its own separate line</li>
+<li>Only URLs starting with <code>http://</code> or <code>https://</code> are supported</li>
+</ol>
+<p><strong>Important notes:</strong></p>
+<ul>
+<li>Some URLs may be unreachable or unparseable and will not be imported</li>
+<li>The quality of imported recipes depends on how well the source website is structured</li>
+<li>Consider contributing if your file contains a large number of recipes or images</li>
+</ul>
+<p>Please do not attempt the import more than once, or you&#x27;ll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="importing-from-pdfs">Importing From PDFs<a href="#importing-from-pdfs" class="hash-link" aria-label="Direct link to Importing From PDFs" title="Direct link to Importing From PDFs">​</a></h2>
+<p>You can import recipes from PDF files. Each PDF file should contain one recipe.</p>
+<p><strong>To import PDFs:</strong></p>
+<ol>
+<li>Add all your PDF files to a <code>.zip</code> archive (one recipe per PDF)</li>
+<li>Upload the <code>.zip</code> file via this page</li>
+</ol>
+<p>The importer will extract text from each PDF and attempt to parse it as a recipe.</p>
+<p>Please do not attempt the import more than once, or you&#x27;ll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="importing-from-images">Importing From Images<a href="#importing-from-images" class="hash-link" aria-label="Direct link to Importing From Images" title="Direct link to Importing From Images">​</a></h2>
+<p>You can import recipes from image files (such as photos of recipe cards or cookbook pages).</p>
+<p><strong>To import images:</strong></p>
+<ol>
+<li>Add all your image files to a <code>.zip</code> archive (one recipe per image)</li>
+<li>Upload the <code>.zip</code> file via this page</li>
+</ol>
+<p>The importer will use optical character recognition (OCR) to extract text from each image and attempt to parse it as a recipe.</p>
+<p><strong>Supported image formats:</strong></p>
+<ul>
+<li><code>.jpg</code> / <code>.jpeg</code></li>
+<li><code>.png</code></li>
+<li><code>.gif</code></li>
+<li><code>.webp</code></li>
+</ul>
+<p>Please do not attempt the import more than once, or you&#x27;ll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="importing-from-an-evernote-export">Importing From an Evernote Export<a href="#importing-from-an-evernote-export" class="hash-link" aria-label="Direct link to Importing From an Evernote Export" title="Direct link to Importing From an Evernote Export">​</a></h2>
+<p>You can import recipes from an Evernote export file (<code>.enex</code> format).</p>
+<p><strong>To export from Evernote:</strong></p>
+<ol>
+<li>In Evernote, select the notes containing your recipes</li>
+<li>Choose File → Export Notes</li>
+<li>Save as <code>.enex</code> format</li>
+</ol>
+<p><strong>To import into RecipeSage:</strong></p>
+<ol>
+<li>Upload the <code>.enex</code> file via this page</li>
+</ol>
+<p>The importer will process each note in the Evernote export as a separate recipe.</p>
+<p>Please do not attempt the import more than once, or you&#x27;ll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/tutorials/settings/export/"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Exporting Data</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/tutorials/settings/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Settings</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#supported-import-data-sources" class="table-of-contents__link toc-highlight">Supported Import Data Sources</a><ul><li><a href="#unsupported-import-sources" class="table-of-contents__link toc-highlight">Unsupported Import Sources</a></li></ul></li><li><a href="#import-tracking-and-management" class="table-of-contents__link toc-highlight">Import Tracking and Management</a></li><li><a href="#importing-from-a-json-ld-file" class="table-of-contents__link toc-highlight">Importing From a JSON-LD File</a></li><li><a href="#importing-from-pepperplate" class="table-of-contents__link toc-highlight">Importing From Pepperplate</a></li><li><a href="#importing-from-a-living-cookbook-export" class="table-of-contents__link toc-highlight">Importing From a Living Cookbook Export</a></li><li><a href="#importing-from-a-paprika-export" class="table-of-contents__link toc-highlight">Importing From a Paprika Export</a></li><li><a href="#importing-from-a-cookmate-export" class="table-of-contents__link toc-highlight">Importing From a Cookmate Export</a></li><li><a href="#importing-from-a-recipe-keeper-export" class="table-of-contents__link toc-highlight">Importing From a Recipe Keeper Export</a></li><li><a href="#importing-from-a-csv-file" class="table-of-contents__link toc-highlight">Importing From a CSV File</a><ul><li><a href="#creating-your-own-csv-file" class="table-of-contents__link toc-highlight">Creating Your Own CSV File</a></li></ul></li><li><a href="#importing-from-text-files" class="table-of-contents__link toc-highlight">Importing From Text Files</a></li><li><a href="#importing-from-a-list-of-urls" class="table-of-contents__link toc-highlight">Importing From a List of URLs</a></li><li><a href="#importing-from-pdfs" class="table-of-contents__link toc-highlight">Importing From PDFs</a></li><li><a href="#importing-from-images" class="table-of-contents__link toc-highlight">Importing From Images</a></li><li><a href="#importing-from-an-evernote-export" class="table-of-contents__link toc-highlight">Importing From an Evernote Export</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/tutorials/">User Guide</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.facebook.com/recipesageofficial" target="_blank" rel="noopener noreferrer" class="footer__link-item">Facebook<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://discordapp.com/invite/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://reddit.com/r/recipesage" target="_blank" rel="noopener noreferrer" class="footer__link-item">Reddit<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://recipesage.com/#/about/contact" target="_blank" rel="noopener noreferrer" class="footer__link-item">Contact Me<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/julianpoy/recipesage" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub (Application)<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/julianpoy/recipesage-docs" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub (Documentation)<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Thanks for the support!</div></div></div></footer></div>
 </body>
 </html>
