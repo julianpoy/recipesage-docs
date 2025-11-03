@@ -13,18 +13,35 @@ RecipeSage supports importing the following import sources:
 - [📖 Living Cookbook](#importing-from-a-living-cookbook-export)
 - [📖 Paprika](#importing-from-a-paprika-export)
 - [📖 Cookmate](#importing-from-a-cookmate-export)
+- [📖 Recipe Keeper](#importing-from-a-recipe-keeper-export)
+- [📖 CSV Files](#importing-from-a-csv-file)
+- [📖 Text Files](#importing-from-text-files)
+- [📖 List of URLs](#importing-from-a-list-of-urls)
+- [📖 PDFs](#importing-from-pdfs)
+- [📖 Images](#importing-from-images)
+- [📖 Evernote](#importing-from-an-evernote-export)
 
 If you have a file in a format not listed here, you're welcome to contact me and I can likely create an importer to support the format _as long as it's not listed in the unsupported import sources section below_.
 
 ### Unsupported Import Sources
 
-RecipeSage does not support the following formats because they don't have any structural metadata, which means there's no way to tell what parts of the file are ingredients, instructions, yield, total time, title, etc. or do not have a standard format.
+RecipeSage does not support the following formats because they don't have a uniform internal structure, which means there's no way to predict the internal layout of the file and write an associated importer.
 
-- Plain Text (`.txt`)
-- PDF (`.pdf`)
 - Microsoft Word (`.doc` or `.docx`)
-- Arbitrary JSON (`.json`) that did not come from a specific program
-- Arbitrary XML (`.xml`) that did not come from a specific program
+  - You can export your documents to .txt or .html files and use the associated import format
+- Arbitrary JSON (`.json`) or XML (`.xml`) that did not come from a specific program
+  - You will need to convert your content to JSON-LD (highly technical, not easy to do)
+
+## Import Tracking and Management
+
+All imports create a background job that allows you to track the progress of your import. You can view the status of your imports on the import page.
+
+Each import automatically creates a new label in your account (named similarly to "import on 2025-01-15 16:39:13") that is applied to all recipes from that import. This allows you to easily:
+
+- Identify which recipes came from a particular import
+- Undo an import by going to the label management page and deleting the label along with all associated recipes
+
+Please do not attempt any import more than once, or you'll end up with duplicate recipes. If an import does not work or results in an error, please contact me.
 
 ## Importing From a JSON-LD File
 
@@ -67,6 +84,130 @@ Please do not attempt the import more than once, or you'll end up with duplicate
 ## Importing From a Cookmate Export
 
 You can import recipes exported by Cookmate by uploading them via this page.
+
+Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+
+## Importing From a Recipe Keeper Export
+
+You can import recipes exported by Recipe Keeper by uploading a `.zip` file exported from the Recipe Keeper app.
+
+**Please note** that not all `.zip` files are Recipe Keeper exports. Only `.zip` files that were specifically exported from Recipe Keeper are compatible with this importer.
+
+Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+
+## Importing From a CSV File
+
+You can import recipes from a CSV (comma-separated values) file. This format is commonly used by recipe management applications like PlanToEat, MyRecipeBox, and others.
+
+**To import from a CSV file:**
+1. Export your recipes from your recipe management application as a CSV file
+2. Upload the CSV file via this page
+
+The importer will automatically detect and map the column names from your export.
+
+Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+
+### Creating Your Own CSV File
+
+If you want to create your own CSV file from scratch, you can use the following column names. The importer will recognize these columns regardless of capitalization (e.g., "Title", "TITLE", "Active Time", "activeTime", and "ActiveTime" will all work).
+
+**Recipe Information:**
+- **title** or **name** - The recipe title (required)
+- **description** - A brief description of the recipe
+- **yield**, **serves**, **servings**, or **quantity** - How many servings the recipe makes
+- **active time**, **prep time**, or **preparation time** - Preparation time
+- **total time** or **time** - Total cooking time
+- **ingredients** - List of ingredients
+- **instructions**, **directions**, or **steps** - Cooking instructions
+- **url** - Source URL for the recipe
+- **source** - Where the recipe came from
+- **notes** - Additional notes
+- **nutrition** - Nutritional information
+- **video** or **videos** - Video URLs
+- **rating** - Recipe rating (numeric)
+
+**Images:**
+- **image url**, **image urls**, **image**, **images**, **photos**, **photo url**, **photo urls**, or **original picture** - Image URLs (can include multiple URLs)
+
+**Labels/Tags:**
+- **labels** or **label** - Recipe labels
+- **tags** or **tag** - Recipe tags
+- **categories** or **category** - Recipe categories
+- **course** or **courses** - Course type (appetizer, main, dessert, etc.)
+- **cuisine** or **cuisines** - Cuisine type
+
+At minimum, your CSV file must include a column for the recipe title or name. All other fields are optional.
+
+## Importing From Text Files
+
+You can import recipes from plain text (`.txt`) files. Each text file should contain one recipe.
+
+**To import text files:**
+1. Add all your text files to a `.zip` archive
+2. Upload the `.zip` file via this page
+
+The importer will process each text file in the archive as a separate recipe.
+
+Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+
+## Importing From a List of URLs
+
+You can import recipes by providing a list of recipe URLs. RecipeSage will attempt to fetch and parse each URL using the autoclip functionality.
+
+**To import from URLs:**
+1. Enter each recipe URL on its own separate line
+2. Only URLs starting with `http://` or `https://` are supported
+
+**Important notes:**
+- Some URLs may be unreachable or unparseable and will not be imported
+- The quality of imported recipes depends on how well the source website is structured
+- Consider contributing if your file contains a large number of recipes or images
+
+Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+
+## Importing From PDFs
+
+You can import recipes from PDF files. Each PDF file should contain one recipe.
+
+**To import PDFs:**
+1. Add all your PDF files to a `.zip` archive (one recipe per PDF)
+2. Upload the `.zip` file via this page
+
+The importer will extract text from each PDF and attempt to parse it as a recipe.
+
+Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+
+## Importing From Images
+
+You can import recipes from image files (such as photos of recipe cards or cookbook pages).
+
+**To import images:**
+1. Add all your image files to a `.zip` archive (one recipe per image)
+2. Upload the `.zip` file via this page
+
+The importer will use optical character recognition (OCR) to extract text from each image and attempt to parse it as a recipe.
+
+**Supported image formats:**
+- `.jpg` / `.jpeg`
+- `.png`
+- `.gif`
+- `.webp`
+
+Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+
+## Importing From an Evernote Export
+
+You can import recipes from an Evernote export file (`.enex` format).
+
+**To export from Evernote:**
+1. In Evernote, select the notes containing your recipes
+2. Choose File → Export Notes
+3. Save as `.enex` format
+
+**To import into RecipeSage:**
+1. Upload the `.enex` file via this page
+
+The importer will process each note in the Evernote export as a separate recipe.
 
 Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
 

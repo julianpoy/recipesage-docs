@@ -8,10 +8,32 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 
 ## Version History
 
-**v3.0.1 - v3.0.8** - June 2025
+**v3.1.0** - November 2025
+- Revamped the shopping list categorization and grouping logic
+  - Categorization should be significantly smarter and make fewer mistakes
+  - Users can now change the category, or even specify a category manually
+  - Grouping should now make fewer mistakes
+- Improved shopping list printing
+- Shopping list ignore list is now case insensitive
+- Added a debug dump option to the settings to help users report bugs in challenging to decipher scenarios
+- Improved error messaging when encountering API errors
+- Fixed an issue where app text is missing/not displayed when selecting Polish, Japanese, or Lithuanian
+- Added many new languages
+  - Modern Greek
+  - Finnish
+  - Swedish
+  - Romanian
+  - As always, if you want to help contribute a language it's always greatly appreciated
+
+**v3.0.1 - v3.0.20** - June 2025 to August 2025
 - Greatly improved recipe clipper functionality
 - Fixed compatibility with older browsers such as iOS 15 and Android 12
 - Added MyRecipeBox support to the CSV import
+- Added localization support to meal plan calendar
+- Fixed an issue where new contributors weren't receiving features immediately
+- Fixed an issue where sign-in was required when accessing a public profile page
+- Fixed an issue where with small screen sizes, the "tile" view would show a blank screen
+- Disabled the welcome email sent with a new account, since users did not like it
 
 **v3.0.0** - June 2025
 - Browser tab title is now updated when viewing a recipe to assist with keeping track when multiple tabs open at the same time
