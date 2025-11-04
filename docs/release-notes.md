@@ -17,6 +17,9 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 - Shopping list ignore list is now case insensitive
 - Added a debug dump option to the settings to help users report bugs in challenging to decipher scenarios
 - Improved error messaging when encountering API errors
+- Rating is now included in JSON-LD exports, as well as supported when importing JSON-LD content
+- App should be generally more snappy when navigating between views
+- Each pages now updates the tab title as you navigate within the app to help differentiate between tabs
 - Fixed an issue where app text is missing/not displayed when selecting Polish, Japanese, or Lithuanian
 - Added many new languages
   - Modern Greek
