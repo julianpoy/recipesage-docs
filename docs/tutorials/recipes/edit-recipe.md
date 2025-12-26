@@ -91,6 +91,12 @@ To add a header to your instructions or ingredients, put an open and close brack
 1/8 cup sugar
 ```
 
+To make numbers inside the recipe instruction scale along with the recipe scale setting, wrap the number in curly braces as follows: 
+
+```
+Add {500} ml milk, and whisk in {2} eggs.
+Add {1 1/2} packet of vanilla sugar.
+```
 ## Linking recipes
 
 You can link recipes by adding to the notes field. Any URL in the notes field will be clickable, so feel free to add links between relevant recipes.
@@ -100,4 +106,3 @@ You can link recipes by adding to the notes field. Any URL in the notes field wi
 There are no currently enforced recipe limits, however RecipeSage reserves the right to take action against abuse. There are many users with more than 40,000 recipes in their account, which equates to 109 years of cooking if you cook one recipe a day. In other words, you should not be concerned with any recipe count limit.
 
 Multiple images per recipe are supported, but do require active "contributor rewards". This is due to images being very costly to host, and the app being free. Contributors can add up to 10 images per recipe.
-
