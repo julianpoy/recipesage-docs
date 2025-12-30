@@ -52,7 +52,7 @@ If your recipe program supports exporting to JSON-LD format, you can import that
 
 **Please note** that not all files ending in `.json` are JSON-LD, since `.json` is a very generic file format that comes in many shapes.
 
-Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+[https://recipesage.com/#/settings/import/json-ld](https://recipesage.com/#/settings/import/json-ld)
 
 ## Importing From Pepperplate
 
@@ -60,7 +60,7 @@ You can import recipes directly from Pepperplate by entering your account detail
 
 Please note that uploading files from a Pepperplate export is not supported, since they do not include structured metadata.
 
-Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+[https://recipesage.com/#/settings/import/pepperplate](https://recipesage.com/#/settings/import/pepperplate)
 
 ## Importing From a Living Cookbook Export
 
@@ -72,21 +72,21 @@ You can import recipes exported by Living Cookbook as long as you have one of th
 
 The options listed on the import page are best left as default.
 
-Please note that importing from Living Cookbook can take a long time. Please do not attempt the import more than once, otherwise you'll end up with duplicate recipes.
+Please note that importing from Living Cookbook can take a long time. Please do not attempt the import more than once, otherwise you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
 
-If the import does not work, or results in an error, please contact me.
+[https://recipesage.com/#/settings/import/livingcookbook](https://recipesage.com/#/settings/import/livingcookbook)
 
 ## Importing From a Paprika Export
 
-You can import recipes exported by Paprika by uploading them via this page.
+You can import recipes exported by Paprika (valid export files end in `.paprikarecipes`) by uploading them via this page.
 
-Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+[https://recipesage.com/#/settings/import/paprika](https://recipesage.com/#/settings/import/paprika)
 
 ## Importing From a Cookmate Export
 
-You can import recipes exported by Cookmate by uploading them via this page.
+You can import recipes exported by Cookmate (valid export files end in `.mcb`) by uploading them via this page.
 
-Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+[https://recipesage.com/#/settings/import/cookmate](https://recipesage.com/#/settings/import/cookmate)
 
 ## Importing From a CopyMeThat Export
 
@@ -94,7 +94,7 @@ You can import recipes exported by CopyMeThat by uploading a `.zip` file exporte
 
 **Please note** that not all `.zip` files are CopyMeThat exports. Only `.zip` files that were specifically exported from CopyMeThat are compatible with this importer.
 
-Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+[https://recipesage.com/#/settings/import/copymethat](https://recipesage.com/#/settings/import/copymethat)
 
 ## Importing From a Recipe Keeper Export
 
@@ -102,7 +102,7 @@ You can import recipes exported by Recipe Keeper by uploading a `.zip` file expo
 
 **Please note** that not all `.zip` files are Recipe Keeper exports. Only `.zip` files that were specifically exported from Recipe Keeper are compatible with this importer.
 
-Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+[https://recipesage.com/#/settings/import/recipe-keeper](https://recipesage.com/#/settings/import/recipe-keeper)
 
 ## Importing From a CSV File
 
@@ -114,7 +114,7 @@ You can import recipes from a CSV (comma-separated values) file. This format is 
 
 The importer will automatically detect and map the column names from your export.
 
-Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+[https://recipesage.com/#/settings/import/csv](https://recipesage.com/#/settings/import/csv)
 
 ### Creating Your Own CSV File
 
@@ -157,7 +157,7 @@ You can import recipes from plain text (`.txt`) files. Each text file should con
 
 The importer will process each text file in the archive as a separate recipe.
 
-Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+[https://recipesage.com/#/settings/import/textfiles](https://recipesage.com/#/settings/import/textfiles)
 
 ## Importing From a List of URLs
 
@@ -172,7 +172,7 @@ You can import recipes by providing a list of recipe URLs. RecipeSage will attem
 - The quality of imported recipes depends on how well the source website is structured
 - Consider contributing if your file contains a large number of recipes or images
 
-Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+[https://recipesage.com/#/settings/import/urls](https://recipesage.com/#/settings/import/urls)
 
 ## Importing From PDFs
 
@@ -184,7 +184,7 @@ You can import recipes from PDF files. Each PDF file should contain one recipe.
 
 The importer will extract text from each PDF and attempt to parse it as a recipe.
 
-Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+[https://recipesage.com/#/settings/import/pdfs](https://recipesage.com/#/settings/import/pdfs)
 
 ## Importing From Images
 
@@ -202,7 +202,7 @@ The importer will use optical character recognition (OCR) to extract text from e
 - `.gif`
 - `.webp`
 
-Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+[https://recipesage.com/#/settings/import/images](https://recipesage.com/#/settings/import/images)
 
 ## Importing From an Evernote Export
 
@@ -218,5 +218,5 @@ You can import recipes from an Evernote export file (`.enex` format).
 
 The importer will process each note in the Evernote export as a separate recipe.
 
-Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+[https://recipesage.com/#/settings/import/enex](https://recipesage.com/#/settings/import/enex)
 
