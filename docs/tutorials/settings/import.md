@@ -13,6 +13,7 @@ RecipeSage supports importing the following import sources:
 - [📖 Living Cookbook](#importing-from-a-living-cookbook-export)
 - [📖 Paprika](#importing-from-a-paprika-export)
 - [📖 Cookmate](#importing-from-a-cookmate-export)
+- [📖 CopyMeThat](#importing-from-a-copymethat-export)
 - [📖 Recipe Keeper](#importing-from-a-recipe-keeper-export)
 - [📖 CSV Files](#importing-from-a-csv-file)
 - [📖 Text Files](#importing-from-text-files)
@@ -84,6 +85,14 @@ Please do not attempt the import more than once, or you'll end up with duplicate
 ## Importing From a Cookmate Export
 
 You can import recipes exported by Cookmate by uploading them via this page.
+
+Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
+
+## Importing From a CopyMeThat Export
+
+You can import recipes exported by CopyMeThat by uploading a `.zip` file exported from CopyMeThat via the "HTML" option.
+
+**Please note** that not all `.zip` files are CopyMeThat exports. Only `.zip` files that were specifically exported from CopyMeThat are compatible with this importer.
 
 Please do not attempt the import more than once, or you'll end up with duplicate recipes. If the import does not work, or results in an error, please contact me.
 
