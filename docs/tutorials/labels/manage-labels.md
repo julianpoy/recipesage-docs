@@ -1,5 +1,6 @@
 ---
 title: Manage Labels
+description: Manage your RecipeSage labels and label categories. Edit, merge, and perform bulk operations on recipe labels.
 ---
 
 This section covers the [📱 label manager](https://recipesage.com/#/labels).

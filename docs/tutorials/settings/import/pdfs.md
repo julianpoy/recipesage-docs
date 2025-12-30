@@ -1,5 +1,6 @@
 ---
 title: Importing From PDFs
+description: Import recipes from PDF files using text extraction. Upload a .zip archive of PDF files to transfer your recipes.
 ---
 
 You can import recipes from PDF files. Each PDF file should contain one recipe.

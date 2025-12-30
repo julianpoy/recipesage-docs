@@ -1,5 +1,6 @@
 ---
 title: Your Profile
+description: Create a RecipeSage profile to share your recipe collection with friends, family, or the public. Set up your profile and manage sharing.
 ---
 
 A RecipeSage profile allows you to share content within RecipeSage with other users. You can share individual recipes, all recipes within a label, or your entire collection with friends or the public.
@@ -8,7 +9,7 @@ A profile is the best way to share your recipe catalogue with other users, such 
 
 ## Creating a Profile
 
-<img className="screenshot" src="/img/people-setup-profile.png"></img>
+<img className="screenshot" src="/img/people-setup-profile.png" alt="Profile setup screen"></img>
 
 To setup your profile, you'll first need to enter a publicly visible name. This corresponds to the nickname you set on your account when you registered.
 Please avoid entering profane or offensive names, and feel free to report offsensive or profane names that you see.
@@ -19,7 +20,7 @@ This handle will be part of the URL for your profile, and others will be able to
 
 ## Editing Your Profile
 
-<img className="screenshot" src="/img/people-edit-profile.png"></img>
+<img className="screenshot" src="/img/people-edit-profile.png" alt="Edit profile interface"></img>
 
 On the [📱 profile edit page](https://recipesage.com/#/people/my-profile), you'll be able to edit the details of your profile including adding and removing profile items.
 
@@ -34,7 +35,7 @@ Adding items to your profile is covered [📖 here](#adding-content-to-your-prof
 
 ## Adding Content to Your Profile
 
-<img className="screenshot" src="/img/people-add-profile-item.png"></img>
+<img className="screenshot" src="/img/people-add-profile-item.png" alt="Add item to profile dialog"></img>
 
 Adding items to your profile allows you to share individual recipes, all recipes within a label, or your entire collection with friends or the public.
 
@@ -51,11 +52,11 @@ As always, only you can modify your recipes.
 
 ## Sharing Your Profile
 
-<img className="screenshot" src="/img/people-edit-profile.png"></img>
+<img className="screenshot" src="/img/people-edit-profile.png" alt="Edit profile interface"></img>
 
 You can easily share your profile via the "share" button displayed on the [📱 view/edit profile page](https://recipesage.com/#/people/my-profile) as shown above.
 
-<img className="screenshot" src="/img/people-share-profile.png"></img>
+<img className="screenshot" src="/img/people-share-profile.png" alt="Share profile dialog"></img>
 
 When you press the share button, a dialogue similar to the image above will appear. You can share the link displayed with anyone, whether they have a RecipeSage account or not.
 

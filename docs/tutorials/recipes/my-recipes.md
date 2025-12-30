@@ -1,12 +1,13 @@
 ---
 title: My Recipes
+description: Search, sort, and filter your recipe collection. Learn how to use the RecipeSage main recipes page to organize your recipes.
 ---
 
 Welcome to the main page of RecipeSage! This is where most of the action happens. Here you can search, sort and filter for the recipes you're looking for.
 
 ## Main Screen
 
-<img className="screenshot" src="/img/home.png"></img>
+<img className="screenshot" src="/img/home.png" alt="RecipeSage my recipes home page"></img>
 
 To create a recipe, you'll need to click that big blue button in the bottom right hand corner. That will take you to the recipe authoring page.
 
@@ -22,7 +23,7 @@ The search bar returns results that are as "close" to your match as possible, bu
 
 ## Options Menu
 
-<img className="screenshot" src="/img/home-popover.png"></img>
+<img className="screenshot" src="/img/home-popover.png" alt="Recipe list options menu"></img>
 
 You can use the settings icon in the upper right-hand corner to adjust sort order, filter by label, and enable/disable different visual items.
 
@@ -44,7 +45,7 @@ Here is a brief description of what each of these settings do:
 
 ## Bulk Actions
 
-<img className="screenshot" src="/img/home-bulk-actions.png"></img>
+<img className="screenshot" src="/img/home-bulk-actions.png" alt="Bulk actions menu for multiple recipes"></img>
 
 You can select multiple recipes by using the "Select Multiple Recipes" option in the options menu, then tapping the recipes you'd like to select. Then, use the buttons in the header to create a label for, or delete all of those recipes at the same time.
 

@@ -1,5 +1,6 @@
 ---
 title: Importing From URLs
+description: Import multiple recipes at once by providing a list of URLs. RecipeSage will fetch and parse each recipe automatically.
 ---
 
 You can import recipes by providing a list of recipe URLs. RecipeSage will attempt to fetch and parse each URL using the autoclip functionality.

@@ -1,5 +1,6 @@
 ---
 title: Importing From Evernote
+description: Import recipes from Evernote notes using .enex export files. Transfer your saved recipes to RecipeSage.
 ---
 
 You can import recipes from an Evernote export file (`.enex` format).

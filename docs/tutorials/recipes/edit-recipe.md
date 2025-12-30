@@ -1,12 +1,13 @@
 ---
 title: Creating & Editing
+description: Learn how to create and edit recipes in RecipeSage. Import from URLs, text, photos, or PDFs using AI-powered autofill.
 ---
 
 Creating a recipe and editing a recipe both happen using the same interface and generally act very similarly to each other.
 
 ## Creating a new recipe
 
-<img className="screenshot" src="/img/edit-recipe.png"></img>
+<img className="screenshot" src="/img/edit-recipe.png" alt="RecipeSage recipe editing interface"></img>
 
 The create recipe page can be reached from the [📖 my recipes](./my-recipes.md) page by clicking the blue + button in the bottom right corner, as well as via the sidemenu.
 
@@ -68,7 +69,7 @@ Known limitations:
 
 ## Editing a recipe
 
-<img className="screenshot" src="/img/edit-recipe.png"></img>
+<img className="screenshot" src="/img/edit-recipe.png" alt="RecipeSage recipe editing interface"></img>
 
 The edit recipe page can be reached from the [📖 recipe details](./recipe-details.md) page by clicking the edit button at the bottom of the page, or by clicking the edit button in the top right options menu.
 
@@ -76,7 +77,7 @@ The options and interface are the same here as described in the [📖 creating a
 
 ## Formatting
 
-<img className="screenshot" src="/img/recipe-details-ingredients.png"></img>
+<img className="screenshot" src="/img/recipe-details-ingredients.png" alt="Recipe ingredients with section headers"></img>
 
 Ingredients are divided by linebreaks, so have one per carriage return. Ingredient measurements will be automatically parsed, but as a general rule, use the format: `1 1/2 cup`. For a range, use the format: `1 to 2 cups`. This will help the scaling feature recognize your quantities as best as possible
 

@@ -1,5 +1,6 @@
 ---
 title: Usage and Options
+description: Learn how to use RecipeSage meal plans including pinning recipes, adding to shopping lists, and organizing your meal planning calendar.
 ---
 
 This page will cover using the meal plan (other than [📖 creating items](./create.md)).
@@ -95,7 +96,7 @@ Your meal plan should automatically sync to your Google Calendar.
 
 ## Options
 
-<img className="screenshot" src="/img/meal-plan-options.png"></img>
+<img className="screenshot" src="/img/meal-plan-options.png" alt="Meal plan options menu"></img>
 
 **Start week on**: Switching this setting will change how the calendar is displayed. "Monday" will show weeks as Monday-Sunday. "Sunday" will show weeks as Sunday-Saturday.
 

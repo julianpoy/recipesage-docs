@@ -1,5 +1,6 @@
 ---
 title: Release Notes
+description: RecipeSage version history and release notes. See what's new in each version including features, improvements, and bug fixes.
 ---
 
 Here you'll find a summary of the changes made in each version.

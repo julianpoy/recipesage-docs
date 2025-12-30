@@ -1,5 +1,6 @@
 ---
 title: Importing From CopyMeThat
+description: Import your CopyMeThat recipes into RecipeSage using HTML export .zip files. Transfer your entire recipe collection.
 ---
 
 You can import recipes exported by CopyMeThat by uploading a `.zip` file exported from CopyMeThat via the "HTML" option.

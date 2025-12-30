@@ -1,5 +1,6 @@
 ---
 title: Importing From CSV Files
+description: Import recipes from CSV files. Supports PlanToEat, MyRecipeBox, and custom CSV files. Learn about supported column formats.
 ---
 
 You can import recipes from a CSV (comma-separated values) file. This format is commonly used by recipe management applications like PlanToEat, MyRecipeBox, and others, as well as spreadsheet programs.

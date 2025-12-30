@@ -1,5 +1,6 @@
 ---
 title: Labelling Recipes
+description: Organize your recipes with labels. Learn how to create labels and assign them to recipes for easy filtering and categorization.
 ---
 
 Labels are an excellent way of organizing your recipes. Think of labels as folders, but where a single recipe can be in multiple folders!

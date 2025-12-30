@@ -1,12 +1,13 @@
 ---
 title: People
+description: Connect with friends and family on RecipeSage. Share recipes, view friend profiles, and manage friend requests.
 ---
 
 The RecipeSage people page is home to allows you to share and view content to and from your friends or family. Using the people and profile features, you can share your own recipe collection or view the recipe collections of your friends. To setup your own profile, follow the steps outlined on the [📖 your profile documentation page](./your-profile.md).
 
 ## People &amp; Profile Home
 
-<img className="screenshot" src="/img/people-friend-requests.png"></img>
+<img className="screenshot" src="/img/people-friend-requests.png" alt="People page showing friend requests"></img>
 
 Once you set up your profile, the [📱 People](https://recipesage.com/#/people) page will allow you to access your profile & settings, add friends, and search for other RecipeSage users.
 You'll also be able to share individual recipes, all recipes within a label, or even your entire recipe library with friends or the public via [📖 your profile](./your-profile.md).
@@ -16,7 +17,7 @@ To access these features however, you'll need to first [📖 set up your profile
 
 ## Finding Other Users
 
-<img className="screenshot" src="/img/people-add-friend.png"></img>
+<img className="screenshot" src="/img/people-add-friend.png" alt="Add friend dialog"></img>
 
 After you setup your profile, you can find other users profiles by clicking the search button in the bottom right corner of the [📱 People](https://recipesage.com/#/people) page.
 This will bring up the dialogue shown in the image above.
@@ -26,7 +27,7 @@ After selecting a user, you'll be able to send a friend request, or view the oth
 
 ## Friend Requests
 
-<img className="screenshot" src="/img/people-friend-requests.png"></img>
+<img className="screenshot" src="/img/people-friend-requests.png" alt="People page showing friend requests"></img>
 
 When you [📖 send a friend request](#finding-other-users) to another person, you'll see that pending friend request listed on the [📱 People](https://recipesage.com/#/people) page.
 At this point, the other user will see a friend request in their people page, and can decide to either accept/deny that invite.
@@ -38,7 +39,7 @@ At any point during the friending process, you can click the user's name to open
 
 ## Viewing Other User's Profiles
 
-<img className="screenshot" src="/img/people-view-profile.png"></img>
+<img className="screenshot" src="/img/people-view-profile.png" alt="Viewing a friend's profile"></img>
 
 Once you click a user on the [📱 People](https://recipesage.com/#/people) page, you'll see their profile.
 Via their profile, you can access any recipes or labels they've shared.

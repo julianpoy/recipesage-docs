@@ -1,5 +1,6 @@
 ---
 title: Exporting Data
+description: Export your RecipeSage recipes in JSON-LD, plain text, or PDF format. Backup your recipes or transfer them to other applications.
 ---
 
 The options documented here apply to the `Side Menu -> Settings -> Export Recipe Data` page and the subpages withit.

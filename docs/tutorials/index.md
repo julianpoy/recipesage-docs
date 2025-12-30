@@ -1,5 +1,6 @@
 ---
 title: User Guide
+description: RecipeSage user guide. Learn how to use RecipeSage features including recipe management, meal planning, shopping lists, and more.
 sidebar_position: 1
 ---
 

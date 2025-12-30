@@ -1,5 +1,6 @@
 ---
 title: Settings
+description: Configure RecipeSage settings including split pane view, measurement units, automatic title capitalization, and other app preferences.
 ---
 
 The options documented here apply to the `Side Menu -> Settings` page, available via the side menu.
@@ -10,11 +11,11 @@ The options documented here apply to the `Side Menu -> Settings` page, available
 
 When enabled, and when on a large device such as a laptop, desktop, or large tablet, the app will change from this:
 
-<img className="screenshot" src="/img/settings.png"></img>
+<img className="screenshot" src="/img/settings.png" alt="RecipeSage settings page"></img>
 
 to:
 
-<img className="screenshot" src="/img/settings-split-pane.png"></img>
+<img className="screenshot" src="/img/settings-split-pane.png" alt="Split pane view on large screens"></img>
 
 ## Theme
 

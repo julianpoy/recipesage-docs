@@ -1,5 +1,6 @@
 ---
 title: Account Settings
+description: Manage your RecipeSage account settings including your display name, email, password, and account preferences.
 ---
 
 The options documented here apply to the `Side Menu -> Settings -> Account & Credentials` page.

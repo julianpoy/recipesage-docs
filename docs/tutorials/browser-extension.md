@@ -1,5 +1,6 @@
 ---
 title: Clip Tool Browser Extension
+description: Install the RecipeSage browser extension for Chrome and Firefox to quickly clip recipes from any website directly to your account.
 ---
 
 The RecipeSage clip tool browser extension provides a very quick way to import recipes from the web.
@@ -8,7 +9,7 @@ Although it's possible to import recipes using the [📖 import by url](./recipe
 
 ## Installation
 
-<img className="screenshot" src="/img/webextension-on-rs.png"></img>
+<img className="screenshot" src="/img/webextension-on-rs.png" alt="RecipeSage browser extension icon"></img>
 
 Adding the RecipeSage browser extension allows you to quickly select text from a webpage and save recipes directly to your account via the handy clip tool. You can trigger the clip tool on most websites to grab text and import recipes into your collection.
 
@@ -20,7 +21,7 @@ If you're using Firefox, [📱 click here](https://addons.mozilla.org/en-US/fire
 
 ## Signing In and Getting Started
 
-<img className="screenshot" src="/img/webextension-login.png"></img>
+<img className="screenshot" src="/img/webextension-login.png" alt="Browser extension login screen"></img>
 
 After installing the extension, you'll notice a new icon next to your navbar as pictured above. The first time you click that icon, you'll be prompted to sign in to your RecipeSage account with your RecipeSage credentials.
 You'll then be shown a short tutorial, and the clip tool will open on the current page. After this, clicking the RecipeSage icon will launch the clip tool immediately.
@@ -30,7 +31,7 @@ Note: The clip tool cannot be activated on certain websites, such as browser set
 
 ## Using the Clip Tool
 
-<img className="screenshot" src="/img/webextension-body.png"></img>
+<img className="screenshot" src="/img/webextension-body.png" alt="Browser extension clip tool interface"></img>
 
 This is the clip tool. It allows you to quickly select text from a webpage and save recipes directly to your account.
 
@@ -47,7 +48,7 @@ Note: The clip tool is draggable. Click and hold on the icon in the upper left c
 
 ## Auto Field Detection (AutoClipping)
 
-<img className="screenshot" src="/img/webextension-body-autoclipped.png"></img>
+<img className="screenshot" src="/img/webextension-body-autoclipped.png" alt="Browser extension with autoclipped recipe"></img>
 
 This is what the clip tool looks like when automatic field detection is enabled. To enable automatic field detection, check the box at the top of the click tool and reload the page. Then re-open the clip tool.
 

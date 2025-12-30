@@ -1,5 +1,6 @@
 ---
 title: Sharing
+description: Share recipes, meal plans, and shopping lists in RecipeSage. Learn multiple ways to share content with users or the public.
 ---
 
 One of the powerful features of RecipeSage that sets it apart from other recipe keepers is it's powerful sharing capabilities.

@@ -43,6 +43,14 @@ const config: Config = {
   ],
 
   themeConfig: {
+    metadata: [
+      {name: 'description', content: 'An open source recipe keeper, shopping list organizer, and meal planner.'},
+      {property: 'og:type', content: 'website'},
+      {property: 'og:image', content: 'https://recipesage.com/assets/icon/icon-512x512.png'},
+      {property: 'og:site_name', content: 'RecipeSage Documentation'},
+      {name: 'twitter:card', content: 'summary'},
+      {name: 'twitter:image', content: 'https://recipesage.com/assets/icon/icon-512x512.png'},
+    ],
     algolia: {
       appId: "735T0PFQU3",
       // Public API key

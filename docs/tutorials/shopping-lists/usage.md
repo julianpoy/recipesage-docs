@@ -1,5 +1,6 @@
 ---
 title: Usage and Options
+description: Use RecipeSage shopping lists with smart grouping, sorting, and printing options. Check off items and organize your groceries efficiently.
 ---
 
 This page will cover using the shopping list (other than [📖 creating items](./create.md)). This includes checking off items, as well as smart grouping options.
@@ -52,7 +53,7 @@ If you'd prefer for items to be instantly deleted rather than being moved to the
 
 ## Options
 
-<img className="screenshot" src="/img/shopping-list-options.png"></img>
+<img className="screenshot" src="/img/shopping-list-options.png" alt="Shopping list grouping options"></img>
 
 - **Sort by**: Allows you to change the sort order of the items shown within the shopping list.
 - **Group Items by Category**: Enabling this toggle will enable the [📖 Group Items by Category](#group-items-by-category) feature.

@@ -1,5 +1,6 @@
 ---
 title: Sharing Shopping Lists
+description: Share shopping lists with other RecipeSage users or print to PDF. Collaborate on grocery shopping with family and friends.
 ---
 
 Shopping lists can be shared with other RecipeSage users, or be printed to PDF to be shared with non-RecipeSage users.
@@ -20,7 +21,7 @@ Enter a shopping list title
 
 Enter as many user email addresses into the "collaborators" field. Once added, the UI should look like this:
 
-<img className="screenshot" src="/img/shopping-list-edit.png"></img>
+<img className="screenshot" src="/img/shopping-list-edit.png" alt="Edit shopping list collaborators"></img>
 
 Click save.
 
@@ -36,7 +37,7 @@ Click the "edit/rename list" button (Note: this button is only available if you 
 
 Enter as many user email addresses into the "collaborators" field. Once added, the UI should look like this:
 
-<img className="screenshot" src="/img/shopping-list-edit.png"></img>
+<img className="screenshot" src="/img/shopping-list-edit.png" alt="Edit shopping list collaborators"></img>
 
 Click save.
 

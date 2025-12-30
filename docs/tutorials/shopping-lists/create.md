@@ -1,5 +1,6 @@
 ---
 title: Creating Shopping Lists and Items
+description: Create shopping lists in RecipeSage and add items manually or from recipes. Learn how to organize your grocery shopping.
 ---
 
 ## Creating a Shopping List

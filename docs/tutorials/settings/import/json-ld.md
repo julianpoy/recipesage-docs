@@ -1,5 +1,6 @@
 ---
 title: Importing From JSON-LD
+description: Import recipes from JSON-LD files into RecipeSage. JSON-LD is a standardized format supported by many recipe management applications.
 ---
 
 JSON-LD (JavaScript Object Notation for Linked Data) is a standardized format for structuring recipe data that follows Schema.org standards.

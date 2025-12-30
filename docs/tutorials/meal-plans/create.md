@@ -1,5 +1,6 @@
 ---
 title: Creating/Editing Meal Plans and Items
+description: Learn how to create meal plans and add recipes or text items to your RecipeSage meal planning calendar.
 ---
 
 ## Creating a Meal Plan

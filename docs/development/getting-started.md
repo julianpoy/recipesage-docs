@@ -1,5 +1,6 @@
 ---
 title: Getting Started
+description: Set up your RecipeSage development environment. Learn about required tools, project structure, and how to start contributing code.
 ---
 
 ## Primer

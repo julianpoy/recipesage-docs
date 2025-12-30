@@ -1,5 +1,6 @@
 ---
 title: Importing From Living Cookbook
+description: Import recipes from Living Cookbook using LCB, FDX, or FDXZ file formats. Transfer your entire recipe collection to RecipeSage.
 ---
 
 You can import recipes exported by Living Cookbook as long as you have one of the following file formats:

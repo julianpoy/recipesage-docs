@@ -1,8 +1,9 @@
 ---
 title: Recipe Details
+description: View recipe details, scale ingredients, print recipes, and share with friends. Learn all features of the RecipeSage recipe details page.
 ---
 
-<img className="screenshot" src="/img/recipe-details.png"></img>
+<img className="screenshot" src="/img/recipe-details.png" alt="Recipe details page showing full recipe information"></img>
 
 This page is the detailed view for a single recipe. All of the information for the selected recipe is printed here, as well as buttons for various actions.
 
@@ -10,7 +11,7 @@ The page layout will change based on the screen size of the device you're browsi
 
 ## Scaling
 
-<img className="screenshot" src="/img/recipe-details-scale.png"></img>
+<img className="screenshot" src="/img/recipe-details-scale.png" alt="Recipe scaling dialog"></img>
 
 Click the scale link to choose a different recipe scale. A dialogue will pop up for the recipe scale. Enter a number or a fraction and the ingredient quantities (shown in bold) will adjust.
 
@@ -20,7 +21,7 @@ Values entered into the scale field are not permanent. Once you close this recip
 
 ## Labelling
 
-<img className="screenshot" src="/img/recipe-details-actions.png"></img>
+<img className="screenshot" src="/img/recipe-details-actions.png" alt="Recipe action buttons"></img>
 
 Labels are an excellent way of organizing your recipes. Think of labels as folders, but where a single recipe can be in multiple folders!
 
@@ -32,7 +33,7 @@ You can filter by labels on the my recipes page to see only recipes in a certain
 
 ## Actions
 
-<img className="screenshot" src="/img/recipe-details-actions.png"></img>
+<img className="screenshot" src="/img/recipe-details-actions.png" alt="Recipe action buttons"></img>
 
  At the bottom of the recipe details page there are buttons for various recipe actions. Here is a brief summary of each of the actions and their corresponding description:
 
@@ -53,7 +54,7 @@ This button will open the share dialogue for this recipe, allowing you to send t
 
 ## Add to Shopping List
 
-<img className="screenshot" src="/img/add-recipe-to-shopping-list.png"></img>
+<img className="screenshot" src="/img/add-recipe-to-shopping-list.png" alt="Add recipe to shopping list dialog"></img>
 
 Shopping lists are a great way of keeping track of ingredients and items that you need from the store. Check out the shopping list tutorial to see how to use the various shopping list pages.
 
@@ -65,7 +66,7 @@ Select the list you'd like to add to by clicking the dropdown selector at the to
 
 ## Add to Meal Plan
 
-<img className="screenshot" src="/img/add-recipe-to-meal-plan.png"></img>
+<img className="screenshot" src="/img/add-recipe-to-meal-plan.png" alt="Add recipe to meal plan dialog"></img>
 
 Meal plans are a great way of keeping track of which recipes you're going to cook on what day. Check out the meal plan tutorial to see how to use the various meal plan pages.
 
@@ -91,7 +92,7 @@ There are three options for sharing a recipe:
 
 ### To a RecipeSage User
 
-<img className="screenshot" src="/img/share-recipe-account.png"></img>
+<img className="screenshot" src="/img/share-recipe-account.png" alt="Share recipe with RecipeSage account dialog"></img>
 
 The recipe sharing modal allows you to send a recipe to another RecipeSage user's account, share via link, or share via embed.
 
@@ -107,7 +108,7 @@ After selecting the recipient user via either method, you'll be able to press th
 
 ### By Link
 
-<img className="screenshot" src="/img/share-recipe-link.png"></img>
+<img className="screenshot" src="/img/share-recipe-link.png" alt="Share recipe via link dialog"></img>
 
 The recipe sharing modal allows you to send a recipe to another RecipeSage user's account, share via link, or share via embed.
 
@@ -121,7 +122,7 @@ Note: The share button depicted to the right of the URL will only show up on som
 
 ### By Embed
 
-<img className="screenshot" src="/img/share-recipe-embed.png"></img>
+<img className="screenshot" src="/img/share-recipe-embed.png" alt="Recipe embed code dialog"></img>
 
 The recipe sharing modal allows you to send a recipe to another RecipeSage user's account, share via link, or share via embed.
 
@@ -140,7 +141,7 @@ After you've selected the desired options, copy the provided code and paste it a
 
 ## Printing
 
-<img className="screenshot" src="/img/select-recipe-print-layout.png"></img>
+<img className="screenshot" src="/img/select-recipe-print-layout.png" alt="Recipe print layout selection"></img>
 
 **Note:** If you're looking for how to print all recipes, see [📖 Printing All Recipes or Exporting All Recipes to PDF](./my-recipes.md#printing-all-recipes-or-exporting-all-recipes-to-pdf) instead.
 

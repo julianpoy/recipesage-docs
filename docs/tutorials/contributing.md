@@ -1,5 +1,6 @@
 ---
 title: Contributing
+description: Support RecipeSage development through contributions. Learn about contributor rewards and how to help keep RecipeSage free and open source.
 ---
 
 The options documented here apply to the `Side Menu -> Contribute` page, available via the side menu.

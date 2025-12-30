@@ -1,5 +1,6 @@
 ---
 title: Frequently Asked Questions
+description: Find answers to common questions about RecipeSage including importing from social media, search features, mobile compatibility, and more.
 ---
 
 ### How do I import recipes from Instagram, Facebook, YouTube, etc.

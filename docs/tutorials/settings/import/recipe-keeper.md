@@ -1,5 +1,6 @@
 ---
 title: Importing From Recipe Keeper
+description: Import Recipe Keeper recipes into RecipeSage by uploading .zip export files from the Recipe Keeper app.
 ---
 
 You can import recipes exported by Recipe Keeper by uploading a `.zip` file exported from the Recipe Keeper app.

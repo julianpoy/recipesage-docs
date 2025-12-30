@@ -1,5 +1,6 @@
 ---
 title: Importing Data
+description: Learn how to import your recipes into RecipeSage from various sources including Paprika, Recipe Keeper, CSV files, PDFs, images, and more.
 ---
 
 The options documented here apply to the `Side Menu -> Settings -> Import Recipe Data` page and the subpages within.

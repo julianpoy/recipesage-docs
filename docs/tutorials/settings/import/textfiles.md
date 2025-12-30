@@ -1,5 +1,6 @@
 ---
 title: Importing From Text Files
+description: Import recipes from plain text files. Upload a .zip archive of .txt files to transfer multiple recipes at once.
 ---
 
 You can import recipes from plain text (`.txt`) files. Each text file should contain one recipe.

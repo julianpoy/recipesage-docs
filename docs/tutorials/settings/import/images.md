@@ -1,5 +1,6 @@
 ---
 title: Importing From Images
+description: Import recipes from images using OCR technology. Upload photos of recipe cards, cookbook pages, or handwritten recipes.
 ---
 
 You can import recipes from image files (such as photos of recipe cards or cookbook pages).
