@@ -177,11 +177,11 @@ If you're on an Android device, I'd recommend trying to install a newer version 
 
 ### Why doesn't RecipeSage support sorting into cookbooks or folders?
 
-Some users have mentioned the desire to categorize by cookbook. I designed RecipeSage based around the concept of labels/tags, rather than the folder/cookbook style.
+Occasionally users reach out and ask for the ability to categorize by cookbook/folder. Many classical/historical recipe keepers are structured around the concept of hierarchy, but I designed RecipeSage based around the concept of labels/tags, rather than the folder/cookbook style. This is intentional. I find that "folders" and "cookbooks" fall short for a recipe organization system, and result in so many side-effects that users don't usually consider initially but find painful later.
 
-A system built on labels/tags inherently support all of the features that "folders" or "cookbooks" do, with the exception that they don't allow hierarchy. This is intentional. I find that "folders" and "cookbooks" fall short for a recipe organization system, and result in so many side-effects that users don't usually consider initially but find painful later.
+Fundamentally, a system structured around labels/tags _inherently supports all of the features_ that "folders" or "cookbooks" do, with the exception that they don't allow hierarchy. If you're coming from a cooking app that organizes with folders/cookbooks, you can achieve everything you're hoping to do via labels/tags.
 
-The label system within RecipeSage allows you to create many collections, cookbooks, styles, food groups (really, whatever you can think of!). If you're finding that your labels are growing out of control and want to organize them, I recommend using label categories to group similar types of label. You can also use symbols at the beginning of your label title (such as *) to keep specific labels at the top (labels are always sorted alphabetically). This isn't necessary except for particularly vast collections, though.
+The label system within RecipeSage allows you to create many collections, cookbooks, styles, food groups (really, whatever you can think of!) and filter by any combination of those labels ([📖 both inclusively and exclusively](./labels/filtering.md)). If you're finding that your labels are growing out of control and want to organize them, I recommend using label categories to group similar types of label. You can also use symbols at the beginning of your label title (such as *) to keep specific labels at the top (labels are always sorted alphabetically). This isn't necessary except for particularly vast collections, though.
 
 ### I've lost all of my recipes!
 
