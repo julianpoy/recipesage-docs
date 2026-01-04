@@ -188,7 +188,7 @@ The label system within RecipeSage allows you to create many collections, cookbo
 It's very unlikely this is the case. I've received several emails like this over the years, and have never encountered a situation where someone has actually lost their recipes. It always comes down to one of the following, sorted in order of most common to least common:
 
 1. You're logging into the wrong account. This is particularly common, particularly when using "Sign in with Google", since many people have multiple email addresses. Please use the "password reset" option on the login screen to send yourself a password reset email and try your other email addresses.
-2. You mis-typed your email address when registering for your account. If you never received an automated "welcome" email, this is likely the case. Every new account receives a "welcome to recipesage" email after registering. If this is the case, and you've exhausted all of the other items on this list, please reach out to me via email.
+2. You mis-typed your email address when registering for your account originally. (if you believe this to be the case, please reach out and there are steps I can take to help you).
 3. You're experiencing a network connectivity issue and chose the "ignore" option on the connectivity error.
 4. There's a bug or service outage for the app. This is fairly rare, but does happen. Please send me an email if you've exhausted all other items here, and are seeing errors!
 
