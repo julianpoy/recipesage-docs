@@ -12,3 +12,9 @@ You can import recipes from plain text (`.txt`) files. Each text file should con
 The importer will process each text file in the archive as a separate recipe and attempt to parse the ingredients and instructions.
 
 [https://recipesage.com/#/settings/import/textfiles](https://recipesage.com/#/settings/import/textfiles)
+
+## Related Pages
+
+- [Import Overview](./index.md) - See all available import options
+- [Exporting Your Recipes](../export.md) - Learn how to backup and export your recipes
+- [Organizing with Labels](../../labels/create.md) - Organize your imported recipes with labels

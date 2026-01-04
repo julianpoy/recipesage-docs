@@ -10,3 +10,9 @@ You can import recipes directly from Pepperplate by entering your account creden
 You don't need to have an active Pepperplate subscription to perform the import, only your account email and password. Your credentials are used temporarily to fetch your recipes and are not stored.
 
 Please note that uploading files from a Pepperplate export is not supported, since they do not include structured metadata. You must use the direct account import method.
+
+## Related Pages
+
+- [Import Overview](./index.md) - See all available import options
+- [Exporting Your Recipes](../export.md) - Learn how to backup and export your recipes
+- [Organizing with Labels](../../labels/create.md) - Organize your imported recipes with labels

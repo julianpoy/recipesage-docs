@@ -1,0 +1,21 @@
+.howToContainer {
+  margin: 2rem 0;
+}
+
+.stepsList {
+  padding-left: 2rem;
+}
+
+.stepItem {
+  margin-bottom: 1.5rem;
+}
+
+.stepItem strong {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.stepItem p {
+  margin: 0;
+  line-height: 1.6;
+}

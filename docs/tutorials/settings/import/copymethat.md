@@ -8,3 +8,9 @@ You can import recipes exported by CopyMeThat by uploading a `.zip` file exporte
 **Please note** that not all `.zip` files are CopyMeThat exports. Only `.zip` files that were specifically exported from CopyMeThat are compatible with this importer.
 
 [https://recipesage.com/#/settings/import/copymethat](https://recipesage.com/#/settings/import/copymethat)
+
+## Related Pages
+
+- [Import Overview](./index.md) - See all available import options
+- [Exporting Your Recipes](../export.md) - Learn how to backup and export your recipes
+- [Organizing with Labels](../../labels/create.md) - Organize your imported recipes with labels

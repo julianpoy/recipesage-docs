@@ -29,12 +29,24 @@ const config: Config = {
 
   trailingSlash: true,
 
-  plugins: ["docusaurus-plugin-matomo"],
+  plugins: [
+    "docusaurus-plugin-matomo",
+    "@stackql/docusaurus-plugin-structured-data",
+  ],
 
   presets: [
     [
       "classic",
       {
+        docs: {
+          sidebarPath: require.resolve("./sidebars.ts"),
+        },
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
+        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -51,6 +63,32 @@ const config: Config = {
       {name: 'twitter:card', content: 'summary'},
       {name: 'twitter:image', content: 'https://recipesage.com/assets/icon/icon-512x512.png'},
     ],
+    structuredData: {
+      excludedRoutes: [],
+      verbose: false,
+      authors: {},
+      organization: {
+        name: 'RecipeSage',
+        url: 'https://recipesage.com',
+        logo: 'https://recipesage.com/assets/icon/icon-512x512.png',
+        description: 'An open source recipe keeper, shopping list organizer, and meal planner.',
+        sameAs: [
+          'https://github.com/julianpoy/recipesage',
+          'https://reddit.com/r/recipesage',
+          'https://www.facebook.com/recipesageofficial',
+        ],
+      },
+      website: {
+        name: 'RecipeSage Documentation',
+        url: 'https://docs.recipesage.com',
+        inLanguage: 'en-US',
+      },
+      webpage: {
+        inLanguage: 'en-US',
+        datePublished: '2024-01-01',
+      },
+      breadcrumbLabelMap: {},
+    },
     algolia: {
       appId: "735T0PFQU3",
       // Public API key

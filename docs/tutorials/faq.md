@@ -3,6 +3,115 @@ title: Frequently Asked Questions
 description: Find answers to common questions about RecipeSage including importing from social media, search features, mobile compatibility, and more.
 ---
 
+import Head from '@docusaurus/Head';
+
+<Head>
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I import recipes from Instagram, Facebook, YouTube, etc.",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "None of these platforms provide any sort of API that would allow RecipeSage to natively import content (and they block any type of scraper). However, you can import recipes from Instagram, Facebook, and any other text-based sources most often by either 1. taking a screenshot and importing it via the photo import tool, or 2. copying the text and pasting it into the text import tool. There's really no way for me to write an importer for video-based content, unfortunately."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "My search results include results that don't match the search",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The RecipeSage search tool returns results that are as close to your match as possible, but also includes misspellings and similar words. Searches will return matches with the exact search text further up in the results list."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is RecipeSage compatible with iOS and Android?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! You can use RecipeSage in the browser on your mobile device, or install it to your device. See the install instructions at https://recipesage.com/#/install"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is RecipeSage a business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No - it's an open source project developed in free time. RecipeSage is a free open source personal project and will stay that way. All contributions go into hosting costs, as well as making RecipeSage a better platform."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if you decide to just stop hosting RecipeSage? I'm worried about my data.",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Although there are no plans to stop hosting RecipeSage, you can always export your data at any time in a number of different formats. You can also transition to your own self-hosted instance if you're technically savvy. RecipeSage is open source which means that in reality RecipeSage won't stop existing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I selfhost my own instance of RecipeSage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, for personal, private, non-commercial use only. You can find all of the resources to do that at https://github.com/julianpoy/recipesage-selfhost"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is RecipeSage Open Source?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! RecipeSage is open source with multiple repositories including the main RecipeSage repository, a collection of docker files for running your own personal/private copy, the recipe clipper, and the ingredient/instruction classifier."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "RecipeSage isn't working on my older device",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It's very likely that your device is running an old browser version. Unfortunately browser support is determined by the core framework that RecipeSage has been built on top of. There's no way to bring support to end-of-life browsers. If you're on an Android device, try installing a newer version of Firefox, if possible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why doesn't RecipeSage support sorting into cookbooks or folders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RecipeSage is designed based around the concept of labels/tags, rather than the folder/cookbook style. A system built on labels/tags inherently supports all of the features that folders or cookbooks do, with the exception that they don't allow hierarchy. The label system within RecipeSage allows you to create many collections, cookbooks, styles, food groups. If you're finding that your labels are growing out of control and want to organize them, you can use label categories to group similar types of label."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I've lost all of my recipes!",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It's very unlikely this is the case. It usually comes down to: 1. You're logging into the wrong account (particularly common when using Sign in with Google), 2. You mis-typed your email address when registering, 3. You're experiencing a network connectivity issue, or 4. There's a bug or service outage for the app."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I'd love to help!",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There are a few ways you can help: 1. Financially - contributions go directly to the cost of running and hosting RecipeSage, 2. Testing - The beta version has many new features that need validation, 3. Code - Pull requests are always welcome, with many issues labelled as open for contributors on Github."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I have a business proposal",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Thank you, but respectfully not interested. RecipeSage is a free open source personal project and will stay that way. You're welcome to use RecipeSage under the personal licensing terms, or license RecipeSage for commercial use, but there is no interest in making RecipeSage into a company."
+          }
+        }
+      ]
+    })}
+  </script>
+</Head>
+
 ### How do I import recipes from Instagram, Facebook, YouTube, etc.
 
 None of these platforms provide any sort of API that would allow RecipeSage to natively import content (and they block any type of scraper).

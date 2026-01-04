@@ -14,3 +14,9 @@ The importer will extract text from each PDF and attempt to parse it as a recipe
 [https://recipesage.com/#/settings/import/pdfs](https://recipesage.com/#/settings/import/pdfs)
 
 **Note:** The quality of the import depends on how well the text can be extracted from the PDF. Scanned PDFs or PDFs with complex layouts may not import as cleanly.
+
+## Related Pages
+
+- [Import Overview](./index.md) - See all available import options
+- [Exporting Your Recipes](../export.md) - Learn how to backup and export your recipes
+- [Organizing with Labels](../../labels/create.md) - Organize your imported recipes with labels
