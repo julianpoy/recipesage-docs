@@ -9,6 +9,37 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 
 ## Version History
 
+**v3.2.0** - January 2025
+- Added the ability to scale numbers within the instructions section if wrapped in curly braces like this: {3}
+- Added support for CopyMeThat
+- Improved import performance and reliability for all import types, as well as support for larger files
+- Added support for multi-line instructions via an escape character (backslash) placed at the end of the line
+- Emails are now printed to console when in selfhost mode so that mail configuration doesn't need to be setup
+- Fixed an issue where bulk labelling recipes would not work if the label did not exist yet
+- Fixed an issue where the contribute option would not work on Android devices
+- Fixed an issue where JSON-LD rating were inaccurate on both import and export
+- Fixed an issue where adding items from the recipe details page would not give them categories
+- Fixed an issue where deleting a shopping list would result in an error (but would still delete the shopping list)
+
+**v3.1.1 - v3.1.13** - November 2025 to January 2025
+- Performance improvements
+- Improvements to several operations that wouldn't handle very large quanties of recipes at a single time
+- Improved messaging for unsupported site imports
+- Translation updates
+- Added one-click action buttons to manage labels page
+- Improve support for imports with badly formatted images
+- Added support for URL import of PDF files and images (in other words, a hosted image or PDF via a URL)
+- Fixed an issue where users weren't required to setup a handle when creating a profile leading to strange UX
+- Improvements to the automatic recipe importer
+- Improved the PDF importer, which now supports more pages
+- Fixed an issue preventing the "add to homescreen" install option from being shown on some devices
+- Added support for CopyMeThat as an import format
+- Improved compatibility for very old LCB files
+- Add support for single-note Evernote files
+- Fixed an issue where the shopping list print would not show new categories
+- Improved iCal format to include recipe photo
+- Added the ability to re-order shopping list categories
+
 **v3.1.0** - November 2025
 - Revamped the shopping list categorization and grouping logic
   - Categorization should be significantly smarter and make fewer mistakes
