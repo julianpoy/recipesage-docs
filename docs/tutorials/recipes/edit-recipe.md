@@ -92,12 +92,21 @@ To add a header to your instructions or ingredients, put an open and close brack
 1/8 cup sugar
 ```
 
-To make numbers inside the recipe instruction scale along with the recipe scale setting, wrap the number in curly braces as follows: 
+To make numbers inside the recipe instructions scale along with the recipe scale setting, wrap the number in curly braces as follows: 
 
 ```
 Add {500} ml milk, and whisk in {2} eggs.
 Add {1 1/2} packet of vanilla sugar.
 ```
+
+To add multi-line steps without causing a new step number within the instructions section, end the previous line with a backslash as follows:
+
+```
+Instruction 1\
+Additional details for instruction 1
+Instruction 2
+```
+
 ## Linking recipes
 
 You can link recipes by adding to the notes field. Any URL in the notes field will be clickable, so feel free to add links between relevant recipes.

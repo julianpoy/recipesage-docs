@@ -9,7 +9,7 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 
 ## Version History
 
-**v3.2.0** - January 2025
+**v3.2.0** - January 2026
 - Added the ability to scale numbers within the instructions section if wrapped in curly braces like this: {3}
 - Added support for CopyMeThat
 - Improved import performance and reliability for all import types, as well as support for larger files
@@ -21,7 +21,7 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 - Fixed an issue where adding items from the recipe details page would not give them categories
 - Fixed an issue where deleting a shopping list would result in an error (but would still delete the shopping list)
 
-**v3.1.1 - v3.1.13** - November 2025 to January 2025
+**v3.1.1 - v3.1.13** - November 2025 to January 2026
 - Performance improvements
 - Improvements to several operations that wouldn't handle very large quanties of recipes at a single time
 - Improved messaging for unsupported site imports
