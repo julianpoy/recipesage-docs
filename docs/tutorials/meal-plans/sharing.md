@@ -13,7 +13,7 @@ To share a meal plan with another user, you can either start with an existing me
 
 ### Sharing a new meal plan
 
-To share a new meal plan, head to the [📱 Meal Plans](https://recipesage.com/#/meal-plans) page.
+To share a new meal plan, head to the [📱 Meal Plans](https://recipesage.com/#/meal-planners) page.
 
 Click the + button in the bottom right corner.
 
@@ -27,7 +27,7 @@ Click save.
 
 ### Sharing an existing meal plan
 
-To share an existing meal plan, head to the [📱 Meal Plans](https://recipesage.com/#/meal-plans) page.
+To share an existing meal plan, head to the [📱 Meal Plans](https://recipesage.com/#/meal-planners) page.
 
 Open the meal plan you would like to share.
 
@@ -45,7 +45,7 @@ Click save.
 
 Sharing to non-RecipeSage users can be done in iCal form.
 
-First, head to the [📱 Meal Plans](https://recipesage.com/#/meal-plans) page.
+First, head to the [📱 Meal Plans](https://recipesage.com/#/meal-planners) page.
 
 Open the meal plan you would like to share.
 
