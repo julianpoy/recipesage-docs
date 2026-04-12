@@ -9,6 +9,42 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 
 ## Version History
 
+**v3.4.0** - April 2026
+- Added a list view for meal plans
+- Added the ability to add notes to meal plan items
+- Added the ability to print meal plans
+- Added the ability to customize which meal options are displayed on the meal plan, along with customizable colors for each meal
+- Improved the Evernote importer for better reliability
+- Added an informational error message when clipping a recipe results in no ingredients and no instructions
+- Fixed several load ordering bugs on the my recipes page
+- Fixed an issue where sending a message would fail
+- Fixed an issue where empty shopping list items would cause a save failure
+
+**v3.3.1 - v3.3.2** - January 2026 to March 2026
+- Added a badge on the recipe linking UI for shared recipes
+- Translation updates
+
+**v3.3.0** - January 2026
+- Added a "last made" date field to recipes, along with the ability to sort by last made
+- Added the ability to link between recipes and view similar recipes
+- Added the ability to select the start page of the app
+- Improved reliability for large exports
+- Added real-time progress indicators for imports
+- Added support for importing recipe categories from CopyMeThat
+- Improved language and UI for iCal in the meal plans page
+- Fixed an issue where PDF exports were not working
+- Fixed an issue where multiple running jobs would share the same progress bar
+
+**v3.2.1 - v3.2.13** - January 2026
+- Added the ability to scan multiple images when creating a recipe from a photo, useful when a recipe doesn't fit in a single photo
+- Recipe image links are now included in bulk PDF exports
+- Added support for yearly recurring contributions
+- Added Portuguese (Brazil) as a new language
+- Improved Evernote import compatibility
+- Translation updates
+- Fixed an issue where recipe labels were not loading in the edit view
+- Fixed an issue with the cancel URL for Stripe checkout
+
 **v3.2.0** - January 2026
 - Added the ability to scale numbers within the instructions section if wrapped in curly braces like this: {3}
 - Added support for CopyMeThat
