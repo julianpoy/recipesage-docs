@@ -77,13 +77,68 @@ The options and interface are the same here as described in the [📖 creating a
 
 ## Formatting
 
+The ingredients, instructions, and notes fields support special syntax for organizing and formatting your recipes.
+
+### Ingredients
+
+Ingredients are divided by linebreaks, so put one per line. Ingredient measurements will be automatically parsed for scaling. As a general rule, use the format `1 1/2 cup`. For a range, use the format `1 to 2 cups`. This will help the scaling feature recognize your quantities as best as possible.
+
+The ingredients section also supports [📖 Inline Formatting](#inline-formatting) and [📖 Section Headers](#section-headers).
+
+### Instructions
+
+Instructions are divided by linebreaks, so put each step on a different line.
+
+To make numbers inside the instructions scale along with the recipe scale setting, wrap the number in curly braces:
+
+```
+Add {500} ml milk, and whisk in {2} eggs.
+Add {1 1/2} packet of vanilla sugar.
+```
+
+To add multi-line steps without causing a new step number, end the previous line with a backslash:
+
+```
+Instruction 1\
+Additional details for instruction 1
+Instruction 2
+```
+
+The instructions section also supports [📖 Inline Formatting](#inline-formatting) and [📖 Section Headers](#section-headers).
+
+### Notes
+
+Any URL in the notes field will be rendered as a clickable link. No additional formatting is needed.
+
+You can also add tables to the notes field using markdown table syntax. Each row must start and end with a `|` pipe character, and a separator row of dashes is required after the header row.
+
+```
+| Header 1 | Header 2 | Header 3 |
+| --- | --- | --- |
+| Row 1 Col 1 | Row 1 Col 2 | Row 1 Col 3 |
+| Row 2 Col 1 | Row 2 Col 2 | Row 2 Col 3 |
+```
+
+You can control column alignment using colons in the separator row: `:---` for left (default), `:---:` for center, and `---:` for right alignment. Tables support inline formatting within cells as well.
+
+The notes section also supports [📖 Inline Formatting](#inline-formatting) and [📖 Section Headers](#section-headers).
+
+### Inline formatting
+
+You can use markdown-style syntax to apply bold, italic, and underline formatting within the ingredients, instructions, and notes fields:
+
+```
+**bold text**
+*italic text*
+__underlined text__
+***bold and italic text***
+```
+
+### Section headers
+
 <img className="screenshot" src="/img/recipe-details-ingredients.png" alt="Recipe ingredients with section headers"></img>
 
-Ingredients are divided by linebreaks, so have one per carriage return. Ingredient measurements will be automatically parsed, but as a general rule, use the format: `1 1/2 cup`. For a range, use the format: `1 to 2 cups`. This will help the scaling feature recognize your quantities as best as possible
-
-Instructions are divided by linebreaks as well, so put each step on a different carriage return. Make sure not to have extra carriage returns in-between!
-
-To add a header to your instructions or ingredients, put an open and close bracket at the ends of the line like this:
+To add a header, wrap the line in brackets:
 
 ```
 [The dough:]
@@ -92,24 +147,7 @@ To add a header to your instructions or ingredients, put an open and close brack
 1/8 cup sugar
 ```
 
-To make numbers inside the recipe instructions scale along with the recipe scale setting, wrap the number in curly braces as follows: 
-
-```
-Add {500} ml milk, and whisk in {2} eggs.
-Add {1 1/2} packet of vanilla sugar.
-```
-
-To add multi-line steps without causing a new step number within the instructions section, end the previous line with a backslash as follows:
-
-```
-Instruction 1\
-Additional details for instruction 1
-Instruction 2
-```
-
-## Linking recipes
-
-You can link recipes by adding to the notes field. Any URL in the notes field will be clickable, so feel free to add links between relevant recipes.
+In the instructions section, a section header will reset the numbering of the steps that come after.
 
 ## Limits
 
