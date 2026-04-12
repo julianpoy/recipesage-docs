@@ -19,7 +19,8 @@ To add items directly to a meal plan:
 3. Click the + button in the bottom right corner
 4. Click "manual entry" unless you want to [📖 add a recipe](#via-the-meal-plan-page)
 5. Enter the title, date, and select a meal
-6. Click "add to meal plan"
+6. Optionally add notes
+7. Click "add to meal plan"
 
 ## Adding a Recipe to a Meal Plan
 
@@ -34,7 +35,8 @@ To add a recipe to a meal plan you have two options - either via the recipe deta
 5. Search for the recipe you'd like to add via the search box
 6. Click the recipe you'd like to add from the results list
 7. Enter the date and select the meal this will be scheduled for
-8. Click "add to meal plan"
+8. Optionally add notes
+9. Click "add to meal plan"
 
 ### Via the Recipe Details Page
 
@@ -44,9 +46,23 @@ To add a recipe to a meal plan you have two options - either via the recipe deta
 4. Click "add to meal plan"
 5. Select the meal plan you'd like to add the recipe to
 7. Select the date and select the meal this will be scheduled for
-8. Click "add to meal plan"
+8. Optionally add notes
+9. Click "add to meal plan"
+
+## Notes
+
+Each meal plan item can have optional notes. Notes are useful for adding extra context to an item, such as side dishes, cooking reminders, or serving instructions.
+
+To add or edit notes:
+1. Click the + button to create a new item, or click an existing item and select "edit this item"
+2. Enter your notes in the "Notes" field at the bottom of the form
+3. Save the item
+
+Notes support the same header syntax as recipe notes — wrap a line in square brackets (e.g. `[Sides]`) to make it a bold header.
+
+Notes are displayed in the item details view when you click on an item. They are also included when sharing your meal plan via iCal.
 
 ## Editing an Item
 
-To edit an item, simply click the item and select "edit this item". You can change anything about the item, including the date, meal, or recipe/title.
+To edit an item, simply click the item and select "edit this item". You can change anything about the item, including the date, meal, notes, or recipe/title.
 
