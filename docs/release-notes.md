@@ -9,6 +9,11 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 
 ## Version History
 
+**v3.4.1** - April 2026
+- Added support for markdown-style inline formatting (bold, italic, underline) in ingredients, instructions, and notes
+- Added support for tables in recipe notes using markdown table syntax
+- Added the ability to drag and reorder meal options on the meal plan
+
 **v3.4.0** - April 2026
 - Added a list view for meal plans
 - Added the ability to add notes to meal plan items
