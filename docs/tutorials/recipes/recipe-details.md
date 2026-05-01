@@ -19,6 +19,32 @@ Keep in mind that any measurements that are not shown in bold aren't recognized 
 
 Values entered into the scale field are not permanent. Once you close this recipe, the scale will default back to the scale entered in the recipe editor.
 
+### Converting Between Metric and Imperial
+
+The [📖 scale dialogue](#scaling) also has a **Units** toggle with three options:
+
+- **Original**: keep each ingredient in the units the author wrote it in
+- **Metric**: convert imperial measurements to metric (e.g. `1 cup` → `240 ml`)
+- **Imperial**: convert metric measurements to imperial (e.g. `500 g` → `~1 lb 1 3/4 oz`)
+
+To change units, open the scale dialogue from the recipe details page (click the scale link near the top of the recipe) and select a unit system from the **Units** toggle.
+
+The conversion is applied to both the ingredients list and to any measurement-style `{}` placeholders within the instructions (for example, `{236ml}` or `{2 cups}`). Measurements that can't be cleanly converted will keep their original unit.
+
+### Smart Unit Switching
+
+When [📖 scaling a recipe](#scaling), RecipeSage will automatically switch to a more natural unit if a scaled amount doesn't land on a clean cooking fraction. For example, scaling `1 cup` by 1/16 displays as `3 tsp` instead of `1/16 cup`. When a perfectly clean result isn't possible, the result is prefixed with `~` to indicate an approximation.
+
+This applies regardless of the **Units** setting in the [📖 scale dialogue](#converting-between-metric-and-imperial).
+
+## Nutrition
+
+If the recipe has any nutrition fields filled in, a **Nutrition (per serving)** section is displayed on the recipe details page. It shows the serving size (when set), calories, macros (with total fat broken into saturated, trans, polyunsaturated, and monounsaturated), and the vitamins/minerals RecipeSage tracks. Anything recorded in the free-form "Other Nutrition Details" field is shown below the structured values. Fields that were left blank in the recipe editor are hidden.
+
+RecipeSage also reads and writes nutrition fields via `schema.org/NutritionInformation` when importing or exporting JSON-LD, and when clipping a recipe URL that publishes structured nutrition in its page markup.
+
+See [📖 Nutrition](./edit-recipe.md#nutrition) for how to fill these fields in, including autofilling from pasted nutrition text.
+
 ## Labelling
 
 <img className="screenshot" src="/img/recipe-details-actions.png" alt="Recipe action buttons"></img>

@@ -51,6 +51,12 @@ To delete all completed items permanently, click the trashcan icon in line with 
 
 If you'd prefer for items to be instantly deleted rather than being moved to the "completed items" category, you can enable that via the options menu on the shopping list page. Simply enable the "delete upon completion" toggle. Items will be immediately (and permanently) removed when you check them off.
 
+## Offline Use
+
+Shopping lists can be edited while offline. You can add new items, check items off, restore completed items, and delete items without a network connection. Your changes are stored locally and will automatically sync to the server (and to anyone you share the list with) once your connection is restored.
+
+This is particularly useful when shopping in stores with patchy mobile coverage. Items you tick off while offline will stay ticked off and won't be lost when you come back online.
+
 ## Options
 
 <img className="screenshot" src="/img/shopping-list-options.png" alt="Shopping list grouping options"></img>

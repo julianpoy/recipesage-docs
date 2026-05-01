@@ -16,6 +16,8 @@ The importer will use optical character recognition (OCR) to extract text from e
 - `.png`
 - `.gif`
 - `.webp`
+- `.heic` / `.heif` (photos taken directly from newer iPhones)
+- `.avif`
 
 [https://recipesage.com/#/settings/import/images](https://recipesage.com/#/settings/import/images)
 

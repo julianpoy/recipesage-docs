@@ -37,6 +37,19 @@ Entirely AI-generated translations are not currently accepted, since they very f
 
 The font size setting allows you to change the app's global font size. By default, the app will detect your browser's font size preference and adjust accordingly. You can override the font size that RecipeSage uses via this menu.
 
+## Start Page
+
+The start page setting controls which page the app opens to when you first sign in or launch it. You can choose from:
+
+- **My Recipes** (default)
+- **Manage Labels**
+- **Meal Plans**
+- **Shopping Lists**
+
+## Auto-Expand Nutritional Information When Editing Recipes
+
+When enabled, the nutritional information section on the edit-recipe page will automatically be expanded when the page loads. When disabled (the default), the section will start collapsed and must be expanded manually.
+
 ## Reset All Preferences
 
 This button will reset all preferences to their default settings.

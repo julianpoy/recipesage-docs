@@ -58,7 +58,7 @@ To add or edit notes:
 2. Enter your notes in the "Notes" field at the bottom of the form
 3. Save the item
 
-Notes support the same header syntax as recipe notes — wrap a line in square brackets (e.g. `[Sides]`) to make it a bold header.
+Notes support the same header syntax as recipe notes: wrap a line in square brackets (e.g. `[Sides]`) to make it a bold header.
 
 Notes are displayed in the item details view when you click on an item. They are also included when sharing your meal plan via iCal.
 

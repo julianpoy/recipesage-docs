@@ -28,6 +28,7 @@ Currently, the bonus features that are unlocked by contributing are:
 - Upload images in high resolution. [📖 See documentation here](./recipes/edit-recipe.md).
 - Upload multiple images for each recipe. [📖 See documentation here](./recipes/edit-recipe.md).
 - Unlimited cooking assistant messages. [📖 See documentation here](./assistant/index.md).
+- Higher daily usage allowance for recipe clipping, OCR/image & PDF recognition, URL & text-file imports, and nutrition autofill. [📖 See documentation here](./settings/account.md#cooking-credits).
 
 To see the current status of bonus features for your account, visit the account page. [📖 See the documentation here](./settings/account.md#bonus-feature-status)
 

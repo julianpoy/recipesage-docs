@@ -96,6 +96,13 @@ Add {500} ml milk, and whisk in {2} eggs.
 Add {1 1/2} packet of vanilla sugar.
 ```
 
+You can also include a unit inside the braces. When a unit is provided, the value is treated as a measurement which lets RecipeSage convert it between metric and imperial when you change units in the scale dialogue:
+
+```
+Pour in {236ml} of water.
+Add {2 cups} of flour, then stir in {1-2 tablespoons} of oil.
+```
+
 To add multi-line steps without causing a new step number, end the previous line with a backslash:
 
 ```
@@ -120,6 +127,13 @@ You can also add tables to the notes field using markdown table syntax. Each row
 ```
 
 You can control column alignment using colons in the separator row: `:---` for left (default), `:---:` for center, and `---:` for right alignment. Tables support inline formatting within cells as well.
+
+The notes field also supports the same curly-brace scaling syntax as instructions. Wrap a number (or a number with a unit) in braces so it scales with the recipe scale setting:
+
+```
+Use {2 cups} of broth when doubling.
+Rest for {30 minutes} before serving.
+```
 
 The notes section also supports [📖 Inline Formatting](#inline-formatting) and [📖 Section Headers](#section-headers).
 
@@ -148,6 +162,71 @@ To add a header, wrap the line in brackets:
 ```
 
 In the instructions section, a section header will reset the numbering of the steps that come after.
+
+### Referencing images in text
+
+Within the instructions and notes fields, you can reference images you have attached to the recipe. `N` is the 1-indexed position of the image (the first uploaded image is `![image:1]`, the second is `![image:2]`, and so on).
+
+```
+Brown the onions until they look like this: ![image:1]
+Add the stock and stir. ![image:2|After adding stock]
+```
+
+You can optionally add a caption after a pipe (`|`). The caption is shown under the image and also used as the alt text.
+
+You can also choose a size by adding `:small`, `:medium`, `:large`, or `:xlarge` after the image number. `medium` is the default and can be omitted.
+
+```
+![image:1:small]
+![image:2:large|Finished dish]
+![image:3:xlarge|Hero shot]
+```
+
+This syntax is supported in the **Instructions** and **Notes** fields only.
+
+## Rating
+
+Recipes can be rated on a 1-5 star scale. You can set the rating from the **Rating** field on the edit page, or from the stars shown in the top of the recipe details page. Ratings can be used as a filter on the my recipes page.
+
+## Last Made
+
+The **Last Made** field lets you record the most recent date you cooked a recipe. You can either pick a date directly, or leave the field set to "Never" and click the button to set it to today. You can sort your recipes by "last made" on the [📖 my recipes](./my-recipes.md) page, which is handy for rotating through your collection.
+
+You can also update the last made date directly from the recipe details page without opening the editor.
+
+## Linked Recipes
+
+The **Linked Recipes** section lets you explicitly link another recipe to this one, for example a pasta dish to its sauce, or a dessert to its frosting. Links are bidirectional: a link added from one recipe is visible on both.
+
+Linked recipes are shown together near the bottom of the recipe details page, and are included when printing or viewing the recipe details, making them easy to open in one click.
+
+In addition to the recipes you explicitly link, the details page will also show a "Similar recipes in your collection" section for recipes that have similar content to the one you're viewing. This section is automatic; you don't need to configure it.
+
+## Nutrition
+
+The recipe edit page has a collapsible **Nutrition** section for per-serving nutritional information, including calories, macros (fat, carbs, protein), and vitamins/minerals like sodium, cholesterol, vitamin D, calcium, iron, and potassium. Total fat is broken out into saturated, trans, polyunsaturated, and monounsaturated fat. A free-form **Serving Size** field (for example, `1 cup (240g)`) anchors the per-serving values, and a free-form **Other Nutrition Details** field captures anything not covered by the dedicated fields (for example caffeine, magnesium, vitamin A/C, omega-3, sugar alcohols, etc).
+
+Numeric nutrition fields accept numbers and decimals only. The label next to each field tells you the expected unit, for example `g`, `mg`, or `mcg`. Leaving a field blank simply hides it from the recipe details page.
+
+By default, the Nutrition section starts collapsed when editing a recipe. You can set it to expand by default via `Side Menu -> Settings -> Auto-Expand Nutritional Information When Editing Recipes`.
+
+### Autofilling Nutrition from Text
+
+Rather than filling in every [📖 nutrition field](#nutrition) manually, you can paste a block of nutrition text (for example, copied from a nutrition label or a website) and let RecipeSage extract the values.
+
+1. Open the recipe edit page and expand the **Nutrition** section
+2. Click "Autofill nutrition from text"
+3. Paste the nutrition text and click "Autofill"
+
+The AI will do its best to extract each field from the text. Please double-check the results for accuracy before saving.
+
+### Clearing All Nutrition Fields
+
+The [📖 Nutrition](#nutrition) section on the recipe edit page has a "Clear all nutrition" button that will reset every nutrition field at once after confirmation.
+
+### Grabbing Nutrition During Clipping
+
+When [📖 autofilling a recipe from a URL](#autofill-from-url), you can check the "Attempt to grab nutrition information" option to also pull nutrition data from the source page into the [📖 nutrition fields](#nutrition). Accuracy varies depending on how the source page is structured, so please validate the result before saving.
 
 ## Limits
 

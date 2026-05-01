@@ -111,6 +111,10 @@ Your meal plan should automatically sync to your Google Calendar.
 
 **Note:** Google Calendar (and some others) will only sync updates every 24 hours. There's nothing that RecipeSage can really do about this unfortunately - it's a platform limitation imposed by Google.
 
+## Offline Use
+
+Meal plans can be edited while offline. You can add, edit, move, and delete meal plan items without a network connection. Your changes are stored locally and will automatically sync to the server (and to anyone you share the meal plan with) once your connection is restored.
+
 ## Options
 
 <img className="screenshot" src="/img/meal-plan-options.png" alt="Meal plan options menu"></img>

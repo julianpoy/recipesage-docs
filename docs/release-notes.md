@@ -9,6 +9,37 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 
 ## Version History
 
+**v3.5.0** - April 2026
+- Added the ability to edit shopping lists and meal plans while offline
+  - Adding, updating, checking off, and deleting items on shopping lists and meal plans now work without a network connection
+  - Changes are stored locally and automatically synced back to the server once connectivity is restored
+  - Useful for shopping in supermarkets with patchy mobile coverage
+- Added nutrition tracking for recipes
+  - Nutrition information can be entered while editing a recipe, including calories, macros, vitamins, and minerals
+  - Nutrition can be auto-filled by pasting nutrition label text, which is extracted into the individual fields
+  - Nutrition information is displayed on the recipe details page (per serving)
+  - Recipe clipping can optionally attempt to grab nutrition information from the source page
+  - Imports from URLs and text files pick up nutrition information when available
+- Added the ability to convert ingredients between metric and imperial units when scaling a recipe
+- Improved ingredient and instruction scaling
+  - When a scaled amount doesn't land on a clean cooking fraction, RecipeSage will now try switching to a more suitable unit (for example, 1 cup scaled by 1/16 becomes 3 tsp)
+  - Scaling within instructions (using the `{}` syntax) now participates in the same logic, and can specify a unit inside the braces for conversion
+- Improved support for HEIC/HEIF images, so photos taken directly from newer iPhones can be uploaded without conversion
+- Added a daily cooking credit allowance that is shared across clipping, URL/text-file imports, OCR & PDF recognition, nutrition autofill, and the cooking assistant
+  - Free accounts receive a daily allowance that resets at 0:00 GMT
+  - Contributors receive a much larger daily allowance as a thank-you
+  - The remaining credits for the day can be viewed on the account page
+- Improved recipe clipping
+  - Improved site compatibility and compatbility with interstitial screens
+  - Added caching for recipe clip results, which greatly speeds up clipping the same URL repeatedly and reduces failed clips
+  - Added detection for Cloudflare interstitial pages when clipping, so the app returns a more helpful error message instead of failing silently
+- Added Czech as a new language
+- Share links will now display pretty embed text when pasted in Facebook/Discord/Reddit/etc
+- Added the ability to embed images in your recipe instructions or your recipe notes
+- Fixed an issue where labels, meal plan options, shopping lists, and recipe editor selections were not sorted using the current locale (which caused accented and non-Latin characters to sort incorrectly)
+- Fixed several small issues with the meal plan option picker (color picker layout, reordering UX)
+- Fixed an issue where the select collaborators chip text was hard to read in light mode
+
 **v3.4.1** - April 2026
 - Added support for markdown-style inline formatting (bold, italic, underline) in ingredients, instructions, and notes
 - Added support for tables in recipe notes using markdown table syntax

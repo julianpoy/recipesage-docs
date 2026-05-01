@@ -28,9 +28,20 @@ If you want to create your own CSV file from scratch, you can use the following 
 - **url** - Source URL for the recipe
 - **source** - Where the recipe came from
 - **notes** - Additional notes
-- **nutrition** - Nutritional information
+- **nutrition** - Nutritional information (free-form text; gets stored alongside the structured fields below)
 - **video** or **videos** - Video URLs
 - **rating** - Recipe rating (numeric)
+
+**Structured Nutrition (all optional, per-serving):**
+- **nutritionServingSize** - Serving size description, e.g. `1 cup (240g)`
+- **nutritionCalories** - Calories (kcal)
+- **nutritionTotalFat**, **nutritionSaturatedFat**, **nutritionTransFat**, **nutritionPolyunsaturatedFat**, **nutritionMonounsaturatedFat** - Fat breakdown (g)
+- **nutritionCholesterol**, **nutritionSodium** - (mg)
+- **nutritionTotalCarbs**, **nutritionDietaryFiber**, **nutritionTotalSugars**, **nutritionAddedSugars** - (g)
+- **nutritionProtein** - (g)
+- **nutritionVitaminD** - (mcg)
+- **nutritionCalcium**, **nutritionIron**, **nutritionPotassium** - (mg)
+- **nutritionOtherDetails** - Free-form text for anything not covered by the fields above (caffeine, magnesium, vitamin A/C, omega-3, sugar alcohols, etc)
 
 **Images:**
 - **image url**, **image urls**, **image**, **images**, **photos**, **photo url**, **photo urls**, or **original picture** - Image URLs (can include multiple URLs)

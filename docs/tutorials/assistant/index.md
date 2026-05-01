@@ -39,6 +39,10 @@ The assistant is particularly bad at the following:
 3. Wait for a response.
 4. Send another message - the AI remembers up to 4 messages worth of history.
 
+## Usage Limits
+
+Each message you send consumes one cooking credit from your daily allowance, which is shared with other costly features like recipe clipping and imports. [📖 See the cooking credits documentation](../settings/account.md#cooking-credits) for the full allowance and credit costs per operation. Contributors receive unlimited cooking assistant messaging. Only messages sent by you count toward your daily usage, not the assistant's responses.
+
 ### Notes
 
 1. The AI doesn't know about the recipes in your collection for privacy reasons
