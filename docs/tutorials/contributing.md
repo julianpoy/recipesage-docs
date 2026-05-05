@@ -28,7 +28,38 @@ Currently, the bonus features that are unlocked by contributing are:
 - Upload images in high resolution. [📖 See documentation here](./recipes/edit-recipe.md).
 - Upload multiple images for each recipe. [📖 See documentation here](./recipes/edit-recipe.md).
 - Unlimited cooking assistant messages. [📖 See documentation here](./assistant/index.md).
-- Higher daily usage allowance for recipe clipping, OCR/image & PDF recognition, URL & text-file imports, and nutrition autofill. [📖 See documentation here](./settings/account.md#cooking-credits).
+- Higher daily usage allowance for recipe clipping, OCR/image & PDF recognition, URL & text-file imports, and nutrition autofill. [📖 See documentation here](#usage-limits).
 
 To see the current status of bonus features for your account, visit the account page. [📖 See the documentation here](./settings/account.md#bonus-feature-status)
+
+### Usage Limits
+
+I do not impose any limits on the core functionality of RecipeSage. It's intentional that the app remain free to use.
+
+That said, over the years many people have requested a few features that are particularly costly to host. Because of this, I've placed some reasonable limits on a handful of features which fall into this category.
+
+Please keep in mind that these limits _only apply to these features_. Creating recipes, meal plans, and shopping lists, or any other features that might come to mind remain entirely unlimited.
+
+Here's the outline of what these limits are:
+
+| What | Free | Contributor |
+| --- | --- | --- |
+| Autofill recipe from text | 14 per day | 140 per day |
+| Autofill recipe from URL | 7 per day | 70 per day |
+| Autofill recipe from photo | 7 per day | 70 per day |
+| Autofill recipe from PDF | 7 per day | 70 per day |
+| Autofill recipe from HTML | 14 per day | 140 per day |
+| Autofill nutrition from text | 14 per day | 140 per day |
+| Number of images per recipe | 1 per recipe | 10 per recipe |
+| Uploaded image quality | compressed | high resolution |
+| Send cooking assistant message | 14 per day | Unlimited |
+| Import recipes from URLs (per job, any number of recipes) | 2 per day | 20 per day |
+| Import recipes from text files (per job, any number of recipes) | 2 per day | 20 per day |
+| Number of Recipes, Meal Plans, Shopping Lists, etc | Unlimited | Unlimited |
+
+Cooking credits are only consumed when an operation actually succeeds. Failed imports, broken links, or unparseable content do not count against your daily allowance.
+
+Cooking credits reset every day at 0:00 GMT. You can view your current usage on the settings page.
+
+There are no currently enforced recipe limits, however RecipeSage reserves the right to take action against abuse. There are many users with more than 40,000 recipes in their account, which equates to 109 years of cooking if you cook one recipe a day. In other words, you should not be concerned with any recipe count limit.
 
