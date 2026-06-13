@@ -18,7 +18,7 @@ const FeatureList = [
     description: (
       <>
         <a href="/docs/tutorials/shopping-lists/create">Creating Shopping Lists</a><br />
-        <a href="/docs/tutorials/shopping-lists/usage">Usage and Options</a>
+        <a href="/docs/tutorials/shopping-lists/usage">Usage and Options</a><br />
         <a href="/docs/tutorials/shopping-lists/sharing">Sharing Shopping Lists</a>
       </>
     ),
@@ -28,7 +28,7 @@ const FeatureList = [
     description: (
       <>
         <a href="/docs/tutorials/meal-plans/create">Creating Meal Plans</a><br />
-        <a href="/docs/tutorials/meal-plans/usage">Usage and Options</a>
+        <a href="/docs/tutorials/meal-plans/usage">Usage and Options</a><br />
         <a href="/docs/tutorials/meal-plans/sharing">Sharing Meal Plans</a>
       </>
     ),
