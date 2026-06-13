@@ -59,5 +59,5 @@ In rare cases you may want to delete all of the recipes within your account. Thi
 
 ### Deleting Your Account
 
-This button will delete your account and all associated data from RecipeSage permenantly.
+This button will delete your account and all associated data from RecipeSage permanently.
 
