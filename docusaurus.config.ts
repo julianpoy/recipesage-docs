@@ -108,8 +108,8 @@ const config: Config = {
       title: "",
       logo: {
         alt: "RecipeSage Logo",
-        src: "https://recipesage.com/assets/recipesage-black-trimmed.png",
-        srcDark: "https://recipesage.com/assets/recipesage-white-trimmed.png",
+        src: "img/logo_trimmed.png",
+        srcDark: "img/logo_white_trimmed.png",
       },
       items: [
         {
