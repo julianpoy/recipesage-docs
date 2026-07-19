@@ -12,7 +12,7 @@ A profile is the best way to share your recipe catalogue with other users, such 
 <img className="screenshot" src="/img/people-setup-profile.png" alt="Profile setup screen"></img>
 
 To setup your profile, you'll first need to enter a publicly visible name. This corresponds to the nickname you set on your account when you registered.
-Please avoid entering profane or offensive names, and feel free to report offsensive or profane names that you see.
+Please avoid entering profane or offensive names, and feel free to report offensive or profane names that you see.
 
 Next, you'll need to enter a unique @handle. This is a unique word or phrase that will identify you on RecipeSage.
 It has to be unique to you, so you'll see a warning when you enter a handle that someone else has already claimed.

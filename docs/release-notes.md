@@ -30,7 +30,7 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
   - Contributors receive a much larger daily allowance as a thank-you
   - The remaining credits for the day can be viewed on the account page
 - Improved recipe clipping
-  - Improved site compatibility and compatbility with interstitial screens
+  - Improved site compatibility and compatibility with interstitial screens
   - Added caching for recipe clip results, which greatly speeds up clipping the same URL repeatedly and reduces failed clips
   - Added detection for Cloudflare interstitial pages when clipping, so the app returns a more helpful error message instead of failing silently
 - Added Czech as a new language
@@ -95,7 +95,7 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 
 **v3.1.1 - v3.1.13** - November 2025 to January 2026
 - Performance improvements
-- Improvements to several operations that wouldn't handle very large quanties of recipes at a single time
+- Improvements to several operations that wouldn't handle very large quantities of recipes at a single time
 - Improved messaging for unsupported site imports
 - Translation updates
 - Added one-click action buttons to manage labels page
@@ -162,7 +162,7 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 - Offline functionality
   - All content is now stored in a local database in-browser, and kept up to date every time you edit a recipe
   - When offline, your recipe catalogue now remains searchable via a local search engine
-  - Both network and server errors will fall back to offline cache, so that in the rare occurrance of server downtime your recipe collection remains available in a read-only state
+  - Both network and server errors will fall back to offline cache, so that in the rare occurrence of server downtime your recipe collection remains available in a read-only state
 - Pinned recipes and recipe completion (marking steps as complete) status will be remembered across app restarts
   - Recipe completion (marking steps as complete) will be erased after 3 days of inactivity for convenience
 - Improved the tile view on small screens
@@ -198,7 +198,7 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 - Compact view for recipe list page
 - Added the ability to rename & edit collaborators for shopping lists
 - Added the ability to rename & edit collaborators for meal plans
-- Added Portugese language support (partial)
+- Added Portuguese language support (partial)
 - Added Dutch language support (partial)
 - Fixed an issue when looking at shared recipes, where the options menu would not show share/save prompts based on ownership
 
@@ -471,7 +471,7 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 
 **v2.4.6** - May 17, 2020
 - Fix a bug causing print preview to flicker
-- Improve application performance in Europe, Asia, Austrailia, and South America
+- Improve application performance in Europe, Asia, Australia, and South America
 
 **v2.4.5** - April 30, 2020
 - Fix a bug where filtering by label would not refresh label listing
@@ -604,7 +604,7 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 **v2.1.1** - October 30, 2019
 - Improved some styling bugs for IOS devices
 - Added autocompletion, autocorrection and spellcheck to most inputs throughout the app
-- Fixed a bug where text areas on the edit recipe page would not resize correctly in some situtations
+- Fixed a bug where text areas on the edit recipe page would not resize correctly in some situations
 
 **v2.1.0** - October 28, 2019
 - Added global split pane view option in app settings
@@ -749,7 +749,7 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 - Added label toggles to recipe page as an option
 - Fixed a bug where lcb import would fail due to null fields in some lcb formats
 - Fixed a bug where duplicate labels could be created when using bulk actions
-- Fixed an issue where source URLs without a preceeding http:// or https:// would not open their respective website by click
+- Fixed an issue where source URLs without a preceding http:// or https:// would not open their respective website by click
 
 **v1.5.7** - March 6, 2019
 - Large performance improvements for LCB import

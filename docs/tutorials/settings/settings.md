@@ -23,7 +23,7 @@ The theme setting allows you to change visual appearance in the app to enhance r
 
 ## Language
 
-The language setting allows you to change the app's interface language. By default, the app will detect your borwser's language preference and adjust accordingly. You can override the language that RecipeSage uses via this menu.
+The language setting allows you to change the app's interface language. By default, the app will detect your browser's language preference and adjust accordingly. You can override the language that RecipeSage uses via this menu.
 
 ### Contributing a Language
 

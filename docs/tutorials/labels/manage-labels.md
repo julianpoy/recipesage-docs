@@ -48,7 +48,7 @@ To delete multiple labels at once:
 4. Click each label in the list that you'd like to delete
 5. Click the trashcan icon in the top bar
 
-You can delete all recipes attached to a given label by clicking the "delete including recipes" button instead of the delete button. Note that this will result in the permenant deletion of all related recipes.
+You can delete all recipes attached to a given label by clicking the "delete including recipes" button instead of the delete button. Note that this will result in the permanent deletion of all related recipes.
 
 ### Renaming a Label
 
