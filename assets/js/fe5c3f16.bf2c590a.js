@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrecipesage_docs=self.webpackChunkrecipesage_docs||[]).push([[2674],{42125:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-redoc","id":"api"}')}}]);
