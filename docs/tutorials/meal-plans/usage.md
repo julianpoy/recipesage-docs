@@ -84,6 +84,17 @@ To delete all items on a given day:
 
 **Note:** You can delete multiple days worth of items at once on desktop devices. To do this, in step 1 just drag your cursor over all of the days you'd like to delete at once. Then proceed with the rest of the instructions as normal.
 
+## Calculating Nutrition for Days
+
+To add up the nutrition of everything scheduled on one or more days:
+1. Select the day (or days) you'd like to total
+2. Open the options dropdown in the top right corner
+3. Click "Calculate nutrition for selected day(s)"
+
+This opens the [Nutrition Calculator](../tools/nutrition-calculator.md) preloaded with the recipes from those days, where you can adjust servings and see the combined totals or per-serving averages. A recipe scheduled on more than one selected day is counted as that many servings.
+
+If any of the selected days contain manual meal entries (typed items that are not recipes), you will be warned first, since those items have no nutrition and are skipped.
+
 ## Printing
 
 To print your meal plan, open the options menu in the top right corner and click "Print". A print-friendly page will open and your browser's print dialog will appear automatically.

@@ -7,7 +7,7 @@ You can import recipes exported by Recipe Keeper by uploading a `.zip` file expo
 
 **Please note** that not all `.zip` files are Recipe Keeper exports. Only `.zip` files that were specifically exported from Recipe Keeper are compatible with this importer.
 
-[https://recipesage.com/#/settings/import/recipe-keeper](https://recipesage.com/#/settings/import/recipe-keeper)
+[https://recipesage.com/app/settings/import/recipe-keeper](https://recipesage.com/app/settings/import/recipe-keeper)
 
 ## Related Pages
 

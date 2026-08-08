@@ -9,10 +9,14 @@ You can import recipes by providing a list of recipe URLs. RecipeSage will attem
 1. Enter each recipe URL on its own separate line
 2. Only URLs starting with `http://` or `https://` are supported
 
-[https://recipesage.com/#/settings/import/urls](https://recipesage.com/#/settings/import/urls)
+## Limits
+
+- A single import can contain up to **100 URLs per import**. If you have more than 100 recipes, split them across multiple submissions.
+
+[https://recipesage.com/app/settings/import/urls](https://recipesage.com/app/settings/import/urls)
 
 **Important notes:**
-- Some URLs may be unreachable or unparseable and will not be imported
+- Some URLs may be unreachable or unparseable and will be skipped. The import job on the [Background Jobs](https://recipesage.com/app/settings/jobs) page reports how many were skipped this way.
 - The quality of imported recipes depends on how well the source website is structured
 - Consider contributing if your file contains a large number of recipes or images
 

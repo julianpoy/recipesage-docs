@@ -6,7 +6,7 @@ description: Learn how to create meal plans and add recipes or text items to you
 ## Creating a Meal Plan
 
 To create a meal plan:
-1. Open the [📱 Meal Plans](https://recipesage.com/#/meal-planners) page
+1. Open the [📱 Meal Plans](https://recipesage.com/app/meal-planners) page
 2. Click the + button in the bottom right corner
 3. Add a title and any collaborators
 4. Click "create"
@@ -14,7 +14,7 @@ To create a meal plan:
 ## Adding Items (text) to a Meal Plan
 
 To add items directly to a meal plan:
-1. Open the [📱 Meal Plans](https://recipesage.com/#/meal-planners) page
+1. Open the [📱 Meal Plans](https://recipesage.com/app/meal-planners) page
 2. Open the meal plan you'd like to add items to
 3. Click the + button in the bottom right corner
 4. Click "manual entry" unless you want to [📖 add a recipe](#via-the-meal-plan-page)
@@ -28,7 +28,7 @@ To add a recipe to a meal plan you have two options - either via the recipe deta
 
 ### Via the Meal Plan Page
 
-1. Open the [📱 Meal Plans](https://recipesage.com/#/meal-planners) page
+1. Open the [📱 Meal Plans](https://recipesage.com/app/meal-planners) page
 2. Open the meal plan you'd like to add the recipe to
 3. Click the + button in the bottom right corner
 4. Leave "choose recipe" selected
@@ -40,7 +40,7 @@ To add a recipe to a meal plan you have two options - either via the recipe deta
 
 ### Via the Recipe Details Page
 
-1. Open the [📱 My Recipes](https://recipesage.com/#/list/main) page
+1. Open the [📱 My Recipes](https://recipesage.com/app/list/main) page
 2. Open the recipe you'd like to add
 3. Open the options menu in the top right corner
 4. Click "add to meal plan"
@@ -65,4 +65,22 @@ Notes are displayed in the item details view when you click on an item. They are
 ## Editing an Item
 
 To edit an item, simply click the item and select "edit this item". You can change anything about the item, including the date, meal, notes, or recipe/title.
+
+## Recurring Items
+
+When adding a new item via the + button on the meal plan page, you can schedule it to repeat. Toggle on "Repeat" at the bottom of the form to expand the recurrence options.
+
+You can configure:
+
+- **Frequency**: Daily, Weekly, or Monthly.
+- **Every X**: The interval between occurrences (e.g., every 2 weeks).
+- **(Weekly) Repeat on**: One or more weekdays. The day matching your selected date is always included.
+- **(Monthly) Repeat pattern**: Either the same day of the month (e.g., the 17th of every month) or the same weekday-of-month (e.g., the third Saturday of every month). The choices are based on the date you've picked.
+- **Ends**: Choose "On date" or "After N occurrences". The default is after 10 occurrences.
+
+A preview at the bottom of the recurrence section shows how many items will be created.
+
+**How it works:** Each occurrence is created as a separate item in your meal plan, so you can edit, move, or delete any individual occurrence later. Items are created in bulk when you save the form. The "Repeat" option is only available when creating a new item, not when editing an existing one.
+
+**Limits:** Up to 1000 items can be created per recurrence. If a "Monthly on day X" rule lands in a month that doesn't have that day (for example, day 31 in February), that month is skipped.
 

@@ -3,11 +3,11 @@ title: Manage Labels
 description: Manage your RecipeSage labels and label categories. Edit, merge, and perform bulk operations on recipe labels.
 ---
 
-This section covers the [📱 label manager](https://recipesage.com/#/labels).
+This section covers the [📱 label manager](https://recipesage.com/app/labels).
 
 ## Label List
 
-The [📱 label manager](https://recipesage.com/#/labels) displays a list of all of the labels & label categories you currently have in your collection.
+The [📱 label manager](https://recipesage.com/app/labels) displays a list of all of the labels & label categories you currently have in your collection.
 
 On this page, you can edit labels & label categories as well as do bulk operations based on those labels. This isn't the place to [📖 filter by label](./filtering.md), or to [📖 create or assign labels to recipes](./create.md).
 
@@ -24,7 +24,7 @@ On this page, you can edit labels & label categories as well as do bulk operatio
 ### Creating a Label
 
 To create a label:
-1. Navigate to the [📱 label management page](https://recipesage.com/#/labels).
+1. Navigate to the [📱 label management page](https://recipesage.com/app/labels).
 2. Click the + button in the bottom right corner
 3. Select "Create a label"
 4. Enter a label name, such as "breakfast", "dessert", or "vegetarian"
@@ -37,12 +37,12 @@ You can also create a label on the fly when [📖 creating a recipe](../recipes/
 ### Deleting a Label
 
 To delete a single label:
-1. Navigate to the [📱 label management page](https://recipesage.com/#/labels).
+1. Navigate to the [📱 label management page](https://recipesage.com/app/labels).
 2. Click the label you'd like to delete
 3. Click "delete"
 
 To delete multiple labels at once:
-1. Navigate to the [📱 label management page](https://recipesage.com/#/labels).
+1. Navigate to the [📱 label management page](https://recipesage.com/app/labels).
 2. Open the options menu in the top right corner
 3. Click "Select Multiple Recipes"
 4. Click each label in the list that you'd like to delete
@@ -52,7 +52,7 @@ You can delete all recipes attached to a given label by clicking the "delete inc
 
 ### Renaming a Label
 
-1. Navigate to the [📱 label management page](https://recipesage.com/#/labels).
+1. Navigate to the [📱 label management page](https://recipesage.com/app/labels).
 2. Click the label that you'd like to rename
 3. Click "rename"
 4. Enter the new label name
@@ -64,7 +64,7 @@ Your label will now be renamed to the new name across all of the recipes that la
 
 Merging two labels involves a "source" label, and a "destination" label. The "source" label will cease to exist, and all recipes that are tagged with the "source" label will instead have the "destination" label instead. After this process, the two labels will be merged into a single "destination" label.
 
-1. Navigate to the [📱 label management page](https://recipesage.com/#/labels).
+1. Navigate to the [📱 label management page](https://recipesage.com/app/labels).
 2. Click the "source" label you'd like to merge from
 3. Click "Merge With Another Label"
 4. Enter the name of the label you'd like to use as the "destination"
@@ -79,7 +79,7 @@ The "source" label will now no longer exist. All recipes that were previously ta
 ### Creating a Label Category
 
 To create a label category:
-1. Navigate to the [📱 label management page](https://recipesage.com/#/labels).
+1. Navigate to the [📱 label management page](https://recipesage.com/app/labels).
 2. Click the + button in the bottom right corner
 3. Select "Create a label category (advanced)"
 4. Enter a label category name, such as "meal" or "diet"
@@ -91,7 +91,7 @@ Optional: Turning on the "warn me when I do not add" toggle will cause RecipeSag
 ### Renaming a Label Category
 
 To rename a label category:
-1. Navigate to the [📱 label management page](https://recipesage.com/#/labels).
+1. Navigate to the [📱 label management page](https://recipesage.com/app/labels).
 2. Click the label category you wish to rename
 3. Change the label category name in the prompt displayed
 4. Click "save"
@@ -99,7 +99,7 @@ To rename a label category:
 ### Adding or Removing Labels to/from a Label Category
 
 To add or remove labels to/from a label category:
-1. Navigate to the [📱 label management page](https://recipesage.com/#/labels).
+1. Navigate to the [📱 label management page](https://recipesage.com/app/labels).
 2. Click the label category you wish to modify
 3. Add labels from this category by typing a new label name in the search field, or click the trash can icon next to a label that you wish to remove from this category
 4. Click "save"
@@ -107,7 +107,7 @@ To add or remove labels to/from a label category:
 ### Deleting a Label Category
 
 To delete a label category:
-1. Navigate to the [📱 label management page](https://recipesage.com/#/labels).
+1. Navigate to the [📱 label management page](https://recipesage.com/app/labels).
 2. Click the label category you wish to delete
 3. Click "delete"
 

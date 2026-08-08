@@ -17,6 +17,30 @@ to:
 
 <img className="screenshot" src="/img/settings-split-pane.png" alt="Split pane view on large screens"></img>
 
+## Enable Offline Mode
+
+Offline mode serves your recipes from the copy cached on your device instead of waiting on the network. It's useful when you have a weak or unreliable connection, such as in a grocery store, where requests can hang for a long time before completing.
+
+While offline mode is on:
+
+- Reading and searching your recipes is served instantly from your device.
+- Actions that require the server, such as creating or editing a recipe, are unavailable and will show an "Offline Mode Enabled" notice.
+
+Offline mode only lasts for your current session. It always turns itself off the next time the app restarts (note: going to the homescreen won't restart the app, just background it). You can turn it off sooner at any time with the toggle here on the settings page.
+
+To make sure your device has an up-to-date copy of your recipes, use **Trigger Cache Sync for Offline** while you still have a good connection.
+
+Offline mode requires a completed sync. If this device has never finished one, the toggle will explain that a sync is needed and offline mode will stay off, since there would be nothing cached to show you.
+
+## Offline Mode Prompt
+
+When RecipeSage notices that a request is taking a long time, it can offer to turn on offline mode for you. This setting controls that behavior:
+
+- **Ask Me** (default): Offer to enable offline mode the first time a request is slow during a session.
+- **Never**: Do not offer, and leave enabling offline mode entirely up to you.
+
+This prompt only appears once this device has completed a sync. Until then, RecipeSage will not offer offline mode regardless of this setting.
+
 ## Theme
 
 The theme setting allows you to change visual appearance in the app to enhance readability. By default, the app will detect your system preference (dark/light) and adjust accordingly. You can override that behavior by changing this preference.
@@ -36,6 +60,10 @@ Entirely AI-generated translations are not currently accepted, since they very f
 ## Font Size
 
 The font size setting allows you to change the app's global font size. By default, the app will detect your browser's font size preference and adjust accordingly. You can override the font size that RecipeSage uses via this menu.
+
+## Cook Mode Font Size
+
+This setting controls the font size used only while [📖 cook mode](../recipes/recipe-details.md#cook-mode) is active. It's separate from the global font size so you can make recipes easier to read from a distance while cooking without changing the rest of the app. It defaults to a larger size than the app default.
 
 ## Start Page
 

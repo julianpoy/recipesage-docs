@@ -1,17 +1,40 @@
 ---
-title: Importing From Text Files
-description: Import recipes from plain text files. Upload a .zip archive of .txt files to transfer multiple recipes at once.
+title: Importing From Documents
+description: Import recipes from documents. Upload a .zip archive containing .txt, .rtf, .odt, .docx, .md, .markdown, .html, .htm, or .org files to transfer multiple recipes at once.
 ---
 
-You can import recipes from plain text (`.txt`) files. Each text file should contain one recipe.
+You can import recipes from documents in any of the following formats:
 
-**To import text files:**
-1. Add all your text files to a `.zip` archive
+- `.txt` (plain text)
+- `.rtf` (Rich Text Format)
+- `.odt` (OpenDocument Text)
+- `.docx` (Microsoft Word)
+- `.md` / `.markdown` (Markdown)
+- `.html` / `.htm` (HTML)
+- `.org` (Emacs Org-mode)
+
+**Each document must contain exactly one recipe.** A single zip archive can contain a mix of these formats.
+
+**To import documents:**
+1. Add all your documents to a `.zip` archive (any combination of the supported formats above)
 2. Upload the `.zip` file via this page
 
-The importer will process each text file in the archive as a separate recipe and attempt to parse the ingredients and instructions.
+The importer will process each document in the archive as a separate recipe and attempt to parse the ingredients and instructions.
 
-[https://recipesage.com/#/settings/import/textfiles](https://recipesage.com/#/settings/import/textfiles)
+## Limits
+
+- A single zip can contain up to **500 documents per import**. If you have more than 500 recipes, split them across multiple zip files and run the import multiple times.
+- Files inside the zip with extensions other than those listed above will be ignored (image side-cars excepted, see below).
+
+## Optional images
+
+You can include an image alongside a recipe by giving it the same filename as the document plus an image extension. For example, alongside `lasagna.docx`, place `lasagna.docx.png`, `lasagna.docx.jpg`, or `lasagna.docx.jpeg` in the same zip and it will be attached to the imported recipe.
+
+## Documents that cannot be read automatically
+
+Occasionally a document cannot be split into ingredients and instructions automatically. When that happens the document is still imported, with its full text kept in the recipe's notes field, its filename as the title, and any side-car image attached. These recipes are given the label `automatic import unformatted` so you can find them and tidy them up afterwards. The import job on the [Background Jobs](https://recipesage.com/app/settings/jobs) page reports how many recipes were imported this way.
+
+[https://recipesage.com/app/settings/import/textfiles](https://recipesage.com/app/settings/import/textfiles)
 
 ## Related Pages
 

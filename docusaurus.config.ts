@@ -12,7 +12,7 @@ const config: Config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "https://recipesage.com/assets/icon/favicon.ico",
+  favicon: "https://recipesage.com/app/assets/icon/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -51,6 +51,21 @@ const config: Config = {
           customCss: require.resolve("./src/css/custom.css"),
         },
       } satisfies Preset.Options,
+    ],
+    [
+      "redocusaurus",
+      {
+        specs: [
+          {
+            id: "api",
+            spec: "https://api.recipesage.com/compat/openapi.json",
+            route: "/api/",
+          },
+        ],
+        theme: {
+          primaryColor: "#1976d2",
+        },
+      },
     ],
   ],
 
@@ -134,6 +149,11 @@ const config: Config = {
           docId: "development/getting-started",
           position: "left",
           label: "Development",
+        },
+        {
+          to: "/api/",
+          label: "API Reference",
+          position: "left",
         },
         {
           href: "https://github.com/julianpoy/recipesage",

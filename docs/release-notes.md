@@ -583,12 +583,12 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 
 **v2.2.0** - December 7, 2019
 - Tile layout is now the default layout type - layout switching is available from the dropdown menu on the my recipes page
-- WebExtension automatic field detection - [📱 view tutorial](https://recipesage.com/#/tips-tricks-tutorials)
+- WebExtension automatic field detection - [📱 view tutorial](https://recipesage.com/app/tips-tricks-tutorials)
 - Recipe images can now be expanded by clicking the recipe image on the recipe details page
-- Add support for multiple images - ([📱 contributor bonus](https://recipesage.com/#/contribute))
-- Add support for high res images ([📱 contributor bonus](https://recipesage.com/#/contribute))
+- Add support for multiple images - ([📱 contributor bonus](https://recipesage.com/app/contribute))
+- Add support for high res images ([📱 contributor bonus](https://recipesage.com/app/contribute))
 - Update contribution page
-- Add more to the [📱 about me page](https://recipesage.com/#/about/details)
+- Add more to the [📱 about me page](https://recipesage.com/app/about/details)
 - Add dates to release notes
 - Add social link to Discord channel
 - Add remove button to delete image(s) from recipe on edit recipe page

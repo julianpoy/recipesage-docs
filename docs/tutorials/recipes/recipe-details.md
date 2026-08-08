@@ -9,6 +9,22 @@ This page is the detailed view for a single recipe. All of the information for t
 
 The page layout will change based on the screen size of the device you're browsing on so that it's always optimized. For the best experience, we suggest having a device large enough to where the ingredients and instructions are shown side-by-side.
 
+## Cook Mode
+
+Cook mode is a distraction-free view designed for following a recipe while you're actually cooking. Open it from the options menu in the top right corner of the recipe details page by selecting **Enter Cook Mode**.
+
+While in cook mode:
+
+- The view focuses on just the ingredients, instructions, and notes, hiding the rest of the page and the app's navigation.
+- The screen is kept awake so the device won't dim or lock while you work.
+- The app attempts to go fullscreen where the device supports it. On devices that don't (notably some iPhones), the rest of the cook mode experience still applies.
+- Ingredients and instructions can still be tapped to strike them through as you go, and your progress and scale carry over from (and back to) the recipe details page.
+- If you have recipes pinned, the pinned recipe toolbar stays available for switching between them, and switching keeps you in cook mode.
+
+You can adjust the recipe scale from cook mode using the scale button in the top bar. To leave cook mode, use the close button in the top left corner.
+
+Cook mode uses its own font size so you can set it larger for reading from a distance, separate from the app's global font size. See [📖 Cook Mode Font Size](../settings/settings.md#cook-mode-font-size).
+
 ## Scaling
 
 <img className="screenshot" src="/img/recipe-details-scale.png" alt="Recipe scaling dialog"></img>
@@ -18,6 +34,14 @@ Click the scale link to choose a different recipe scale. A dialogue will pop up 
 Keep in mind that any measurements that are not shown in bold aren't recognized and won't be scaled.
 
 Values entered into the scale field are not permanent. Once you close this recipe, the scale will default back to the scale entered in the recipe editor.
+
+### Decimal Commas
+
+Ingredient quantities can be written with either a decimal point (`1.5 cups`) or a decimal comma (`1,5 kg`). Both are recognized and scaled, so recipes saved from German, Swedish, French, and other comma-using sources work the same as English ones.
+
+When a recipe has no decimal of its own and scaling produces one (halving `3 kg`, for example), the separator follows your [📖 app language](../settings/settings.md#language). A German reader sees `1,5 kg` where an English reader sees `1.5 kg`.
+
+Thousands separators are understood in both styles, so `1,000 g` and `1.000 g` both mean one thousand grams. Where a number could be read either way, RecipeSage looks at the other quantities in the same recipe first: in a recipe that also lists `0,5 l`, a `1,125 kg` is read as roughly one and an eighth kilograms rather than as 1125. If the recipe offers no such hint, your app language decides.
 
 ### Converting Between Metric and Imperial
 

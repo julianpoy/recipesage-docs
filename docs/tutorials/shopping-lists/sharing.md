@@ -13,7 +13,7 @@ To share a shopping list with another user, you can either start with an existin
 
 ### Sharing a new shopping list
 
-To share a new shopping list, head to the [📱 Shopping Lists](https://recipesage.com/#/shopping-lists) page.
+To share a new shopping list, head to the [📱 Shopping Lists](https://recipesage.com/app/shopping-lists) page.
 
 Click the + button in the bottom right corner.
 
@@ -27,7 +27,7 @@ Click save.
 
 ### Sharing an existing shopping list
 
-To share an existing shopping list, head to the [📱 Shopping Lists](https://recipesage.com/#/shopping-lists) page.
+To share an existing shopping list, head to the [📱 Shopping Lists](https://recipesage.com/app/shopping-lists) page.
 
 Open the shopping list you would like to share.
 
@@ -45,7 +45,7 @@ Click save.
 
 Sharing to non-RecipeSage users can be done in PDF form.
 
-First, head to the [📱 Shopping Lists](https://recipesage.com/#/shopping-lists) page.
+First, head to the [📱 Shopping Lists](https://recipesage.com/app/shopping-lists) page.
 
 Open the shopping list you would like to share.
 
