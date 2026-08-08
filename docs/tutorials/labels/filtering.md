@@ -7,7 +7,7 @@ You can use labels to filter recipes when browsing or searching.
 
 To view all recipes within a single label, or within a combination of multiple labels, open the [📱 My Recipes](https://recipesage.com/app/list/main) page.
 
-<img className="screenshot" src="/img/home-popover.png" alt="Recipe list filter options"></img>
+<img className="screenshot" src="/img/home-popover.png" width="1080" height="1920" alt="Recipe list filter options"></img>
 
 Open the options menu in the top right corner of the My Recipes page and select "Filter by Label".
 

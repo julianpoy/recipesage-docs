@@ -69,7 +69,7 @@ This is particularly useful when shopping in stores with patchy mobile coverage.
 
 ## Options
 
-<img className="screenshot" src="/img/shopping-list-options.png" alt="Shopping list grouping options"></img>
+<img className="screenshot" src="/img/shopping-list-options.png" width="844" height="1300" alt="Shopping list grouping options"></img>
 
 - **Sort by**: Allows you to change the sort order of the items shown within the shopping list.
 - **Group Items by Category**: Enabling this toggle will enable the [📖 Group Items by Category](#group-items-by-category) feature.

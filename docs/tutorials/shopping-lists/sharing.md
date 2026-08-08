@@ -21,7 +21,7 @@ Enter a shopping list title
 
 Enter as many user email addresses into the "collaborators" field. Once added, the UI should look like this:
 
-<img className="screenshot" src="/img/shopping-list-edit.png" alt="Edit shopping list collaborators"></img>
+<img className="screenshot" src="/img/shopping-list-edit.png" width="1352" height="1340" alt="Edit shopping list collaborators"></img>
 
 Click save.
 
@@ -37,7 +37,7 @@ Click the "edit/rename list" button (Note: this button is only available if you 
 
 Enter as many user email addresses into the "collaborators" field. Once added, the UI should look like this:
 
-<img className="screenshot" src="/img/shopping-list-edit.png" alt="Edit shopping list collaborators"></img>
+<img className="screenshot" src="/img/shopping-list-edit.png" width="1352" height="1340" alt="Edit shopping list collaborators"></img>
 
 Click save.
 

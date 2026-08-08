@@ -7,7 +7,7 @@ Welcome to the main page of RecipeSage! This is where most of the action happens
 
 ## Main Screen
 
-<img className="screenshot" src="/img/home.png" alt="RecipeSage my recipes home page"></img>
+<img className="screenshot" src="/img/home.png" width="1080" height="1920" alt="RecipeSage my recipes home page"></img>
 
 To create a recipe, you'll need to click that big blue button in the bottom right hand corner. That will take you to the recipe authoring page.
 
@@ -23,7 +23,7 @@ The search bar returns results that are as "close" to your match as possible, bu
 
 ## Options Menu
 
-<img className="screenshot" src="/img/home-popover.png" alt="Recipe list options menu"></img>
+<img className="screenshot" src="/img/home-popover.png" width="1080" height="1920" alt="Recipe list options menu"></img>
 
 You can use the settings icon in the upper right-hand corner to adjust sort order, filter by label, and enable/disable different visual items.
 
@@ -47,7 +47,7 @@ Here is a brief description of what each of these settings do:
 
 ## Bulk Actions
 
-<img className="screenshot" src="/img/home-bulk-actions.png" alt="Bulk actions menu for multiple recipes"></img>
+<img className="screenshot" src="/img/home-bulk-actions.png" width="1080" height="1920" alt="Bulk actions menu for multiple recipes"></img>
 
 You can select multiple recipes by using the "Select Multiple Recipes" option in the options menu, then tapping the recipes you'd like to select. Then, use the buttons in the header to create a label for, or delete all of those recipes at the same time.
 

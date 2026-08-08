@@ -128,7 +128,7 @@ Meal plans can be edited while offline. You can add, edit, move, and delete meal
 
 ## Options
 
-<img className="screenshot" src="/img/meal-plan-options.png" alt="Meal plan options menu"></img>
+<img className="screenshot" src="/img/meal-plan-options.png" width="866" height="1268" alt="Meal plan options menu"></img>
 
 **View**: Switch between "Calendar" and "List" view. See [Calendar vs List View](#calendar-vs-list-view) above for details.
 

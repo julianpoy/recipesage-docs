@@ -21,7 +21,7 @@ Enter a meal plan title
 
 Enter as many user email addresses into the "collaborators" field. Once added, the UI should look like this:
 
-<img className="screenshot" src="/img/meal-plan-edit.png" alt="Edit meal plan collaborators"></img>
+<img className="screenshot" src="/img/meal-plan-edit.png" width="1348" height="1320" alt="Edit meal plan collaborators"></img>
 
 Click save.
 
@@ -37,7 +37,7 @@ Click the "edit/rename meal plan" button (Note: this button is only available if
 
 Enter as many user email addresses into the "collaborators" field. Once added, the UI should look like this:
 
-<img className="screenshot" src="/img/meal-plan-edit.png" alt="Edit meal plan collaborators"></img>
+<img className="screenshot" src="/img/meal-plan-edit.png" width="1348" height="1320" alt="Edit meal plan collaborators"></img>
 
 Click save.
 

@@ -7,7 +7,7 @@ Creating a recipe and editing a recipe both happen using the same interface and 
 
 ## Creating a new recipe
 
-<img className="screenshot" src="/img/edit-recipe.png" alt="RecipeSage recipe editing interface"></img>
+<img className="screenshot" src="/img/edit-recipe.png" width="1080" height="1920" alt="RecipeSage recipe editing interface"></img>
 
 The create recipe page can be reached from the [📖 my recipes](./my-recipes.md) page by clicking the blue + button in the bottom right corner, as well as via the sidemenu.
 
@@ -71,7 +71,7 @@ Known limitations:
 
 ## Editing a recipe
 
-<img className="screenshot" src="/img/edit-recipe.png" alt="RecipeSage recipe editing interface"></img>
+<img className="screenshot" src="/img/edit-recipe.png" width="1080" height="1920" alt="RecipeSage recipe editing interface"></img>
 
 The edit recipe page can be reached from the [📖 recipe details](./recipe-details.md) page by clicking the edit button at the bottom of the page, or by clicking the edit button in the top right options menu.
 
@@ -154,7 +154,7 @@ __underlined text__
 
 ### Section headers
 
-<img className="screenshot" src="/img/recipe-details-ingredients.png" alt="Recipe ingredients with section headers"></img>
+<img className="screenshot" src="/img/recipe-details-ingredients.png" width="1080" height="1920" alt="Recipe ingredients with section headers"></img>
 
 To add a header, wrap the line in brackets:
 

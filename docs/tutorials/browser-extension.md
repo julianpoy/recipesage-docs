@@ -9,7 +9,7 @@ Although it's possible to import recipes using the [📖 import by url](./recipe
 
 ## Installation
 
-<img className="screenshot" src="/img/webextension-on-rs.png" alt="RecipeSage browser extension icon"></img>
+<img className="screenshot" src="/img/webextension-on-rs.png" width="1280" height="800" alt="RecipeSage browser extension icon"></img>
 
 Adding the RecipeSage browser extension allows you to quickly select text from a webpage and save recipes directly to your account via the handy clip tool. You can trigger the clip tool on most websites to grab text and import recipes into your collection.
 
@@ -21,7 +21,7 @@ If you're using Google Chrome, [📱 click here](https://chrome.google.com/webst
 
 ## Signing In and Getting Started
 
-<img className="screenshot" src="/img/webextension-login.png" alt="Browser extension login screen"></img>
+<img className="screenshot" src="/img/webextension-login.png" width="751" height="584" alt="Browser extension login screen"></img>
 
 After installing the extension, you'll notice a new icon next to your navbar as pictured above. The first time you click that icon, you'll be prompted to sign in.
 
@@ -45,7 +45,7 @@ Press **Interactive Import** to open the clip tool overlay on the current page. 
 
 ## Using the Interactive Clip Tool
 
-<img className="screenshot" src="/img/webextension-body.png" alt="Browser extension clip tool interface"></img>
+<img className="screenshot" src="/img/webextension-body.png" width="481" height="860" alt="Browser extension clip tool interface"></img>
 
 When you press **Interactive Import**, the clip tool overlays the current page. It first runs auto-detection to populate the fields, then shows you the dialog so you can verify or correct each field before saving.
 
