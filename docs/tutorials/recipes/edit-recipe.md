@@ -32,7 +32,7 @@ Known limitations:
 
 ### Autofill from Text
 
-Importing from text makes it easy to import from a copied block of text. The text doesn't have to have any particular format, as long as it contains a recipe at some point. The RecipeSage AI will take care of formatting it into the appropriate fields.
+Importing from text makes it easy to import from a copied block of text. The text doesn't have to have any particular format, as long as it contains a recipe at some point. The RecipeSage assistant will take care of formatting it into the appropriate fields.
 
 To autofill a recipe from a block of text, open the [📖 create new recipe page](#creating-a-new-recipe) (not available while editing an existing recipe), and click the "Autofill Recipe From" button. Then, click the "Autofill from Text" option and paste in a URL to a recipe.
 
@@ -56,15 +56,17 @@ Known limitations:
 2. This is intended to speed up the process of entering a recipe, but _will never_ be flawless. Please check the result, since the result can often contain inaccuracies.
 3. You can only scan a single recipe at a time.
 
-### Scan from PDF
+### Scan from document
 
-Importing from PDF makes it easy to import recipes from almost any arbitrary source. The PDF doesn't have to have any particular format, as long as it contains a recipe within the first 2 pages. The RecipeSage AI will take care of formatting it into the appropriate fields.
+Importing from a document makes it easy to import recipes from almost any arbitrary source. The document doesn't have to have any particular format, as long as it contains a recipe. The RecipeSage assistant will take care of formatting it into the appropriate fields.
 
-To autofill a recipe from a PDF, open the [📖 create new recipe page](#creating-a-new-recipe) (not available while editing an existing recipe), and click the "Autofill Recipe From" button. Then, click the "Scan from PDF" option. You'll be prompted to select a PDF file.
+Supported document types are PDF, DOCX, RTF, ODT, Markdown, HTML, OrgMode, and plain text.
+
+To autofill a recipe from a document, open the [📖 create new recipe page](#creating-a-new-recipe) (not available while editing an existing recipe), and click the "Autofill Recipe From" button. Then, click the "Scan from document" option. You'll be prompted to select a file.
 
 Known limitations:
 
-1. Only the first two pages of the PDF will be scanned for a recipe
+1. Only the first two pages of a PDF will be scanned for a recipe
 2. You can only scan a single recipe at a time.
 
 ## Editing a recipe
@@ -78,6 +80,8 @@ The options and interface are the same here as described in the [📖 creating a
 ## Formatting
 
 The ingredients, instructions, and notes fields support special syntax for organizing and formatting your recipes.
+
+Each of these fields has a small toolbar directly beneath it with buttons that insert the formatting syntax for you, so you don't have to remember it. The available buttons depend on the field (for example, tables are only offered under the notes field). If you have text selected when you press a button, the formatting is wrapped around your selection; otherwise a placeholder is inserted for you to type over. The information icon at the end of each toolbar links back to this section.
 
 ### Ingredients
 

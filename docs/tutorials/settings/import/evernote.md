@@ -15,7 +15,13 @@ You can import recipes from an Evernote export file (`.enex` format).
 
 The importer will process each note in the Evernote export as a separate recipe.
 
-[https://recipesage.com/#/settings/import/enex](https://recipesage.com/#/settings/import/enex)
+## Notes that cannot be read automatically
+
+Evernote notes vary a lot in how they are structured, and occasionally a note cannot be split into ingredients and instructions automatically. When that happens the note is still imported, with its original text kept in the recipe's notes field along with any images, title, tags and source URL. These recipes are given the label `automatic import unformatted` so you can find them and tidy them up afterwards.
+
+The import job on the [Background Jobs](https://recipesage.com/app/settings/jobs) page reports how many recipes were imported this way.
+
+[https://recipesage.com/app/settings/import/enex](https://recipesage.com/app/settings/import/enex)
 
 ## Related Pages
 

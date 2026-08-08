@@ -22,7 +22,7 @@ This handle will be part of the URL for your profile, and others will be able to
 
 <img className="screenshot" src="/img/people-edit-profile.png" alt="Edit profile interface"></img>
 
-On the [📱 profile edit page](https://recipesage.com/#/people/my-profile), you'll be able to edit the details of your profile including adding and removing profile items.
+On the [📱 profile edit page](https://recipesage.com/app/people/my-profile), you'll be able to edit the details of your profile including adding and removing profile items.
 
 To edit your profile name or handle, click the pencil icon next to your name or handle, type the new name or handle you'd like your profile to have, and click the save button at the bottom of the page.
 
@@ -39,7 +39,7 @@ Adding items to your profile is covered [📖 here](#adding-content-to-your-prof
 
 Adding items to your profile allows you to share individual recipes, all recipes within a label, or your entire collection with friends or the public.
 
-Navigate to the [📱 profile edit page](https://recipesage.com/#/people/my-profile) and click the "add" button to open the dialogue for adding a new profile item.
+Navigate to the [📱 profile edit page](https://recipesage.com/app/people/my-profile) and click the "add" button to open the dialogue for adding a new profile item.
 
 The profile item dialogue will allow you to add recipes, labels, or your entire library to your profile for others to see and access.
 This dialogue will guide you through the process of adding an item depending on what type you select.
@@ -54,7 +54,7 @@ As always, only you can modify your recipes.
 
 <img className="screenshot" src="/img/people-edit-profile.png" alt="Edit profile interface"></img>
 
-You can easily share your profile via the "share" button displayed on the [📱 view/edit profile page](https://recipesage.com/#/people/my-profile) as shown above.
+You can easily share your profile via the "share" button displayed on the [📱 view/edit profile page](https://recipesage.com/app/people/my-profile) as shown above.
 
 <img className="screenshot" src="/img/people-share-profile.png" alt="Share profile dialog"></img>
 

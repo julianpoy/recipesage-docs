@@ -32,7 +32,7 @@ import Head from '@docusaurus/Head';
           "name": "Is RecipeSage compatible with iOS and Android?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes! You can use RecipeSage in the browser on your mobile device, or install it to your device. See the install instructions at https://recipesage.com/#/install"
+            "text": "Yes! You can use RecipeSage in the browser on your mobile device, or install it to your device. See the install instructions at https://recipesage.com/app/install"
           }
         },
         {
@@ -130,12 +130,12 @@ Searches will return matches with the exact search text further up in the result
 ### Is RecipeSage compatible with IOS and Android?
 
 Yep! You can use RecipeSage in the browser on your mobile device, or install it to your device.
-See our install instructions here: [📱 Download & Install](https://recipesage.com/#/install).
+See our install instructions here: [📱 Download & Install](https://recipesage.com/app/install).
 
 
 ### Is RecipeSage a business?
 
-No - it's an open source project that I develop in my free time. You can read more about what I do at work on the [📱 about page](https://recipesage.com/#/about/details).
+No - it's an open source project that I develop in my free time. You can read more about what I do at work on the [📱 about page](https://recipesage.com/app/about/details).
 My wife also helps with some of the social media outreach and tutorials. She's awesome!
 All contributions go into hosting costs, as well as making RecipeSage a better platform.
 
@@ -196,9 +196,9 @@ It's very unlikely this is the case. I've received several emails like this over
 
 There are a few ways you can help.
 
-1. Financially -- I always need support with the cost of hosting RecipeSage. If you're able, a [contribution](https://recipesage.com/#/contribute) would be immensely helpful, and goes directly to the cost of running & hosting RecipeSage.
-2. Testing -- The [beta version of the site](https://beta.recipesage.com) has many new features that do not exist in the production version of the site. I always need help validating new functionality. Please feel free to switch to this version of the site if you're willing to deal with small bugs. Please report all bugs in the #bugs channel in [our Discord](https://discord.gg/yCfzBft).
-3. Code -- If you'd like to contribute code, I always welcome pull requests. There are many issues labelled as "open for contributors" on Github. Please read the contributing guidelines in the Gtihub readme if you'd like to add code to RecipeSage.
+1. Financially - I always need support with the cost of hosting RecipeSage. If you're able, a [contribution](https://recipesage.com/app/contribute) would be immensely helpful, and goes directly to the cost of running & hosting RecipeSage.
+2. Testing - The [beta version of the site](https://beta.recipesage.com) has many new features that do not exist in the production version of the site. I always need help validating new functionality. Please feel free to switch to this version of the site if you're willing to deal with small bugs. Please report all bugs in the #bugs channel in [our Discord](https://discord.gg/yCfzBft).
+3. Code - If you'd like to contribute code, I always welcome pull requests. There are many issues labelled as "open for contributors" on Github. Please read the contributing guidelines in the Gtihub readme if you'd like to add code to RecipeSage.
 
 ### I have a business proposal
 

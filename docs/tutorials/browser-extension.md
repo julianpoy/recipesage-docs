@@ -16,29 +16,40 @@ Adding the RecipeSage browser extension allows you to quickly select text from a
 To install the RecipeSage browser extension, you'll need to be using a browser that supports WebExtensions.
 At the time of writing, this includes Firefox and Google Chrome.
 
-If you're using Google Chrome, [📱 click here](https://chrome.google.com/webstore/detail/oepplnnfceidfaaacjpdpobnjkcpgcpo).
 If you're using Firefox, [📱 click here](https://addons.mozilla.org/en-US/firefox/addon/recipesage/).
+If you're using Google Chrome, [📱 click here](https://chrome.google.com/webstore/detail/oepplnnfceidfaaacjpdpobnjkcpgcpo).
 
 ## Signing In and Getting Started
 
 <img className="screenshot" src="/img/webextension-login.png" alt="Browser extension login screen"></img>
 
-After installing the extension, you'll notice a new icon next to your navbar as pictured above. The first time you click that icon, you'll be prompted to sign in to your RecipeSage account with your RecipeSage credentials.
-You'll then be shown a short tutorial, and the clip tool will open on the current page. After this, clicking the RecipeSage icon will launch the clip tool immediately.
+After installing the extension, you'll notice a new icon next to your navbar as pictured above. The first time you click that icon, you'll be prompted to sign in.
 
-Note: If you don't have a RecipeSage account, you'll need to create one (see "Register" in the sidebar).
+Note: If you don't have a RecipeSage account, the sign-in window will let you create one.
 Note: The clip tool cannot be activated on certain websites, such as browser settings pages and websites with certain security policies.
 
-## Using the Clip Tool
+## The Popup
+
+After signing in, clicking the RecipeSage icon opens the popup. From here you can choose how to bring a recipe into your account.
+
+### Auto Import
+
+Press **Auto Import** to send the current page to RecipeSage's clipper and save the detected recipe immediately. Two options are available beneath the button:
+
+- **Include nutrition**: when checked, RecipeSage will also extract nutrition information from the page using machine learning and store it on the saved recipe.
+- **Open recipe in new tab after import**: when checked, the saved recipe opens in a new tab as soon as the import completes. Uncheck this if you'd rather stay where you are.
+
+### Interactive Import
+
+Press **Interactive Import** to open the clip tool overlay on the current page. The clip tool runs auto-detection in the background and then presents an editable form so you can review and adjust everything before saving. See below for details.
+
+## Using the Interactive Clip Tool
 
 <img className="screenshot" src="/img/webextension-body.png" alt="Browser extension clip tool interface"></img>
 
-This is the clip tool. It allows you to quickly select text from a webpage and save recipes directly to your account.
+When you press **Interactive Import**, the clip tool overlays the current page. It first runs auto-detection to populate the fields, then shows you the dialog so you can verify or correct each field before saving.
 
-To use it, highlight some text on the page using your mouse cursor, then press the button next to the desired field.
-The text you've selected will be copied into that field, where you can edit or refine the text.
-
-To snip an image from the page, the process is slightly different - right click an image on the page, and select the "Snip Image" option. The image source URL will be copied to the image URL field.
+To grab an image from the page, right click an image on the page, and select the "Snip Image" option. The image source URL will be copied to the image URL field.
 
 After you're done filling in the desired fields, press the "Save" button. A popup notification will let you know if the recipe saved successfully or not. If the recipe saved successfully, you'll receive a popup with a link to open the recipe in the full view.
 
@@ -46,15 +57,6 @@ Note: Only the title field is required.
 Note: Not all images will be snippable. If you're having trouble with an image, try creating your recipe first, then edit the recipe on RecipeSage.com and add the image afterwards.
 Note: The clip tool is draggable. Click and hold on the icon in the upper left corner to move it anywhere within the page.
 
-## Auto Field Detection (AutoClipping)
+### Nutrition
 
-<img className="screenshot" src="/img/webextension-body-autoclipped.png" alt="Browser extension with autoclipped recipe"></img>
-
-This is what the clip tool looks like when automatic field detection is enabled. To enable automatic field detection, check the box at the top of the click tool and reload the page. Then re-open the clip tool.
-
-When auto field detection is enabled, the clip tool will do it's best to find recognized fields within the page content. When it detects corresponding content, it will automatically fill in the associated field.
-
-This isn't perfect, unfortunately. Since every website is different, there is no "standard" way to recognize recipe content. The clip tool does it's best to find common fields and naming conventions, but will sometimes get it wrong.
-
-If the clip tool gets a field wrong, you can always select a different block of text on the page and hit the snip button next to that field. The field will then be overwritten with your selection.
-
+The interactive dialog also includes a collapsible **Nutrition (per serving)** section near the bottom, which mirrors the nutrition fields on the main edit-recipe page (serving size, calories, fats, carbohydrates, protein, vitamins, and so on). If the popup's **Include nutrition** option is enabled, the clip tool will automatically populate these fields from the page. Expand the section any time to review or adjust the values before saving.

@@ -6,7 +6,7 @@ description: Create shopping lists in RecipeSage and add items manually or from 
 ## Creating a Shopping List
 
 To create a shopping list:
-1. Open the [📱 Shopping Lists](https://recipesage.com/#/shopping-lists) page
+1. Open the [📱 Shopping Lists](https://recipesage.com/app/shopping-lists) page
 2. Click the + button in the bottom right corner
 3. Add a title and any collaborators
 4. Click "create"
@@ -14,11 +14,11 @@ To create a shopping list:
 ## Adding Items to a Shopping List
 
 To add items directly to a shopping list:
-1. Open the [📱 Shopping Lists](https://recipesage.com/#/shopping-lists) page
+1. Open the [📱 Shopping Lists](https://recipesage.com/app/shopping-lists) page
 2. Open the shopping list you'd like to add items to
 3. Click the + button in the bottom right corner
 4. Leave "items" selected unless you want to [📖 add a recipe](#via-the-shopping-list-page)
-5. Enter the title of the shopping list item(s). Add as many as you'd like here
+5. Enter your items in the text box, one item per line. Add as many as you'd like here
 6. Click "add to list"
 
 ## Adding a Recipe to a Shopping List
@@ -27,7 +27,7 @@ To add a recipe to a shopping list you have two options - either via the recipe 
 
 ### Via the Shopping List Page
 
-1. Open the [📱 Shopping Lists](https://recipesage.com/#/shopping-lists) page
+1. Open the [📱 Shopping Lists](https://recipesage.com/app/shopping-lists) page
 2. Open the shopping list you'd like to add the recipe to
 3. Click the + button in the bottom right corner
 4. Select "recipe"
@@ -38,7 +38,7 @@ To add a recipe to a shopping list you have two options - either via the recipe 
 
 ### Via the Recipe Details Page
 
-1. Open the [📱 My Recipes](https://recipesage.com/#/list/main) page
+1. Open the [📱 My Recipes](https://recipesage.com/app/list/main) page
 2. Open the recipe you'd like to add
 3. Open the options menu in the top right corner
 4. Click "add to shopping list"

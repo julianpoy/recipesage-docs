@@ -17,7 +17,7 @@ If you'd like to open a recipe in a new tab, you can hold the control key (Windo
 
 ### Search
 
-You can enter any text into the search bar and RecipeSage will try to find the closest results to your search query. The search includes the recipe's title, as well as all other fields within the recipe.
+You can enter any text into the search bar and RecipeSage will try to find the closest results to your search query. The search includes the recipe's title, description, ingredients, source, and notes.
 
 The search bar returns results that are as "close" to your match as possible, but also includes misspellings and similar words. The closer the result is to your query, the higher up in the search results list it will be.
 
@@ -36,6 +36,8 @@ Here is a brief description of what each of these settings do:
 **Show Images:** When enabled, you'll see recipe images. This setting is visual only - useful if you're on a limited data connection.
 
 **Show Source:** When enabled, you'll see the recipe source below the recipe title on each recipe. This setting is visual only.
+
+**Show Rating:** When enabled, you'll see the recipe's star rating on each recipe that has one. This setting is visual only.
 
 **Sort By:** Selecting a different sort order will change the order in which recipes appear in the list. This setting is visual only.
 

@@ -11,7 +11,7 @@ You can import recipes from a CSV (comma-separated values) file. This format is 
 
 The importer will automatically detect and map the column names from your export.
 
-[https://recipesage.com/#/settings/import/csv](https://recipesage.com/#/settings/import/csv)
+[https://recipesage.com/app/settings/import/csv](https://recipesage.com/app/settings/import/csv)
 
 ## Creating Your Own CSV File
 

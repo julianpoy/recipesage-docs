@@ -1,6 +1,6 @@
 ---
 title: Assistant (Beta)
-description: Use the RecipeSage AI assistant for recipe ideas, meal planning suggestions, and cooking questions. Learn what the assistant can and cannot do.
+description: Use the RecipeSage assistant for recipe ideas, meal planning suggestions, and cooking questions. Learn what the assistant can and cannot do.
 ---
 
 The RecipeSage assistant is a very new feature, and is also somewhat experimental. It's very helpful for some things, but very bad at others. This page will hopefully illustrate what the assistant can be used for, but also provide some warnings about what it should not be trusted for.
@@ -34,7 +34,7 @@ The assistant is particularly bad at the following:
 
 ## How to Use the Assistant
 
-1. Open the assistant page via the side menu.
+1. Open `Side Menu -> Tools -> Cooking Assistant`.
 2. Type a question into the message field and press send.
 3. Wait for a response.
 4. Send another message - the AI remembers up to 4 messages worth of history.

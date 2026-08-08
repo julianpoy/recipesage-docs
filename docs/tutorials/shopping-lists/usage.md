@@ -9,6 +9,8 @@ This page will cover using the shopping list (other than [📖 creating items](.
 
 You can change the order in which items are sorted via the options menu in the top right corner.
 
+When sorting alphabetically, RecipeSage orders items by the ingredient name and ignores any leading measurement and unit where possible, so "3 cups flour" sorts under "flour" rather than "3".
+
 ## Printing
 
 You can print the shopping list via the options menu in the top right corner.
@@ -30,6 +32,14 @@ When enabled, you'll see two items such as "1 cup sugar" and "1 tbsp sugar" comb
 To enable this feature, open the options menu in the top right corner of the shopping list and enable the "group items by category" toggle.
 
 When this option is enabled, RecipeSage will do it's best to put your items under their associated category - for instance "dairy". You can expand and collapse these categories by tapping the category title.
+
+## Item Ignore List
+
+The ignore list lets you specify ingredients that should be automatically excluded when adding a recipe to a shopping list. This is handy for staples such as salt or water that you likely keep on hand and don't want added every time.
+
+To edit it, open the options menu in the top right corner of the shopping list and click "Edit Item Ignore List". Enter each keyword on its own line. An entry will match an ingredient if the ingredient contains any part of the line, so "salt" will match "1 tbsp sea salt finely ground".
+
+The ignore list applies to all of your shopping lists, and only to you. Other collaborators on a shared shopping list are not affected by your ignore list.
 
 ## Marking Items as Completed
 
@@ -67,6 +77,7 @@ This is particularly useful when shopping in stores with patchy mobile coverage.
 - **Show ...**: These options will allow you to turn on/off the information displayed for a more compact view.
 - **Delete Upon Completion**: Enabling this toggle will enable [📖 Deleting Items Immediately](#deleting-items-immediately).
 - **Print**: This option is covered in the [📖 Printing](#printing) section.
+- **Edit Item Ignore List**: This option is covered in the [📖 Item Ignore List](#item-ignore-list) section.
 - **Remove All Items**: Clicking this button will delete all items on the shopping list.
 - **Delete List**: Clicking this button will delete the shopping list and all associated items.
 
