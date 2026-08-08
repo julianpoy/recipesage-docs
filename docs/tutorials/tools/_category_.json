@@ -3,7 +3,7 @@
   "position": 6,
   "collapsed": false,
   "link": {
-    "type": "generated-index",
-    "description": "Click a tile below to learn about that area of the app!"
+    "type": "doc",
+    "id": "index"
   }
 }
