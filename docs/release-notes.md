@@ -9,6 +9,50 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 
 ## Version History
 
+**v4.0.0** - August 2026
+- Added Discover, a public catalogue of recipes shared by the RecipeSage community (only visible to contributors _for now_, since the catalogue of recipes is still being built).
+  - Browse and search community recipes, and sort by trending, newest, top rated, or most saved
+  - Filter by language, category, minimum rating, minimum number of ratings, and whether a recipe has photos
+  - Save any Discover recipe into your own collection, where you can then edit your copy freely without affecting the published version
+  - Rate recipes, and report ones that are inappropriate
+  - Contributors can publish their own original recipes to Discover, pick the language, and link related recipes. Published recipes are automatically reviewed before appearing publicly, and also show in a section on your public profile
+- Added a RecipeSage desktop app for Windows, macOS, and Linux
+- Added a Tools page in the side menu that collects several new kitchen utilities
+  - Cookbook Generator, which builds a printable PDF cookbook from your recipes with a cover page, an optional introduction, an optional clickable table of contents, and images. Add recipes individually or by label, reorder them, and it runs as a background job you can download once finished
+  - Nutrition Calculator, which adds up the nutrition across several recipes. Set how many servings of each to include and see the combined totals or the average per serving, including calories by macronutrient and percent daily values. It can also be launched from selected meal plan days
+  - Search by Ingredients, where you list the ingredients you have on hand and it finds the recipes that use the most of them, optionally including recipes shared by friends
+  - Measurement Converter, which converts between volume and weight units (per ingredient), converts whole items usually measured by count such as eggs, butter, and produce, and converts oven temperatures between Fahrenheit, Celsius, and gas mark
+  - Cooking Temperatures, a searchable reference for safe internal temperatures, doneness levels, oven settings, deep-fry oil temperatures, and more
+  - Pan & Bakeware Converter, which swaps pan sizes and gives you a scale multiplier based on the pans' capacities, using presets or custom dimensions
+- Added Cook Mode, a distraction-free, full-screen view for following a recipe while cooking
+  - Keeps the screen awake and focuses on just the ingredients, instructions, and notes
+  - Has its own adjustable font size so recipes are easier to read from a distance
+  - Your progress and scale carry over to and from the recipe details page
+- Revamped ingredient scaling
+  - You can now scale a recipe to a target yield, or by a specific ingredient amount, in addition to a plain multiplier
+  - Ingredient quantities written with a decimal comma such as "1,5 kg" are now recognized and scaled, matching how many non-English recipes are written
+- Revamped the recipe editor input experience and added a formatting toolbar beneath the ingredients, instructions, and notes fields. The toolbar has buttons that insert the formatting syntax for you, including section headers, inline bold/italic/underline, and tables
+- Revamped URL-based recipe clipping for better site compatibility and reliability
+- Revamped the browser extension
+  - Added localization so it appears in your language
+  - Added the ability to sign in through the app, and added support for custom server URLs for self-hosters
+  - Added nutrition extraction from the page, and a warning when saving a recipe you already have
+- Added recurring meal plan items. When adding an item you can set it to repeat daily, weekly, or monthly, choose the interval and when it ends, and each occurrence is created as its own item that you can edit, move, or delete individually
+- Added the ability to filter your recipes by nutrition fields
+- Expanded "Scan from document" to support more document types (PDF, DOCX, RTF, ODT, Markdown, HTML, OrgMode, and plain text), and it can now pick up nutrition information
+- Added import support for Mela, Crouton, and CookBookManager
+- Added new languages: Arabic, Spanish (Mexico), Hindi, Korean, Norwegian Bokmål, Turkish, and Chinese (Traditional)
+- Added a new offline mode that can be toggled on when you have a weak connection, and RecipeSage can offer to enable it for you when a request is taking a long time
+- Added a setting to show recipe ratings on the my recipes page
+- Clicking a label on the recipe details page now takes you to that label filtered on the my recipes page
+- Added a search bar to the manage labels page for filtering labels and categories
+- Links in meal plan item notes are now clickable
+- Added Ctrl+P print support across all pages
+- Constrained page widths on large screens to make pages easier to read
+- Extended sign-in sessions to 60 days
+- Added a documented public API (OpenAPI) for developers
+- Numerous bug fixes and performance improvements throughout the app
+
 **v3.5.0** - April 2026
 - Added the ability to edit shopping lists and meal plans while offline
   - Adding, updating, checking off, and deleting items on shopping lists and meal plans now work without a network connection
