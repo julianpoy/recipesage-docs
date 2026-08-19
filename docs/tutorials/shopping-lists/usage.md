@@ -5,6 +5,14 @@ description: Use RecipeSage shopping lists with smart grouping, sorting, and pri
 
 This page will cover using the shopping list (other than [📖 creating items](./create.md)). This includes checking off items, as well as smart grouping options.
 
+## Video Guide
+
+This same video also appears on the [📖 creating lists and items](./create.md) and [📖 sharing](./sharing.md) pages, since it covers shopping lists as a whole. Think of it as a visual overview to help you get oriented. It does not cover everything, so read on down this page for the details specific to using the shopping list.
+
+<div style={{position: 'relative', paddingBottom: '56.25%', height: 0, marginBottom: '1.5rem'}}>
+  <iframe style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} src="https://www.youtube.com/embed/TBz1AcJaTXw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
+
 <img className="screenshot" src="/img/shopping-list.png" width="1284" height="1875" alt="A shopping list with items grouped by category"></img>
 
 Each item can show the recipe it came from, and a checkbox to mark it as bought. The three-dot menu on the right of an item lets you move it to a different category, as covered in [📖 Recategorizing an Item](#recategorizing-an-item).

@@ -5,6 +5,14 @@ description: Share meal plans with other RecipeSage users or export via iCal lin
 
 Meal plans can be shared with other RecipeSage users, or shared via iCal link to anyone (even if they don't have an account).
 
+## Video Guide
+
+This same video also appears on the [📖 creating and editing](./create.md) and [📖 usage and options](./usage.md) pages, since it covers meal plans as a whole. Think of it as a visual overview to help you get oriented. It does not cover everything, so read on down this page for the details specific to sharing meal plans.
+
+<div style={{position: 'relative', paddingBottom: '56.25%', height: 0, marginBottom: '1.5rem'}}>
+  <iframe style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} src="https://www.youtube.com/embed/UjKqacibTeo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
+
 ## Sharing to RecipeSage users
 
 Sharing to other RecipeSage users will give them edit access to the calendar, and allow them to add their own recipes to the calendar.

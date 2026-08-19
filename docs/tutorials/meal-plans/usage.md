@@ -5,6 +5,14 @@ description: Learn how to use RecipeSage meal plans including pinning recipes, a
 
 This page will cover using the meal plan (other than [📖 creating items](./create.md)).
 
+## Video Guide
+
+This same video also appears on the [📖 creating and editing](./create.md) and [📖 sharing](./sharing.md) pages, since it covers meal plans as a whole. Think of it as a visual overview to help you get oriented. It does not cover everything, so read on down this page for the details specific to using the meal plan.
+
+<div style={{position: 'relative', paddingBottom: '56.25%', height: 0, marginBottom: '1.5rem'}}>
+  <iframe style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} src="https://www.youtube.com/embed/UjKqacibTeo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
+
 ## Calendar vs List View
 
 The meal plan can be displayed in two views. You can switch between them by opening the options menu in the top right corner and changing the **View** setting.

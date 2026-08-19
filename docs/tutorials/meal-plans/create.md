@@ -3,6 +3,14 @@ title: Creating/Editing Meal Plans and Items
 description: Learn how to create meal plans and add recipes or text items to your RecipeSage meal planning calendar.
 ---
 
+## Video Guide
+
+This same video also appears on the [📖 usage and options](./usage.md) and [📖 sharing](./sharing.md) pages, since it covers meal plans as a whole. Think of it as a visual overview to help you get oriented. It does not cover everything, so read on down this page for the details specific to creating and editing meal plans and items.
+
+<div style={{position: 'relative', paddingBottom: '56.25%', height: 0, marginBottom: '1.5rem'}}>
+  <iframe style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} src="https://www.youtube.com/embed/UjKqacibTeo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
+
 ## Creating a Meal Plan
 
 Your existing meal plans are listed on the [📱 Meal Plans](https://recipesage.com/app/meal-planners) page. Click any meal plan to open it, or use the + button in the bottom right corner to create a new one.

@@ -5,6 +5,14 @@ description: Share shopping lists with other RecipeSage users or print to PDF. C
 
 Shopping lists can be shared with other RecipeSage users, or be printed to PDF to be shared with non-RecipeSage users.
 
+## Video Guide
+
+This same video also appears on the [📖 creating lists and items](./create.md) and [📖 usage and options](./usage.md) pages, since it covers shopping lists as a whole. Think of it as a visual overview to help you get oriented. It does not cover everything, so read on down this page for the details specific to sharing shopping lists.
+
+<div style={{position: 'relative', paddingBottom: '56.25%', height: 0, marginBottom: '1.5rem'}}>
+  <iframe style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} src="https://www.youtube.com/embed/TBz1AcJaTXw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
+
 ## Sharing to RecipeSage users
 
 Sharing to other RecipeSage users will give them edit access to the shopping list, and allow them to add their own recipes and items to the shopping list.
