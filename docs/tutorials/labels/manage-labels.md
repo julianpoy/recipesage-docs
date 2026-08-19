@@ -13,7 +13,9 @@ This section covers the [📱 label manager](https://recipesage.com/app/labels).
 
 ## Label List
 
-The [📱 label manager](https://recipesage.com/app/labels) displays a list of all of the labels & label categories you currently have in your collection.
+<img className="screenshot screenshot-wide" src="/img/manage-labels.png" width="2664" height="2322" alt="Manage Labels & Categories page listing all labels"></img>
+
+The [📱 label manager](https://recipesage.com/app/labels) displays a list of all of the labels & label categories you currently have in your collection. Each entry shows how many recipes use the label, which category it belongs to (if any), and when it was created. Use the search bar at the top to quickly find a label, or the + button in the bottom right corner to create a new label or category.
 
 On this page, you can edit labels & label categories as well as do bulk operations based on those labels. This isn't the place to [📖 filter by label](./filtering.md), or to [📖 create or assign labels to recipes](./create.md).
 

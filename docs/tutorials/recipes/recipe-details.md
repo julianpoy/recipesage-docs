@@ -3,7 +3,7 @@ title: Recipe Details
 description: View recipe details, scale ingredients, print recipes, and share with friends. Learn all features of the RecipeSage recipe details page.
 ---
 
-<img className="screenshot" src="/img/recipe-details.png" width="1080" height="1920" alt="Recipe details page showing full recipe information"></img>
+<img className="screenshot" src="/img/recipe-details.png" width="1224" height="2220" alt="Recipe details page showing full recipe information"></img>
 
 This page is the detailed view for a single recipe. All of the information for the selected recipe is printed here, as well as buttons for various actions.
 
@@ -27,11 +27,22 @@ Cook mode uses its own font size so you can set it larger for reading from a dis
 
 ## Scaling
 
-<img className="screenshot" src="/img/recipe-details-scale.png" width="1080" height="1920" alt="Recipe scaling dialog"></img>
+<img className="screenshot" src="/img/recipe-details-scale.png" width="1224" height="2220" alt="Recipe ingredients with the scale link"></img>
 
-Click the scale link to choose a different recipe scale. A dialogue will pop up for the recipe scale. Enter a number or a fraction and the ingredient quantities (shown in bold) will adjust.
+Click the scale link below the ingredients (it shows the current scale and unit system, e.g. "1x scale · Original") to open the **Scale & Convert Recipe** dialogue.
 
-Keep in mind that any measurements that are not shown in bold aren't recognized and won't be scaled.
+<img className="screenshot" src="/img/recipe-details-scale-dialog.png" width="1224" height="2220" alt="Scale and convert recipe dialog"></img>
+
+There are a few ways to set the scale:
+
+- Tap one of the quick-scale buttons (1/2x, 1x, 2x, 3x, 4x).
+- Enter a number, decimal, or fraction to multiply the recipe by.
+- Scale by yield: enter how many servings or units you want, and RecipeSage works out the multiplier.
+- Pick an ingredient to scale by: choose one ingredient and enter the amount you have, and the rest of the recipe scales to match.
+
+The ingredient quantities shown in bold will adjust. Keep in mind that any measurements that are not shown in bold aren't recognized and won't be scaled.
+
+The **Units** dropdown converts between measurement systems. See [📖 Converting Between Metric and Imperial](#converting-between-metric-and-imperial) below.
 
 Values entered into the scale field are not permanent. Once you close this recipe, the scale will default back to the scale entered in the recipe editor.
 
@@ -45,13 +56,13 @@ Thousands separators are understood in both styles, so `1,000 g` and `1.000 g` b
 
 ### Converting Between Metric and Imperial
 
-The [📖 scale dialogue](#scaling) also has a **Units** toggle with three options:
+The [📖 scale dialogue](#scaling) also has a **Units** dropdown with three options:
 
 - **Original**: keep each ingredient in the units the author wrote it in
 - **Metric**: convert imperial measurements to metric (e.g. `1 cup` → `240 ml`)
 - **Imperial**: convert metric measurements to imperial (e.g. `500 g` → `~1 lb 1 3/4 oz`)
 
-To change units, open the scale dialogue from the recipe details page (click the scale link near the top of the recipe) and select a unit system from the **Units** toggle.
+To change units, open the scale dialogue from the recipe details page (click the scale link below the ingredients) and select a unit system from the **Units** dropdown.
 
 The conversion is applied to both the ingredients list and to any measurement-style `{}` placeholders within the instructions (for example, `{236ml}` or `{2 cups}`). Measurements that can't be cleanly converted will keep their original unit.
 
@@ -71,40 +82,54 @@ See [📖 Nutrition](./edit-recipe.md#nutrition) for how to fill these fields in
 
 ## Labelling
 
-<img className="screenshot" src="/img/recipe-details-actions.png" width="1080" height="1920" alt="Recipe action buttons"></img>
+<img className="screenshot" src="/img/recipe-details-labels.png" width="1224" height="2220" alt="Recipe labels shown on the recipe details page"></img>
 
 Labels are an excellent way of organizing your recipes. Think of labels as folders, but where a single recipe can be in multiple folders!
 
-To add a label to a recipe, enter the label name in the field below the labels header as shown above, and press enter to save.
+Any labels assigned to a recipe are shown in the **Labels** section near the bottom of the recipe details page. Clicking a label takes you to the my recipes page filtered by that label.
 
-Suggestions will be shown below the field as you type - they will be filtered as you type your label name. You can click a suggestion to automatically add that label. To remove a label, just click the trash can icon.
+If you've grouped your labels into [📖 label categories](../labels/manage-labels.md#labels--label-categories), they'll be displayed grouped by category, with anything uncategorized shown under "General".
 
-You can filter by labels on the my recipes page to see only recipes in a certain label.
+<img className="screenshot" src="/img/recipe-details-labels-categories.png" width="1224" height="2220" alt="Recipe labels grouped by category"></img>
+
+To add or remove labels on a recipe, open the [📖 recipe editor](./edit-recipe.md#labels). Labels are managed from there.
 
 ## Actions
 
-<img className="screenshot" src="/img/recipe-details-actions.png" width="1080" height="1920" alt="Recipe action buttons"></img>
+<img className="screenshot" src="/img/recipe-details-actions.png" width="1224" height="2322" alt="Recipe actions in the options menu"></img>
 
- At the bottom of the recipe details page there are buttons for various recipe actions. Here is a brief summary of each of the actions and their corresponding description:
+There are buttons for various recipe actions at the bottom of the recipe details page. The same actions are also available from the options menu in the top right corner (shown above), which additionally has a **Keep Screen On** toggle. Here is a brief summary of each of the actions:
 
 ### Edit
-This button will take you to the editing/authoring page for this recipe, allowing you to change details about this recipe such as instructions and ingredients.
+Takes you to the editing/authoring page for this recipe, allowing you to change details about this recipe such as instructions and ingredients.
 
 ### Delete
-This button will start the process of deleting this recipe permanently. Don't worry, you'll be prompted before the recipe is deleted. Confirming the deletion dialogue will completely and permanently remove the recipe from the system.
+Starts the process of deleting this recipe permanently. Don't worry, you'll be prompted before the recipe is deleted. Confirming the deletion dialogue will completely and permanently remove the recipe from the system.
 
 ### Add to shopping list
-This button will open the add to shopping list dialogue for this recipe.
+Opens the add to shopping list dialogue for this recipe.
 
 ### Add to meal plan
-This button will open the add to meal plan dialogue for this recipe.
+Opens the add to meal plan dialogue for this recipe.
 
 ### Share
-This button will open the share dialogue for this recipe, allowing you to send this recipe to another RecipeSage user.
+Opens the share dialogue for this recipe, allowing you to send this recipe to another RecipeSage user, share it by link, or embed it.
+
+### Make a Copy
+Creates a duplicate of the recipe in your own collection. Useful for keeping the original intact while you tweak the copy.
+
+### Mark as Made Today
+Sets the recipe's [📖 Last Made](./edit-recipe.md#last-made) date to today without opening the editor.
+
+### Pin Recipe Open
+Pins the recipe to a toolbar so you can quickly switch between multiple recipes you're referencing at once.
+
+### Publish to Discover
+Shares the recipe publicly to the [📖 Discover](../discover/index.md) feed.
 
 ## Add to Shopping List
 
-<img className="screenshot" src="/img/add-recipe-to-shopping-list.png" width="1080" height="1920" alt="Add recipe to shopping list dialog"></img>
+<img className="screenshot" src="/img/add-recipe-to-shopping-list.png" width="1224" height="2322" alt="Add recipe to shopping list dialog"></img>
 
 Shopping lists are a great way of keeping track of ingredients and items that you need from the store. Check out the shopping list tutorial to see how to use the various shopping list pages.
 
@@ -116,7 +141,7 @@ Select the list you'd like to add to by clicking the dropdown selector at the to
 
 ## Add to Meal Plan
 
-<img className="screenshot" src="/img/add-recipe-to-meal-plan.png" width="1080" height="1920" alt="Add recipe to meal plan dialog"></img>
+<img className="screenshot" src="/img/add-recipe-to-meal-plan.png" width="1224" height="2322" alt="Add recipe to meal plan dialog"></img>
 
 Meal plans are a great way of keeping track of which recipes you're going to cook on what day. Check out the meal plan tutorial to see how to use the various meal plan pages.
 
@@ -142,13 +167,13 @@ There are three options for sharing a recipe:
 
 ### To a RecipeSage User
 
-<img className="screenshot" src="/img/share-recipe-account.png" width="1080" height="1920" alt="Share recipe with RecipeSage account dialog"></img>
+<img className="screenshot" src="/img/share-recipe-account.png" width="1224" height="2322" alt="Share recipe with RecipeSage account dialog"></img>
 
 The recipe sharing modal allows you to send a recipe to another RecipeSage user's account, share via link, or share via embed.
 
 To begin the process of sharing a recipe to another user's account, press the share button at the bottom of the recipe details page (as described in the recipe actions tutorial). You'll then be presented with the share modal shown in the image above.
 
-To select a recipient, type the email of the RecipeSage user you'd like to send the recipe to in the field recipient email field. The status below the field will update as you type. It will either report that the user was found (and will show their nickname), or it will report that no user was found with that email address.
+To select a recipient, type the email or @handle of the RecipeSage user you'd like to send the recipe to into the "Search by email or handle" field. Matching users will appear as you type so you can select the one you want.
 
 You can also select the recipient from your list of existing conversations if you already have an existing message thread with the user (this list will not be shown if you do not have at least one existing message thread with another user).
 
@@ -158,7 +183,7 @@ After selecting the recipient user via either method, you'll be able to press th
 
 ### By Link
 
-<img className="screenshot" src="/img/share-recipe-link.png" width="1080" height="1920" alt="Share recipe via link dialog"></img>
+<img className="screenshot" src="/img/share-recipe-link.png" width="1224" height="2322" alt="Share recipe via link dialog"></img>
 
 The recipe sharing modal allows you to send a recipe to another RecipeSage user's account, share via link, or share via embed.
 
@@ -172,7 +197,7 @@ Note: The share button depicted to the right of the URL will only show up on som
 
 ### By Embed
 
-<img className="screenshot" src="/img/share-recipe-embed.png" width="1080" height="1920" alt="Recipe embed code dialog"></img>
+<img className="screenshot" src="/img/share-recipe-embed.png" width="1224" height="2322" alt="Recipe embed code dialog"></img>
 
 The recipe sharing modal allows you to send a recipe to another RecipeSage user's account, share via link, or share via embed.
 
@@ -191,7 +216,7 @@ After you've selected the desired options, copy the provided code and paste it a
 
 ## Printing
 
-<img className="screenshot" src="/img/select-recipe-print-layout.png" width="1080" height="1920" alt="Recipe print layout selection"></img>
+<img className="screenshot" src="/img/select-recipe-print-layout.png" width="1662" height="2331" alt="Recipe print layout selection"></img>
 
 **Note:** If you're looking for how to print all recipes, see [📖 Printing All Recipes or Exporting All Recipes to PDF](./my-recipes.md#printing-all-recipes-or-exporting-all-recipes-to-pdf) instead.
 
@@ -199,7 +224,7 @@ The print recipe modal allows you to print a hardcopy of your recipe.
 
 To begin the process of printing a recipe, press the print button at the bottom of the recipe details page (as described in the recipe actions tutorial). You'll then be presented with the print layout modal shown in the image above.
 
-To select a print layout, click the desired layout displayed in the layout list.
+To select a print layout, click the desired layout displayed in the layout list. Options include **Standard**, **Standard No Image**, **Half Sheet, Columns**, and **Half Sheet, Compact, No Columns**.
 
 After selecting a print layout, you'll be able to press the print button. The print button will trigger your system print dialogue.
 

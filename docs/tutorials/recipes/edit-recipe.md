@@ -7,7 +7,7 @@ Creating a recipe and editing a recipe both happen using the same interface and 
 
 ## Creating a new recipe
 
-<img className="screenshot" src="/img/edit-recipe.png" width="1080" height="1920" alt="RecipeSage recipe editing interface"></img>
+<img className="screenshot" src="/img/edit-recipe.png" width="1314" height="2103" alt="RecipeSage recipe editing interface"></img>
 
 The create recipe page can be reached from the [📖 my recipes](./my-recipes.md) page by clicking the blue + button in the bottom right corner, as well as via the sidemenu.
 
@@ -17,13 +17,23 @@ To add an image to your recipe, click the image holder at the top. Your browser 
 
 For special formatting in the ingredients, instructions, or notes fields please see the [📖 formatting](./edit-recipe.md#formatting) section below.
 
-You can add or remove labels from the recipe on this page. The documentation for creating labels is [📖 here](../labels/create.md).
+You can add or remove labels from the recipe on this page. See [📖 Labels](#labels) below. The documentation for creating labels is [📖 here](../labels/create.md).
+
+## Autofill
+
+Rather than typing a recipe out by hand, you can have RecipeSage fill in the fields for you from an existing source. On the [📖 create new recipe page](#creating-a-new-recipe) (not available while editing an existing recipe), click the **Autofill Recipe From...** button to choose a source.
+
+<img className="screenshot" src="/img/edit-recipe-autofill.png" width="1314" height="2103" alt="Autofill recipe source menu"></img>
+
+The available options are covered below. Each autofill dialogue also has an **Attempt to grab nutrition information** checkbox. See [📖 Grabbing Nutrition During Clipping](#grabbing-nutrition-during-clipping).
 
 ### Autofill from URL
 
 Importing by URL makes it easy to import almost any site into your recipe edit flow automatically.
 
-To import a recipe from URL, open the [📖 create new recipe page](#creating-a-new-recipe) (not available while editing an existing recipe), and click the "Autofill Recipe From" button. Then, click the "Autofill from URL" option and paste in a URL to a recipe.
+To import a recipe from URL, open the [📖 create new recipe page](#creating-a-new-recipe) (not available while editing an existing recipe), and click the "Autofill Recipe From..." button. Then, click the "Autofill from URL" option, paste in a URL to a recipe, and click "Okay".
+
+<img className="screenshot" src="/img/edit-recipe-autofill-url.png" width="1314" height="2103" alt="Autofill recipe from URL dialog"></img>
 
 Known limitations:
 
@@ -34,7 +44,9 @@ Known limitations:
 
 Importing from text makes it easy to import from a copied block of text. The text doesn't have to have any particular format, as long as it contains a recipe at some point. The RecipeSage assistant will take care of formatting it into the appropriate fields.
 
-To autofill a recipe from a block of text, open the [📖 create new recipe page](#creating-a-new-recipe) (not available while editing an existing recipe), and click the "Autofill Recipe From" button. Then, click the "Autofill from Text" option and paste in a URL to a recipe.
+To autofill a recipe from a block of text, open the [📖 create new recipe page](#creating-a-new-recipe) (not available while editing an existing recipe), and click the "Autofill Recipe From..." button. Then, click the "Autofill from text" option, paste in a block of text containing a recipe, and click "Okay".
+
+<img className="screenshot" src="/img/edit-recipe-autofill-text.png" width="1314" height="2103" alt="Autofill recipe from text dialog"></img>
 
 Known limitations:
 
@@ -44,7 +56,7 @@ Known limitations:
 
 You can take a photo of a recipe either in print form, or handwritten. RecipeSage will recognize any text it can see in the photo, and try to fill in the associated fields on your recipe.
 
-To use this, open the [📖 new recipe page](#creating-a-new-recipe) (not available while editing an existing recipe) and click the "Autofill Recipe From" button, then the "Scan from Photo" option. On mobile devices, you'll be prompted to choose whether to take a photo, or whether to select an existing one. On desktop, you'll just see a file dialogue where you can select an image file.
+To use this, open the [📖 new recipe page](#creating-a-new-recipe) (not available while editing an existing recipe) and click the "Autofill Recipe From..." button, then the "Scan from photo" option. On mobile devices, you'll be prompted to choose whether to take a photo, or whether to select an existing one. On desktop, you'll just see a file dialogue where you can select an image file.
 
 If taking a photo with your camera, it's recommended to have good lighting, and have the text in the photo be as square as possible. Screenshots also work great.
 
@@ -62,7 +74,9 @@ Importing from a document makes it easy to import recipes from almost any arbitr
 
 Supported document types are PDF, DOCX, RTF, ODT, Markdown, HTML, OrgMode, and plain text.
 
-To autofill a recipe from a document, open the [📖 create new recipe page](#creating-a-new-recipe) (not available while editing an existing recipe), and click the "Autofill Recipe From" button. Then, click the "Scan from document" option. You'll be prompted to select a file.
+To autofill a recipe from a document, open the [📖 create new recipe page](#creating-a-new-recipe) (not available while editing an existing recipe), and click the "Autofill Recipe From..." button. Then, click the "Scan from document" option and click "Choose File" to select a file.
+
+<img className="screenshot" src="/img/edit-recipe-autofill-document.png" width="1314" height="2103" alt="Autofill recipe from document dialog"></img>
 
 Known limitations:
 
@@ -71,8 +85,6 @@ Known limitations:
 
 ## Editing a recipe
 
-<img className="screenshot" src="/img/edit-recipe.png" width="1080" height="1920" alt="RecipeSage recipe editing interface"></img>
-
 The edit recipe page can be reached from the [📖 recipe details](./recipe-details.md) page by clicking the edit button at the bottom of the page, or by clicking the edit button in the top right options menu.
 
 The options and interface are the same here as described in the [📖 creating a new recipe](#creating-a-new-recipe) section.
@@ -80,6 +92,8 @@ The options and interface are the same here as described in the [📖 creating a
 ## Formatting
 
 The ingredients, instructions, and notes fields support special syntax for organizing and formatting your recipes.
+
+<img className="screenshot screenshot-wide" src="/img/edit-recipe-formatting.png" width="2664" height="2322" alt="Ingredients and instructions fields with formatting toolbars"></img>
 
 Each of these fields has a small toolbar directly beneath it with buttons that insert the formatting syntax for you, so you don't have to remember it. The available buttons depend on the field (for example, tables are only offered under the notes field). If you have text selected when you press a button, the formatting is wrapped around your selection; otherwise a placeholder is inserted for you to type over. The information icon at the end of each toolbar links back to this section.
 
@@ -154,7 +168,7 @@ __underlined text__
 
 ### Section headers
 
-<img className="screenshot" src="/img/recipe-details-ingredients.png" width="1080" height="1920" alt="Recipe ingredients with section headers"></img>
+<img className="screenshot screenshot-wide" src="/img/recipe-details-ingredients.png" width="2664" height="2322" alt="Recipe ingredients and instructions with section headers"></img>
 
 To add a header, wrap the line in brackets:
 
@@ -187,6 +201,18 @@ You can also choose a size by adding `:small`, `:medium`, `:large`, or `:xlarge`
 ```
 
 This syntax is supported in the **Instructions** and **Notes** fields only.
+
+## Labels
+
+Labels are added to and removed from a recipe on the edit page.
+
+<img className="screenshot" src="/img/recipe-edit-labels.png" width="1224" height="2220" alt="Editing labels on the recipe edit page"></img>
+
+Under the **Labels** heading, type into a "Search for a label" field to find an existing label or create a new one, then select it to attach it to the recipe. To remove a label, tap the red trash can icon next to it.
+
+If you've set up [📖 label categories](../labels/manage-labels.md#labels--label-categories), each category gets its own labelled group with its own search field, so you can keep, for example, "Meal" labels separate from "General" ones. Uncategorized labels appear under the "General" group.
+
+Once saved, your labels are shown on the [📖 recipe details page](./recipe-details.md#labelling) and can be used to [📖 filter your recipes](../labels/filtering.md).
 
 ## Rating
 

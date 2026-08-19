@@ -5,7 +5,7 @@ description: Install the RecipeSage browser extension for Chrome and Firefox to 
 
 The RecipeSage clip tool browser extension provides a very quick way to import recipes from the web.
 
-Although it's possible to import recipes using the [📖 import by url](./recipes/edit-recipe.md#import-by-url) feature, there are a number of known limitations, but also requires more interaction. The clip tool browser extension is convenient and makes it really quick and easy to clip a recipe from the web directly into your RecipeSage account.
+Although it's possible to import recipes using the [📖 autofill from URL](./recipes/edit-recipe.md#autofill-from-url) feature, there are a number of known limitations, but also requires more interaction. The clip tool browser extension is convenient and makes it really quick and easy to clip a recipe from the web directly into your RecipeSage account.
 
 ## Installation
 

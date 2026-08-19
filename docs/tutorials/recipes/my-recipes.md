@@ -7,7 +7,7 @@ Welcome to the main page of RecipeSage! This is where most of the action happens
 
 ## Main Screen
 
-<img className="screenshot" src="/img/home.png" width="1080" height="1920" alt="RecipeSage my recipes home page"></img>
+<img className="screenshot" src="/img/home.png" width="1224" height="2220" alt="RecipeSage my recipes home page"></img>
 
 To create a recipe, you'll need to click that big blue button in the bottom right hand corner. That will take you to the recipe authoring page.
 
@@ -23,11 +23,13 @@ The search bar returns results that are as "close" to your match as possible, bu
 
 ## Options Menu
 
-<img className="screenshot" src="/img/home-popover.png" width="1080" height="1920" alt="Recipe list options menu"></img>
+<img className="screenshot" src="/img/home-options.png" width="1224" height="2220" alt="Recipe list options menu"></img>
 
-You can use the settings icon in the upper right-hand corner to adjust sort order, filter by label, and enable/disable different visual items.
+Use the options icon in the upper right-hand corner to change the layout, adjust the sort order, and enable/disable different visual items. These are all visual preferences. To actually narrow down which recipes are shown, use the [📖 Search Filters](#search-filters) menu instead.
 
 Here is a brief description of what each of these settings do:
+
+**Layout:** Switches the recipe list between the **Tiles**, **List**, and **Compact** layouts.
 
 **Show Labels:** When enabled, you'll see a list of labels below the title on each recipe. This setting is visual only.
 
@@ -37,19 +39,33 @@ Here is a brief description of what each of these settings do:
 
 **Show Source:** When enabled, you'll see the recipe source below the recipe title on each recipe. This setting is visual only.
 
+**Show Description:** When enabled, you'll see the recipe description below the title on each recipe. This setting is visual only.
+
 **Show Rating:** When enabled, you'll see the recipe's star rating on each recipe that has one. This setting is visual only.
 
-**Sort By:** Selecting a different sort order will change the order in which recipes appear in the list. This setting is visual only.
+**Sort By:** Selecting a different sort order will change the order in which recipes appear in the list. You can sort by title, when a recipe was created or updated, or when it was last made.
 
-**Filter by Label:** Allows you to filter your recipes by assigned labels.
+## Search Filters
 
-**Match All Labels:** Changes how label filter is applied. Example: When off, filtering by labels "dinner" and "soup" will show recipes that have either of those labels. When on, filtering by labels "dinner" and "soup" will only show recipes that have both of those labels.
+<img className="screenshot" src="/img/home-filter.png" width="1224" height="2220" alt="Recipe list search filters menu"></img>
+
+The filter and options menus are separate. While the [📖 Options menu](#options-menu) controls how the list looks, the **Search Filters** menu controls which recipes are shown. Tap **Filter** next to the search bar to open it.
+
+**Filter by Rating:** Show only recipes with the star ratings you select.
+
+**Filter by Label:** Show only recipes that have the labels you select. See [📖 Label Usage & Filtering](../labels/filtering.md) for more detail.
+
+**Match All Labels:** Changes how the label filter is applied. When off, filtering by labels "dinner" and "soup" will show recipes that have either of those labels. When on, it will only show recipes that have both of those labels.
+
+**Filter by Nutrition:** Show only recipes whose nutrition values fall within the ranges you set.
+
+**Show Friends Recipes:** Choose whether recipes shared with you by friends are included in your search and browse results.
 
 ## Bulk Actions
 
-<img className="screenshot" src="/img/home-bulk-actions.png" width="1080" height="1920" alt="Bulk actions menu for multiple recipes"></img>
+<img className="screenshot" src="/img/home-bulk-actions.png" width="1224" height="2220" alt="Bulk actions menu for multiple recipes"></img>
 
-You can select multiple recipes by using the "Select Multiple Recipes" option in the options menu, then tapping the recipes you'd like to select. Then, use the buttons in the header to create a label for, or delete all of those recipes at the same time.
+You can select multiple recipes by using the "Select Multiple Recipes" option in the options menu, then tapping the recipes you'd like to select. Then, use the buttons in the header to add a label to, export, or delete all of those recipes at the same time.
 
 You can tap a recipe again to deselect it, or press the X in the top left corner to cancel your selection altogether.
 

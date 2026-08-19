@@ -39,3 +39,11 @@
   box-shadow: 1px 1px 10px rgba(0,0,0,0.4);
   display: block;
 }
+
+/* Wide (landscape / desktop) screenshots need more room than the
+   narrow mobile cap so their content stays legible, but should still
+   stay comfortably within the viewport. */
+.screenshot.screenshot-wide {
+  max-width: min(520px, 100%);
+  max-height: 70vh;
+}
