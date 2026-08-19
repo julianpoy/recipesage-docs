@@ -19,6 +19,7 @@ RecipeSage supports importing the following import sources:
 - [📖 Mela](mela.md)
 - [📖 Crouton](crouton.md)
 - [📖 CookBookManager.com](cookbookmanagercom.md)
+- [📖 Flavorish](flavorish.md)
 - [📖 Recipe Keeper](recipe-keeper.md)
 - [📖 Evernote](evernote.md)
 - [📖 CopyMeThat](copymethat.md)
