@@ -17,13 +17,13 @@ To share a new meal plan, head to the [📱 Meal Plans](https://recipesage.com/a
 
 Click the + button in the bottom right corner.
 
-Enter a meal plan title
+Enter a meal plan title.
 
-Enter as many user email addresses into the "collaborators" field. Once added, the UI should look like this:
+Add collaborators using the "Search by email or handle" field under "Collaborators". Search for each person by their email or handle and select them. Once added, the UI should look like this:
 
-<img className="screenshot" src="/img/meal-plan-edit.png" width="1348" height="1320" alt="Edit meal plan collaborators"></img>
+<img className="screenshot" src="/img/meal-plans-new.png" width="1374" height="2004" alt="New meal planner dialog with a collaborator added"></img>
 
-Click save.
+Click "Create and Share" (the button changes from "Create" to "Create and Share" once you have added at least one collaborator).
 
 ### Sharing an existing meal plan
 
@@ -33,13 +33,13 @@ Open the meal plan you would like to share.
 
 Click the options button in the top right corner of the navbar to open the options popover.
 
-Click the "edit/rename meal plan" button (Note: this button is only available if you own the meal plan in question).
+Click the "Manage Meal Plan" button (Note: this button is only available if you own the meal plan in question).
 
-Enter as many user email addresses into the "collaborators" field. Once added, the UI should look like this:
+Add collaborators using the "Search by email or handle" field under "Collaborators". Once added, the UI should look like this:
 
-<img className="screenshot" src="/img/meal-plan-edit.png" width="1348" height="1320" alt="Edit meal plan collaborators"></img>
+<img className="screenshot" src="/img/meal-plans-new.png" width="1374" height="2004" alt="Meal plan collaborators field with a collaborator added"></img>
 
-Click save.
+Click "Update and Share" to save.
 
 ## Sharing to non-RecipeSage users
 
@@ -51,7 +51,7 @@ Open the meal plan you would like to share.
 
 Click the options button in the top right corner of the navbar to open the options popover.
 
-Click the "share" button.
+Click the "Get iCal Link" button.
 
 Send the link displayed to another user. This link can be used in most calendar applications (such as Google Calendar), usually described as "add external calendar".
 

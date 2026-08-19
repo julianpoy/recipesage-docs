@@ -11,11 +11,11 @@ The options documented here apply to the `Side Menu -> Settings` page, available
 
 When enabled, and when on a large device such as a laptop, desktop, or large tablet, the app will change from this:
 
-<img className="screenshot" src="/img/settings.png" width="2678" height="1544" alt="RecipeSage settings page"></img>
+<img className="screenshot screenshot-wide" src="/img/settings.png" width="2678" height="1544" alt="RecipeSage settings page"></img>
 
 to:
 
-<img className="screenshot" src="/img/settings-split-pane.png" width="2678" height="1544" alt="Split pane view on large screens"></img>
+<img className="screenshot screenshot-wide" src="/img/settings-split-pane.png" width="2678" height="1544" alt="Split pane view on large screens"></img>
 
 ## Enable Offline Mode
 

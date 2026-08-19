@@ -3,7 +3,9 @@ title: Tools
 description: A collection of utilities for working with your RecipeSage recipes, including the Cookbook Generator.
 ---
 
-The `Side Menu -> Tools` page is a collection of utilities for working with your recipes.
+The `Side Menu -> Tools` page (titled **Tools & Helpers** in the app) is a collection of utilities for working with your recipes.
+
+<img className="screenshot screenshot-wide" src="/img/tools.png" width="2844" height="2343" alt="Tools and Helpers page listing the available utilities"></img>
 
 ## Available Tools
 

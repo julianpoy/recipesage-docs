@@ -7,6 +7,8 @@ This section covers the [📱 label manager](https://recipesage.com/app/labels).
 
 ## Video Guide to Using Labels
 
+This same video also appears on the [📖 label usage and filtering](./filtering.md) page, since it covers labels as a whole. Think of it as a visual overview to help you get oriented. It does not cover everything, so read on down this page for the details specific to managing labels.
+
 <div style={{position: 'relative', paddingBottom: '56.25%', height: 0, marginBottom: '1.5rem'}}>
   <iframe style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} src="https://www.youtube.com/embed/PNxJN6yiuWs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 </div>

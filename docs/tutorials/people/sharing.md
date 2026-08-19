@@ -3,11 +3,13 @@ title: Sharing
 description: Share recipes, meal plans, and shopping lists in RecipeSage. Learn multiple ways to share content with users or the public.
 ---
 
-One of the powerful features of RecipeSage that sets it apart from other recipe keepers is it's powerful sharing capabilities.
+One of the powerful features of RecipeSage that sets it apart from other recipe keepers is its powerful sharing capabilities.
 
 There are many ways to share content in RecipeSage, including recipes, meal plans, and shopping lists.
 
 ## Sharing Recipes
+
+<img className="screenshot" src="/img/share-recipe-account.png" width="1224" height="2322" alt="Recipe share dialog with RecipeSage, link, and embed options"></img>
 
 There are three main ways of sharing recipes.
 
@@ -23,5 +25,5 @@ To share a meal plan with another user, simply add them as a collaborator when [
 
 ## Sharing Shopping Lists
 
-To share a meal plan with another user, simply add them as a collaborator when [📖 creating the shopping list](../shopping-lists/create.md)
+To share a shopping list with another user, simply add them as a collaborator when [📖 creating the shopping list](../shopping-lists/create.md)
 

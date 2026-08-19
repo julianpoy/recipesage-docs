@@ -5,6 +5,8 @@ description: Find the recipes in your collection that you can cook from the ingr
 
 Search by Ingredients is a tool for "what can I cook with what is already in my fridge, freezer, or cabinet?" Instead of searching for one recipe by name, you list the ingredients you have and RecipeSage will find the recipes that use the most of them.
 
+<img className="screenshot screenshot-wide" src="/img/search-ingredients.png" width="3528" height="2763" alt="Search by Ingredients with an ingredient list and matching recipe results"></img>
+
 ## Searching
 
 1. Open `Side Menu -> Tools -> Search by Ingredients`.

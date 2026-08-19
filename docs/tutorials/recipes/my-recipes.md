@@ -5,6 +5,14 @@ description: Search, sort, and filter your recipe collection. Learn how to use t
 
 Welcome to the main page of RecipeSage! This is where most of the action happens. Here you can search, sort and filter for the recipes you're looking for.
 
+## Video Guide
+
+This same video also appears on the [📖 creating and editing](./edit-recipe.md) and [📖 recipe details](./recipe-details.md) pages, since it covers recipes as a whole. Think of it as a visual overview to help you get oriented. It does not cover everything, so read on down this page for the details specific to the my recipes page.
+
+<div style={{position: 'relative', paddingBottom: '56.25%', height: 0, marginBottom: '1.5rem'}}>
+  <iframe style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} src="https://www.youtube.com/embed/GX38a_GcRmo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
+
 ## Main Screen
 
 <img className="screenshot" src="/img/home.png" width="1224" height="2220" alt="RecipeSage my recipes home page"></img>

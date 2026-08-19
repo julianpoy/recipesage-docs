@@ -20,41 +20,57 @@ This handle will be part of the URL for your profile, and others will be able to
 
 ## Editing Your Profile
 
-<img className="screenshot" src="/img/people-edit-profile.png" width="505" height="903" alt="Edit profile interface"></img>
+<img className="screenshot screenshot-wide" src="/img/people-my-profile-empty.png" width="2388" height="2529" alt="Edit profile page"></img>
 
 On the [📱 profile edit page](https://recipesage.com/app/people/my-profile), you'll be able to edit the details of your profile including adding and removing profile items.
 
-To edit your profile name or handle, click the pencil icon next to your name or handle, type the new name or handle you'd like your profile to have, and click the save button at the bottom of the page.
+To edit your profile name or handle, click the pencil icon next to your name or handle, type the new name or handle you'd like your profile to have, and click the save button at the bottom of the page. You can also set a profile picture using the "Click to Add Image" box at the top.
 
-The "enable profile" toggle allows you to control whether the people feature is enabled within RecipeSage.
+The **Enable** toggle allows you to control whether the people feature is enabled within RecipeSage.
 If you disable your profile, you have effectively turned off all people related features. Other users won't be able to see your profile at all, including friends.
 
-Adding items to your profile is covered [📖 here](#adding-content-to-your-profile).
+The **Share** and **View Profile** buttons let you share your profile link or preview how your profile looks to others. Sharing your profile is covered [📖 below](#sharing-your-profile).
+
+Adding items to your profile is covered [📖 here](#adding-content-to-your-profile). When your profile has no items yet, you'll see a prompt to add your first one using the **Add** button.
 
 **Note:** Nothing on your profile will actually change until you press the save button at the bottom of the page. You're free to edit as much as you'd like before saving.
 
 ## Adding Content to Your Profile
 
-<img className="screenshot" src="/img/people-add-profile-item.png" width="463" height="594" alt="Add item to profile dialog"></img>
-
 Adding items to your profile allows you to share individual recipes, all recipes within a label, or your entire collection with friends or the public.
 
-Navigate to the [📱 profile edit page](https://recipesage.com/app/people/my-profile) and click the "add" button to open the dialogue for adding a new profile item.
+Navigate to the [📱 profile edit page](https://recipesage.com/app/people/my-profile) and click the **Add** button next to the "Pinned Recipes & Labels" heading to open the "Add Profile Item" dialogue. This dialogue walks you through the process one step at a time.
 
-The profile item dialogue will allow you to add recipes, labels, or your entire library to your profile for others to see and access.
-This dialogue will guide you through the process of adding an item depending on what type you select.
+**Step 1: Choose what to share.** Pick one of "A Recipe", "A Label", or "All of My Recipes".
 
-If you select the "recipe" or "label" type, you'll be asked to search for and select the item that you'd like to share.
-Next, the dialogue will ask you whether you want to share this item (or set of items) with the public, or only with your friends.
+<img className="screenshot screenshot-wide" src="/img/people-my-profile-add-item.png" width="2388" height="2529" alt="Add profile item, choosing what to share"></img>
+
+**Step 2: Select the item.** If you chose "A Recipe" or "A Label", search for and select the specific recipe or label you'd like to share. (If you chose "All of My Recipes", there's nothing to select and you'll skip straight to the next step.)
+
+<img className="screenshot screenshot-wide" src="/img/people-my-profile-add-item-recipe-1.png" width="2388" height="2529" alt="Add profile item, selecting a recipe"></img>
+
+**Step 3: Choose who can see it.** Select either "Anyone (Public)" or "My Friends Only".
+
+<img className="screenshot screenshot-wide" src="/img/people-my-profile-add-item-recipe-2.png" width="2388" height="2529" alt="Add profile item, choosing visibility"></img>
+
+**Step 4: Give it a featured title.** The **Featured Title** is the name shown for this item on your profile. It defaults to the recipe or label name, but you can change it to anything you like. When everything looks right, click **Done**, then click **Save** on the profile page to save your changes.
+
+<img className="screenshot screenshot-wide" src="/img/people-my-profile-add-item-recipe-3.png" width="2388" height="2529" alt="Add profile item, setting a featured title"></img>
+
+Adding a label works the same way. Choose "A Label" in step 1, pick the label, choose its visibility, and give it a featured title.
+
+<img className="screenshot screenshot-wide" src="/img/people-my-profile-add-item-label-3.png" width="2388" height="2529" alt="Add profile item for a label"></img>
+
+Once added, your items appear under "Pinned Recipes & Labels" on the profile page. You can reorder them by dragging the handle on the right, or remove one with the red trash can icon. Remember to click **Save** afterwards.
+
+<img className="screenshot screenshot-wide" src="/img/people-my-profile-with-items.png" width="2388" height="2529" alt="Profile edit page with an item added"></img>
 
 Keep in mind, if you share with the public, that means anyone will be able to view this item if they have your RecipeSage @handle.
 As always, only you can modify your recipes.
 
 ## Sharing Your Profile
 
-<img className="screenshot" src="/img/people-edit-profile.png" width="505" height="903" alt="Edit profile interface"></img>
-
-You can easily share your profile via the "share" button displayed on the [📱 view/edit profile page](https://recipesage.com/app/people/my-profile) as shown above.
+You can easily share your profile via the **Share** button displayed on the [📱 view/edit profile page](https://recipesage.com/app/people/my-profile), shown in the [📖 editing your profile](#editing-your-profile) section above.
 
 <img className="screenshot" src="/img/people-share-profile.png" width="798" height="1462" alt="Share profile dialog"></img>
 

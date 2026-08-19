@@ -9,6 +9,14 @@ This page is the detailed view for a single recipe. All of the information for t
 
 The page layout will change based on the screen size of the device you're browsing on so that it's always optimized. For the best experience, we suggest having a device large enough to where the ingredients and instructions are shown side-by-side.
 
+## Video Guide
+
+This same video also appears on the [📖 my recipes](./my-recipes.md) and [📖 creating and editing](./edit-recipe.md) pages, since it covers recipes as a whole. Think of it as a visual overview to help you get oriented. It does not cover everything, so read on down this page for the details specific to the recipe details page.
+
+<div style={{position: 'relative', paddingBottom: '56.25%', height: 0, marginBottom: '1.5rem'}}>
+  <iframe style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} src="https://www.youtube.com/embed/GX38a_GcRmo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
+
 ## Cook Mode
 
 Cook mode is a distraction-free view designed for following a recipe while you're actually cooking. Open it from the options menu in the top right corner of the recipe details page by selecting **Enter Cook Mode**.

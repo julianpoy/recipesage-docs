@@ -7,12 +7,13 @@ The RecipeSage people page is home to allows you to share and view content to an
 
 ## People &amp; Profile Home
 
-<img className="screenshot" src="/img/people-friend-requests.png" width="435" height="773" alt="People page showing friend requests"></img>
+<img className="screenshot" src="/img/people.png" width="1308" height="2106" alt="People page showing messages, recipe inbox, and friends"></img>
 
-Once you set up your profile, the [📱 People](https://recipesage.com/app/people) page will allow you to access your profile & settings, add friends, and search for other RecipeSage users.
+Once you set up your profile, the [📱 People](https://recipesage.com/app/people) page will allow you to access your profile and settings, add friends, and search for other RecipeSage users.
 You'll also be able to share individual recipes, all recipes within a label, or even your entire recipe library with friends or the public via [📖 your profile](./your-profile.md).
 
-Friend invites and friends will show up on this page as seen in the image above.
+From here you can jump to your **Messages**, your **Recipe Inbox** (recipes other users have sent you), or **View/edit my profile**.
+Your friends, along with any incoming friend invites and pending friend requests, show up further down this page.
 To access these features however, you'll need to first [📖 set up your profile](./your-profile.md).
 
 ## Finding Other Users
@@ -39,14 +40,15 @@ At any point during the friending process, you can click the user's name to open
 
 ## Viewing Other User's Profiles
 
-<img className="screenshot" src="/img/people-view-profile.png" width="691" height="789" alt="Viewing a friend's profile"></img>
+<img className="screenshot" src="/img/people-another-user-profile.png" width="1308" height="2106" alt="Viewing a friend's profile"></img>
 
 Once you click a user on the [📱 People](https://recipesage.com/app/people) page, you'll see their profile.
-Via their profile, you can access any recipes or labels they've shared.
+Their profile shows their name and @handle at the top, along with buttons to share their profile or send them a message, and a **Pinned Recipes & Labels** section listing everything they've chosen to share.
+There's also an **Unfriend** button at the bottom if you'd like to remove the friendship.
 
 Keep in mind that a user's profile may appear differently depending on whether you're friends with that user or not.
-In other words - if you're friends with the user you'll not only see public items, but friends-only items as well.
+In other words, if you're friends with the user you'll not only see public items, but friends-only items as well.
 
 Simply click one of the listed items on their profile (if they have any) to open it.
-To save a recipe from someone elses profile to your collection, open the recipe that you'd like to save and click the blue button at the bottom of the recipe details page.
+To save a recipe from someone else's profile to your collection, open the recipe that you'd like to save and click the blue button at the bottom of the recipe details page.
 

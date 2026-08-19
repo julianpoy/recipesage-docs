@@ -17,13 +17,13 @@ To share a new shopping list, head to the [📱 Shopping Lists](https://recipesa
 
 Click the + button in the bottom right corner.
 
-Enter a shopping list title
+Enter a shopping list title.
 
-Enter as many user email addresses into the "collaborators" field. Once added, the UI should look like this:
+Add collaborators by searching for them by email or handle in the "collaborators" field. Once added, the UI should look like this:
 
-<img className="screenshot" src="/img/shopping-list-edit.png" width="1352" height="1340" alt="Edit shopping list collaborators"></img>
+<img className="screenshot" src="/img/shopping-lists-new.png" width="1284" height="1875" alt="New shopping list with a collaborator added"></img>
 
-Click save.
+Click "create and share".
 
 ### Sharing an existing shopping list
 
@@ -33,13 +33,13 @@ Open the shopping list you would like to share.
 
 Click the options button in the top right corner of the navbar to open the options popover.
 
-Click the "edit/rename list" button (Note: this button is only available if you own the shopping list in question).
+Click the "Manage List" button (Note: this button is only available if you own the shopping list in question).
 
-Enter as many user email addresses into the "collaborators" field. Once added, the UI should look like this:
+Add collaborators by searching for them by email or handle in the "collaborators" field. Once added, the UI should look like this:
 
-<img className="screenshot" src="/img/shopping-list-edit.png" width="1352" height="1340" alt="Edit shopping list collaborators"></img>
+<img className="screenshot" src="/img/shopping-lists-new.png" width="1284" height="1875" alt="Shopping list collaborators field with a collaborator added"></img>
 
-Click save.
+Click "update and share" to save.
 
 ## Sharing to non-RecipeSage users
 

@@ -9,9 +9,17 @@ This page will cover using the meal plan (other than [📖 creating items](./cre
 
 The meal plan can be displayed in two views. You can switch between them by opening the options menu in the top right corner and changing the **View** setting.
 
-**Calendar view** shows your meals in a monthly calendar grid. It supports drag-and-drop to move items between days, and multi-day selection for bulk operations like copy and move.
+**Calendar view** shows your meals in a monthly calendar. On larger screens, each day's meals are shown right inside the calendar grid. It supports drag-and-drop to move items between days, and multi-day selection for bulk operations like copy and move.
+
+<img className="screenshot screenshot-wide" src="/img/meal-plan-gridcalendar-desktop.png" width="2676" height="2412" alt="Meal plan calendar view on a large screen"></img>
+
+On smaller screens, the calendar view shows a compact month grid with dots marking the days that have meals. Tap a day to see its meals listed below under "Meals For This Day".
+
+<img className="screenshot" src="/img/meal-plan-gridcalendar-mobile.png" width="1278" height="1986" alt="Meal plan calendar view on mobile"></img>
 
 **List view** shows your meals as a scrollable list grouped by date, starting from today. Past meals are tucked into a collapsible "Past Meals" section at the bottom so you can focus on what's coming up. Copy and move day operations are not available in list view.
+
+<img className="screenshot" src="/img/meal-plan-list.png" width="1278" height="1986" alt="Meal plan list view grouped by date"></img>
 
 ## Pinning Items Open
 
@@ -106,12 +114,12 @@ The printed output respects your current view setting:
 
 ## Adding to Other Calendar Programs
 
-To add your meal plan to an external calendar program and keep it in sync, open the options menu in the top right corner of the meal plan page and click "share".
+To add your meal plan to an external calendar program and keep it in sync, open the options menu in the top right corner of the meal plan page and click "Get iCal Link".
 
 The link shown can be added to most calendar programs as an external calendar, so long as the calendar program supports ICS format.
 
 For Google Calendar, you can add this link as an external calendar by:
-1. Copy the ICS link shown in the share popup
+1. Copy the ICS link shown in the dialog that appears
 2. Open your Google Calendar
 3. Click the + icon in the left sidebar where it says "other calendars"
 4. Click the "From URL" option
@@ -128,7 +136,7 @@ Meal plans can be edited while offline. You can add, edit, move, and delete meal
 
 ## Options
 
-<img className="screenshot" src="/img/meal-plan-options.png" width="866" height="1268" alt="Meal plan options menu"></img>
+<img className="screenshot screenshot-wide" src="/img/meal-plan-options.png" width="2844" height="2343" alt="Meal plan options menu"></img>
 
 **View**: Switch between "Calendar" and "List" view. See [Calendar vs List View](#calendar-vs-list-view) above for details.
 
@@ -156,5 +164,12 @@ Custom meal options can also be configured when creating a new meal plan.
 
 ### Actions
 
-These bulk actions are explained in the other meal plan guides. You can use each by selecting a day (or multiple days), then clicking one of these buttons. The action will then be applied to all selected days.
+The options menu also has an **Actions** section:
+
+- **Pin Recipes Open**, **Add to Shopping List**, **Calculate Nutrition for Selected Day(s)**, **Copy Selected Day(s)**, **Move Selected Day(s)**, and **Delete Selected Day(s)** all act on the day (or days) you have selected. Select a day, or drag across multiple days on desktop, then click one of these buttons to apply the action to everything on those days. Each of these is covered in more detail in the sections above.
+- **Manage Meal Plan** opens the editor where you can rename the plan, adjust [📖 collaborators](./sharing.md), and set up [📖 custom meal options](#custom-meal-options).
+- **Get iCal Link** gives you a link for [📖 adding the plan to other calendar programs](#adding-to-other-calendar-programs).
+- **Print** prints the meal plan as described in [📖 Printing](#printing).
+
+A **Danger Zone** section at the bottom holds the **Delete Meal Plan** button, which permanently removes the whole meal plan.
 

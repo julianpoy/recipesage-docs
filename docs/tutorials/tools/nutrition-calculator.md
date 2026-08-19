@@ -5,6 +5,8 @@ description: Add up the nutrition across several RecipeSage recipes, choose how 
 
 The Nutrition Calculator adds up the nutrition information across several of your recipes. You choose how many servings of each recipe to include, and it shows the combined totals (or the average per serving). You can reach it from `Side Menu -> Tools -> Nutrition Calculator`.
 
+<img className="screenshot screenshot-wide" src="/img/nutrition-calculator.png" width="3528" height="2763" alt="Nutrition Calculator with a list of recipes and combined nutrition summary"></img>
+
 ## Building a Calculation
 
 1. Open `Side Menu -> Tools -> Nutrition Calculator`.
@@ -21,6 +23,8 @@ The Nutrition Calculator adds up the nutrition information across several of you
 The totals update automatically as you add recipes or change servings; there is no button to press.
 
 ## Reading the Results
+
+<img className="screenshot screenshot-wide" src="/img/nutrition-calculator-bottom.png" width="3528" height="2763" alt="Nutrition Calculator results with coverage chips, calorie breakdown, and nutrition table"></img>
 
 - **Total / Average per serving** - switch between the combined total for everything you selected and the average per serving. In the average view, a **Divide among** field controls what the total is divided by. It defaults to the combined number of servings you selected, but you can change it to any number, for example to split a batch of meal prep into a set number of containers or to share a spread of dishes between a group of people.
 - **Coverage chips** - a quick summary of how complete the data is: how many of the 17 trackable nutrients appear, how many of your selected recipes have any nutrition data, and the combined servings count.

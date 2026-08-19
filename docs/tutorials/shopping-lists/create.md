@@ -5,11 +5,17 @@ description: Create shopping lists in RecipeSage and add items manually or from 
 
 ## Creating a Shopping List
 
+<img className="screenshot" src="/img/shopping-lists.png" width="1284" height="1875" alt="Shopping Lists page listing your lists"></img>
+
+The [📱 Shopping Lists](https://recipesage.com/app/shopping-lists) page shows all of the shopping lists you own or collaborate on, along with the number of items in each. To create a new one, click the + button in the bottom right corner.
+
+<img className="screenshot" src="/img/shopping-lists-new.png" width="1284" height="1875" alt="New shopping list dialog"></img>
+
 To create a shopping list:
 1. Open the [📱 Shopping Lists](https://recipesage.com/app/shopping-lists) page
 2. Click the + button in the bottom right corner
-3. Add a title and any collaborators
-4. Click "create"
+3. Add a title and any collaborators (search for collaborators by email or handle)
+4. Click "create and share"
 
 ## Adding Items to a Shopping List
 

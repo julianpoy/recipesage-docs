@@ -5,6 +5,14 @@ description: Learn how to create and edit recipes in RecipeSage. Import from URL
 
 Creating a recipe and editing a recipe both happen using the same interface and generally act very similarly to each other.
 
+## Video Guide
+
+This same video also appears on the [📖 my recipes](./my-recipes.md) and [📖 recipe details](./recipe-details.md) pages, since it covers recipes as a whole. Think of it as a visual overview to help you get oriented. It does not cover everything, so read on down this page for the details specific to creating and editing recipes.
+
+<div style={{position: 'relative', paddingBottom: '56.25%', height: 0, marginBottom: '1.5rem'}}>
+  <iframe style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} src="https://www.youtube.com/embed/GX38a_GcRmo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
+
 ## Creating a new recipe
 
 <img className="screenshot" src="/img/edit-recipe.png" width="1314" height="2103" alt="RecipeSage recipe editing interface"></img>

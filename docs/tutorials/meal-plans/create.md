@@ -5,11 +5,17 @@ description: Learn how to create meal plans and add recipes or text items to you
 
 ## Creating a Meal Plan
 
+Your existing meal plans are listed on the [📱 Meal Plans](https://recipesage.com/app/meal-planners) page. Click any meal plan to open it, or use the + button in the bottom right corner to create a new one.
+
+<img className="screenshot" src="/img/meal-plans.png" width="1374" height="2004" alt="Meal Plans page listing your meal plans"></img>
+
 To create a meal plan:
 1. Open the [📱 Meal Plans](https://recipesage.com/app/meal-planners) page
 2. Click the + button in the bottom right corner
-3. Add a title and any collaborators
-4. Click "create"
+3. Add a title, and optionally set up [📖 custom meal options](./usage.md#custom-meal-options) and any collaborators
+4. Click "create" (this button reads "create and share" once you have added collaborators)
+
+<img className="screenshot" src="/img/meal-plans-new.png" width="1374" height="2004" alt="New meal planner dialog with title and collaborators"></img>
 
 ## Adding Items (text) to a Meal Plan
 
@@ -17,10 +23,14 @@ To add items directly to a meal plan:
 1. Open the [📱 Meal Plans](https://recipesage.com/app/meal-planners) page
 2. Open the meal plan you'd like to add items to
 3. Click the + button in the bottom right corner
-4. Click "manual entry" unless you want to [📖 add a recipe](#via-the-meal-plan-page)
+4. Click the "manual entry" tab unless you want to [📖 add a recipe](#via-the-meal-plan-page)
 5. Enter the title, date, and select a meal
 6. Optionally add notes
 7. Click "add to meal plan"
+
+When you tap "select meal", you can choose from Breakfast, Lunch, Dinner, Snack, Other, or any [📖 custom meals](./usage.md#custom-meal-options) you have set up.
+
+<img className="screenshot screenshot-wide" src="/img/meal-plan-new-item-meal.png" width="2676" height="2412" alt="Selecting the meal for a meal plan item"></img>
 
 ## Adding a Recipe to a Meal Plan
 
@@ -28,10 +38,12 @@ To add a recipe to a meal plan you have two options - either via the recipe deta
 
 ### Via the Meal Plan Page
 
+<img className="screenshot screenshot-wide" src="/img/meal-plan-new-item.png" width="2676" height="2412" alt="Add Meal Plan Item dialog with the choose recipe tab selected"></img>
+
 1. Open the [📱 Meal Plans](https://recipesage.com/app/meal-planners) page
 2. Open the meal plan you'd like to add the recipe to
 3. Click the + button in the bottom right corner
-4. Leave "choose recipe" selected
+4. Leave the "choose recipe" tab selected
 5. Search for the recipe you'd like to add via the search box
 6. Click the recipe you'd like to add from the results list
 7. Enter the date and select the meal this will be scheduled for

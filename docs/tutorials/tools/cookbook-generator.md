@@ -5,6 +5,10 @@ description: Generate a printable PDF cookbook from your RecipeSage recipes, com
 
 The Cookbook Generator builds a single, printable PDF cookbook from your recipes. You can reach it from `Side Menu -> Tools -> Cookbook Generator`.
 
+<img className="screenshot screenshot-wide" src="/img/cookbook-generator.png" width="3528" height="2763" alt="Cookbook Generator page with cover details and recipe list"></img>
+
+If you only need PDFs of individual recipes rather than a bound cookbook, use the [📖 Export](../settings/export.md) page instead. The banner at the top of the Cookbook Generator links there too.
+
 ## Creating a Cookbook
 
 1. Open `Side Menu -> Tools -> Cookbook Generator`.

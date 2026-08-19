@@ -54,9 +54,9 @@ Here's the outline of what these limits are:
 | Uploaded image quality | compressed | high resolution |
 | Send cooking assistant message | 14 per day | Unlimited |
 | Import recipes from URLs (per job, any number of recipes) | 2 per day | 20 per day |
-| Import recipes from text files (per job, any number of recipes) | 2 per day | 20 per day |
-| Import recipes from PDFs (per job, any number of recipes) | 2 per day | 20 per day |
-| Import recipes from photos (per job, any number of recipes) | 2 per day | 20 per day |
+| Import recipes from text files (per job, any number of recipes) | 4 per day | 46 per day |
+| Import recipes from PDFs (per job, any number of recipes) | 3 per day | 35 per day |
+| Import recipes from photos (per job, any number of recipes) | 3 per day | 35 per day |
 | Number of Recipes, Meal Plans, Shopping Lists, etc | Unlimited | Unlimited |
 
 Cooking credits are only consumed when an operation actually succeeds. Failed imports, broken links, or unparseable content do not count against your daily allowance.
