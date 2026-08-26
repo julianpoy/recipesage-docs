@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkrecipesage_docs||=[]).push([[1672],{33024(e){e.exports=JSON.parse('{"authors":[{"name":"Julian Poyourow","title":"Developer of RecipeSage","url":"https://github.com/endiliey","imageURL":"https://github.com/endiliey.png","key":"julian","page":null,"count":0}]}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrecipesage_docs=self.webpackChunkrecipesage_docs||[]).push([[9647],{7121:(e,s,r)=>{r.r(s),r.d(s,{default:()=>t});r(96540);var c=r(34164),a=r(69024),u=r(17559),d=r(22831),n=r(79201),p=r(74848);function t(e){return(0,p.jsx)(a.e3,{className:(0,c.A)(u.G.wrapper.docsPages),children:(0,p.jsx)(n.A,{children:(0,d.v)(e.route.routes)})})}}}]);
