@@ -10,12 +10,12 @@ This list is kept mostly up-to-date but _may_ be missing the latest few versions
 ## Version History
 
 **v4.0.0** - August 2026
-- Added Discover, a public catalogue of recipes shared by the RecipeSage community (only visible to contributors _for now_, since the catalogue of recipes is still being built).
+- Added Discover, a public catalogue of recipes shared by the RecipeSage community
   - Browse and search community recipes, and sort by trending, newest, top rated, or most saved
   - Filter by language, category, minimum rating, minimum number of ratings, and whether a recipe has photos
   - Save any Discover recipe into your own collection, where you can then edit your copy freely without affecting the published version
   - Rate recipes, and report ones that are inappropriate
-  - Contributors can publish their own original recipes to Discover, pick the language, and link related recipes. Published recipes are automatically reviewed before appearing publicly, and also show in a section on your public profile
+  - Users can publish their own original recipes to Discover, pick the language, and link related recipes. Published recipes are automatically reviewed before appearing publicly, and also show in a section on your public profile
 - Added a RecipeSage desktop app for Windows, macOS, and Linux
 - Added a Tools page in the side menu that collects several new kitchen utilities
   - Cookbook Generator, which builds a printable PDF cookbook from your recipes with a cover page, an optional introduction, an optional clickable table of contents, and images. Add recipes individually or by label, reorder them, and it runs as a background job you can download once finished
