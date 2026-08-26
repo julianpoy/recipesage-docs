@@ -81,6 +81,10 @@ const config: Config = {
     structuredData: {
       excludedRoutes: [],
       verbose: false,
+      featuredImageDimensions: {
+        width: 1200,
+        height: 627,
+      },
       authors: {},
       organization: {
         name: 'RecipeSage',
