@@ -5,7 +5,7 @@ description: Use the RecipeSage assistant for recipe ideas, meal planning sugges
 
 The RecipeSage assistant is a very new feature, and is also somewhat experimental. It's very helpful for some things, but very bad at others. This page will hopefully illustrate what the assistant can be used for, but also provide some warnings about what it should not be trusted for.
 
-The RecipeSage assistant is based on ChatGPT, with a few adjustments and integration into RecipeSage.
+The RecipeSage assistant is based on AI models from third-party AI providers, with a few adjustments and integration into RecipeSage.
 
 ## A warning
 

@@ -9,18 +9,18 @@ You can reach Discover from the **Discover** entry in the side menu.
 
 ## Browsing Discover
 
-You can narrow the list using the filters at the top of the page:
+**Search** at the top of the page matches against recipe titles, descriptions, ingredients, and notes.
 
-- **Search** matches against recipe titles, descriptions, ingredients, and notes.
-- **Sort by** orders the results: Trending (the default, which blends recency, saves, and ratings, and switches to relevance while you are searching), Newest, Top rated, or Most saved.
+**Sort by** in the top right corner options menu orders the results: Trending (the default, which blends recency, saves, and ratings, and switches to relevance while you are searching), Newest, Top rated, or Most saved.
+
+You can narrow the list using the **Filter** button next to the search bar:
+
 - **Language** limits results to recipes published in a particular language, or shows all languages.
 - **Categories** are grouped into course, cuisine, dietary, main ingredient, and cooking method.
 - **Match all categories** requires a recipe to have _every_ category you selected, rather than _any one_ of them.
 - **Minimum rating** hides recipes whose average rating is below the value you choose.
 - **Minimum number of ratings** hides recipes that have fewer ratings than the value you choose, so recipes with just one or two 5-star ratings do not crowd out well-reviewed ones.
 - **Photos** lets you require recipes that have at least one photo, or show only recipes without photos.
-
-Use **Clear filters** to reset the search and all filters at once.
 
 ## Viewing a Discover Recipe
 

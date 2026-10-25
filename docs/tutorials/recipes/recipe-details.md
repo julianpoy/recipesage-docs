@@ -106,7 +106,7 @@ To add or remove labels on a recipe, open the [📖 recipe editor](./edit-recipe
 
 <img className="screenshot" src="/img/recipe-details-actions.png" width="1224" height="2322" alt="Recipe actions in the options menu"></img>
 
-There are buttons for various recipe actions at the bottom of the recipe details page. The same actions are also available from the options menu in the top right corner (shown above), which additionally has a **Keep Screen On** toggle. Here is a brief summary of each of the actions:
+There are buttons for various recipe actions at the bottom of the recipe details page. The same actions are also available from the options menu in the top right corner (shown above), which additionally has a **Keep Screen On** toggle and, on small screens, a [📖 Layout on Small Screens](../settings/settings.md#recipe-layout-on-small-screens) option. Here is a brief summary of each of the actions:
 
 ### Edit
 Takes you to the editing/authoring page for this recipe, allowing you to change details about this recipe such as instructions and ingredients.
@@ -217,6 +217,10 @@ Disable Columns: Toggling this will switch the embed between vertical and column
 Show Print Button: Toggling this will show or hide the print button within the embed.
 Hide Sources: Toggling this will show or hide the recipe source and source URL.
 Hide Notes: Toggling this will show or hide the recipe notes.
+Hide Rating: Toggling this will show or hide the recipe's star rating.
+Hide Nutrition: Toggling this will show or hide the recipe's nutrition information.
+Hide Linked Recipes: Toggling this will show or hide the list of linked recipes. Visitors can click a linked recipe to open it in RecipeSage.
+Show Last Made Date: Toggling this will show or hide the date you last made the recipe. This is off by default, so the date stays private unless you choose to share it.
 Height: This will adjust the size of the window when embedded. Note: This will not change the appearance of the preview
 Width: This will adjust the size of the window when embedded. Note: This will not change the appearance of the preview
 

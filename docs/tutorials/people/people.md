@@ -52,3 +52,19 @@ In other words, if you're friends with the user you'll not only see public items
 Simply click one of the listed items on their profile (if they have any) to open it.
 To save a recipe from someone else's profile to your collection, open the recipe that you'd like to save and click the blue button at the bottom of the recipe details page.
 
+## Blocking and Reporting Users
+
+If someone sends you unwanted or offensive messages or content, you can report them, block them, or both.
+
+Open their profile or your conversation with them, then click the options button in the top right corner. You'll see these choices:
+
+- **Report User** asks you to explain what happened. Our team will review your report.
+- **Block User** stops that person from sending you messages, sending you friend requests, or adding you to shopping lists and meal plans. Blocking also removes them from your friends, and removes you from each other's shopping lists and meal plans. They won't be told that you blocked them.
+
+Your conversation with someone you've blocked will no longer show in your **Messages**.
+
+Once you've blocked someone, a **Blocked Users** item appears on the [📱 People](https://recipesage.com/app/people) page. Open it to see everyone you've blocked, and click **Unblock** next to a name to unblock that person.
+You can also unblock someone from their profile or from your conversation with them.
+
+Unblocking someone doesn't bring back your friendship or any shared shopping lists and meal plans. You'll need to send a new friend request or add them again.
+

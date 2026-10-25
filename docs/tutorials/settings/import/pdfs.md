@@ -18,7 +18,7 @@ The importer will extract text from each PDF and attempt to parse it as a recipe
 
 ## Optional images
 
-You can include an image alongside a recipe by giving it the same filename as the PDF plus an image extension. For example, alongside `lasagna.pdf`, place `lasagna.pdf.png`, `lasagna.pdf.jpg`, or `lasagna.pdf.jpeg` in the same zip and it will be attached to the imported recipe.
+You can include an image alongside a recipe by giving it the same name as the PDF with an image extension. For example, alongside `lasagna.pdf`, place `lasagna.png`, `lasagna.jpg`, or `lasagna.jpeg` in the same zip and it will be attached to the imported recipe.
 
 ## PDFs that cannot be read automatically
 

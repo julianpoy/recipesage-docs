@@ -78,6 +78,16 @@ The start page setting controls which page the app opens to when you first sign 
 
 When enabled, the nutritional information section on the edit-recipe page will automatically be expanded when the page loads. When disabled (the default), the section will start collapsed and must be expanded manually.
 
+## Recipe Layout on Small Screens
+
+This setting controls how ingredients and instructions are shown on the recipe page and in cook mode when your screen is too narrow to show them next to each other. You can choose from:
+
+- **Stacked** (default): ingredients are shown above instructions.
+- **Side by Side**: ingredients and instructions are shown next to each other in two narrow columns.
+- **Tabs**: tap a tab to switch between ingredients and instructions.
+
+On larger screens, ingredients and instructions are always shown side by side. On small screens, you can also change this setting from the options menu in the top right corner of a recipe.
+
 ## Reset All Preferences
 
 This button will reset all preferences to their default settings.

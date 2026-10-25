@@ -1,6 +1,6 @@
 ---
 title: Importing Data
-description: Learn how to import your recipes into RecipeSage from various sources including Paprika, Recipe Keeper, CSV files, PDFs, images, and more.
+description: Learn how to import your recipes into RecipeSage from various sources including Paprika, Recipe Keeper, Tandoor, notes apps like Apple Notes, Google Keep, and Notion, CSV files, PDFs, images, and more.
 ---
 
 The options documented here apply to the `Side Menu -> Settings -> Import Recipe Data` page and the subpages within.
@@ -10,7 +10,7 @@ The options documented here apply to the `Side Menu -> Settings -> Import Recipe
 RecipeSage supports importing the following import sources:
 
 - [📖 JSON-LD](json-ld.md)
-- [📖 Documents (.txt, .rtf, .odt, .docx, .md, .html)](textfiles.md)
+- [📖 Notes Apps & Documents (Apple Notes, Google Keep, Google Docs, Word, Obsidian, Notion, Joplin, Bear, Logseq, Simplenote, .txt, .md, and more)](textfiles.md)
 - [📖 List of URLs](urls.md)
 - [📖 PDFs](pdfs.md)
 - [📖 Images](images.md)
