@@ -106,7 +106,7 @@ To add or remove labels on a recipe, open the [📖 recipe editor](./edit-recipe
 
 <img className="screenshot" src="/img/recipe-details-actions.png" width="1224" height="2322" alt="Recipe actions in the options menu"></img>
 
-There are buttons for various recipe actions at the bottom of the recipe details page. The same actions are also available from the options menu in the top right corner (shown above), which additionally has a **Keep Screen On** toggle and, on small screens, a [📖 Layout on Small Screens](../settings/settings.md#recipe-layout-on-small-screens) option. Here is a brief summary of each of the actions:
+There are buttons for various recipe actions at the bottom of the recipe details page. The same actions are also available from the options menu in the top right corner (shown above), which additionally has a **Keep Screen On** toggle and a [📖 Layout](../settings/settings.md#recipe-layout) option. Here is a brief summary of each of the actions:
 
 ### Edit
 Takes you to the editing/authoring page for this recipe, allowing you to change details about this recipe such as instructions and ingredients.
@@ -121,7 +121,7 @@ Opens the add to shopping list dialogue for this recipe.
 Opens the add to meal plan dialogue for this recipe.
 
 ### Share
-Opens the share dialogue for this recipe, allowing you to send this recipe to another RecipeSage user, share it by link, or embed it.
+Opens the share dialogue for this recipe, allowing you to send this recipe to another RecipeSage user, share it by link or as text, or embed it.
 
 ### Make a Copy
 Creates a duplicate of the recipe in your own collection. Useful for keeping the original intact while you tweak the copy.
@@ -167,9 +167,10 @@ To share a recipe, open the recipe details page and click the share button in th
 
 **Note:** If you're looking for ways to share more than just a single recipe, see the [📖 sharing documentation](../people/sharing.md).
 
-There are three options for sharing a recipe:
+These are the options for sharing a recipe:
 - Directly within the app to a RecipeSage user
 - By creating a shareable link and sharing outside of the RecipeSage app
+- As plain text that you can paste anywhere
 - By embedding it into a website
 - Adding the recipe to your RecipeSage profile [📖 covered here](../people/your-profile.md)
 
@@ -177,9 +178,9 @@ There are three options for sharing a recipe:
 
 <img className="screenshot" src="/img/share-recipe-account.png" width="1224" height="2322" alt="Share recipe with RecipeSage account dialog"></img>
 
-The recipe sharing modal allows you to send a recipe to another RecipeSage user's account, share via link, or share via embed.
+The recipe sharing modal allows you to send a recipe to another RecipeSage user's account, share via link or text, or share via embed.
 
-To begin the process of sharing a recipe to another user's account, press the share button at the bottom of the recipe details page (as described in the recipe actions tutorial). You'll then be presented with the share modal shown in the image above.
+To begin the process of sharing a recipe to another user's account, press the share button at the bottom of the recipe details page (as described in the recipe actions tutorial). You'll then be presented with the share modal. To send to another user, select the "RecipeSage" tab.
 
 To select a recipient, type the email or @handle of the RecipeSage user you'd like to send the recipe to into the "Search by email or handle" field. Matching users will appear as you type so you can select the one you want.
 
@@ -193,7 +194,7 @@ After selecting the recipient user via either method, you'll be able to press th
 
 <img className="screenshot" src="/img/share-recipe-link.png" width="1224" height="2322" alt="Share recipe via link dialog"></img>
 
-The recipe sharing modal allows you to send a recipe to another RecipeSage user's account, share via link, or share via embed.
+The recipe sharing modal allows you to send a recipe to another RecipeSage user's account, share via link or text, or share via embed.
 
 To begin the process of sharing a recipe via link, press the share button at the bottom of the recipe details page (as described in the recipe actions tutorial). You'll then be presented with the share modal. To share by URL, select the "link" tab.
 
@@ -203,11 +204,23 @@ Note: The share button depicted to the right of the URL will only show up on som
 
 **Note:** This URL will only be valid if the recipe exists. If you delete the recipe, the link will become invalid.
 
+### As Text
+
+<img className="screenshot" src="/img/share-recipe-text.png" width="1224" height="2322" alt="Share recipe as text dialog"></img>
+
+Sharing as text is useful when you want to paste a recipe into an email or text message, so that the recipient doesn't need to open a link.
+
+To share a recipe as text, press the share button at the bottom of the recipe details page (as described in the recipe actions tutorial). You'll then be presented with the share modal. Select the "text" tab to see the recipe written out as plain text.
+
+Press the button to the right of the text to copy or share it. The button you see depends on your device.
+
+If you've scaled or converted the recipe, the text will show the scaled or converted amounts. Images and nutrition information are not included.
+
 ### By Embed
 
 <img className="screenshot" src="/img/share-recipe-embed.png" width="1224" height="2322" alt="Recipe embed code dialog"></img>
 
-The recipe sharing modal allows you to send a recipe to another RecipeSage user's account, share via link, or share via embed.
+The recipe sharing modal allows you to send a recipe to another RecipeSage user's account, share via link or text, or share via embed.
 
 To begin the process of sharing a recipe via embed, press the share button at the bottom of the recipe details page (as described in the recipe actions tutorial). You'll then be presented with the share modal. To share by embed, select the "embed" tab.
 
