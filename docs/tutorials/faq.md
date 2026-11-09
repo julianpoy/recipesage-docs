@@ -32,7 +32,7 @@ import Head from '@docusaurus/Head';
           "name": "Is RecipeSage compatible with iOS and Android?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes! You can use RecipeSage in the browser on your mobile device, or install it to your device. See the install instructions at https://recipesage.com/app/install"
+            "text": "Yes! You can install the RecipeSage app from the App Store at https://apps.apple.com/app/id6529549272 or from Google Play at https://play.google.com/store/apps/details?id=com.recipesage.app. You can also use RecipeSage in the browser on your mobile device."
           }
         },
         {
@@ -56,7 +56,7 @@ import Head from '@docusaurus/Head';
           "name": "Can I selfhost my own instance of RecipeSage?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, for personal, private, non-commercial use only. You can find all of the resources to do that at https://github.com/julianpoy/recipesage-selfhost"
+            "text": "Yes, for personal, private, non-commercial use only. See the full license terms at https://github.com/julianpoy/RecipeSage/blob/master/LICENSE.md. You can find all of the resources to do that at https://github.com/julianpoy/recipesage-selfhost"
           }
         },
         {
@@ -129,8 +129,8 @@ Searches will return matches with the exact search text further up in the result
 
 ### Is RecipeSage compatible with IOS and Android?
 
-Yep! You can use RecipeSage in the browser on your mobile device, or install it to your device.
-See our install instructions here: [📱 Download & Install](https://recipesage.com/app/install).
+Yep! You can install the RecipeSage app from the [App Store](https://apps.apple.com/app/id6529549272) or from [Google Play](https://play.google.com/store/apps/details?id=com.recipesage.app).
+You can also use RecipeSage in the browser on your mobile device.
 
 
 ### Is RecipeSage a business?
@@ -150,7 +150,7 @@ Third, RecipeSage is open source which means that in reality RecipeSage won't "s
 
 ### Can I selfhost my own instance of RecipeSage?
 
-Yes, for personal, private, non-commercial use only. You can find all of the resources to do that here:
+Yes, for personal, private, non-commercial use only. See the [full license terms](https://github.com/julianpoy/RecipeSage/blob/master/LICENSE.md). You can find all of the resources to do that here:
 [📱 RecipeSage Self Host Repository](https://github.com/julianpoy/recipesage-selfhost)
 
 

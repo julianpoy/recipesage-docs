@@ -39,6 +39,8 @@ When this option is enabled, RecipeSage will combine any items that appear to be
 
 When enabled, you'll see two items such as "1 cup sugar" and "1 tbsp sugar" combined into "1 cup, 1 tablespoon sugar", with an arrow on the right side of the combined item allowing you to view the individual items within if desired.
 
+Preparation notes are shown in a lighter color and are ignored when combining items, so "2 tbsp butter, softened" and "1/4 cup butter" will be combined. RecipeSage looks for notes after a comma or dash, and in parentheses. If a note isn't recognized, try putting it in parentheses, such as "2 carrots (peeled and sliced)".
+
 ### Group Items by Category
 
 To enable this feature, open the options menu in the top right corner of the shopping list and enable the "group items by category" toggle.

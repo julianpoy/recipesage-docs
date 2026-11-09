@@ -18,6 +18,7 @@ If you only need PDFs of individual recipes rather than a bound cookbook, use th
    - **Author** (optional) - shown as "by &lt;author&gt;" on the cover page.
    - **Introduction** (optional) - a free-form block of text printed on its own page after the cover.
    - **Include table of contents** - when enabled, a contents page listing every recipe and its page number is added. The table of contents will take you directly to the relevant page when clicked.
+   - **Include page numbers** - when enabled, page numbers are printed at the bottom of the pages.
    - **Include images** - when enabled (the default), the cover photo for each recipe and any images embedded in the steps are included in the PDF. Turn this off for a smaller, faster-to-generate, text-only cookbook.
    - **Include recipe labels** - when enabled, each recipe's labels are printed below its source URL.
    - **Include last made date** - when enabled, the date you last made each recipe is printed with its source, times, and yield. This is off by default, so the date stays private if you share the cookbook.

@@ -9,7 +9,7 @@ There are many ways to share content in RecipeSage, including recipes, meal plan
 
 ## Sharing Recipes
 
-<img className="screenshot" src="/img/share-recipe-account.png" width="1224" height="2322" alt="Recipe share dialog with RecipeSage, link, and embed options"></img>
+<img className="screenshot" src="/img/share-recipe-account.png" width="1224" height="2322" alt="Recipe share dialog with link, text, RecipeSage, and embed options"></img>
 
 There are three main ways of sharing recipes.
 
